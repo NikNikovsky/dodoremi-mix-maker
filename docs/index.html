@@ -19,6 +19,15 @@
     .status { font-weight: 700; min-height: 1.2em; }
     .ok { color: #067d17; }
     .error { color: #b00020; }
+    .visual-controls button { margin-bottom: 0; }
+    .visual-meta { font-size: 0.9rem; color: #444; margin-bottom: 0.6rem; }
+    .tile-grid { display: grid; gap: 0.4rem; max-height: 280px; overflow: auto; }
+    .tile-row { display: grid; grid-template-columns: 100px repeat(8, minmax(44px, 1fr)) 40px; gap: 0.3rem; align-items: center; }
+    .tile-row input { margin-bottom: 0; }
+    .tile-grid button { width: auto; margin-bottom: 0; }
+    .tile { background: #f1f3f5; border: 1px solid #ced4da; border-radius: 6px; }
+    .tile.active { background: #5b8def; border-color: #396ad9; color: #fff; }
+    .tile-delete { background: #fff0f1; border: 1px solid #f4c2c7; color: #a02a34; border-radius: 6px; }
   </style>
 </head>
 <body>
@@ -66,6 +75,17 @@
       <textarea id="guide-json">[]</textarea>
       <label for="beatmaps-json">Beatmaps (JSON array)</label>
       <textarea id="beatmaps-json">[]</textarea>
+      <label for="visual-beatmap">Graphical beatmap editor (piano tiles)</label>
+      <select id="visual-beatmap"></select>
+      <div class="row visual-controls">
+        <div>
+          <label for="visual-lanes">Tile lanes</label>
+          <input id="visual-lanes" type="number" min="1" max="8" value="4" />
+        </div>
+        <button id="visual-add-step" type="button">Add tile row</button>
+      </div>
+      <div id="visual-meta" class="visual-meta"></div>
+      <div id="visual-grid" class="tile-grid"></div>
       <label for="backing-upload">Optional backing audio (OGG preferred)</label>
       <input id="backing-upload" type="file" accept="audio/*" />
       <button id="convert-audio">Convert selected audio to backing.ogg (if supported)</button>
@@ -92,6 +112,11 @@
       guideJson: document.getElementById("guide-json"),
       beatmapsJson: document.getElementById("beatmaps-json"),
       backingUpload: document.getElementById("backing-upload"),
+      visualBeatmap: document.getElementById("visual-beatmap"),
+      visualLanes: document.getElementById("visual-lanes"),
+      visualAddStep: document.getElementById("visual-add-step"),
+      visualGrid: document.getElementById("visual-grid"),
+      visualMeta: document.getElementById("visual-meta"),
     };
 
     let loadedSong = null;
@@ -196,7 +221,136 @@
       fields.scaleType.value = songConfig.scaleType || "major";
       fields.guideJson.value = JSON.stringify(songConfig.guide || [], null, 2);
       fields.beatmapsJson.value = JSON.stringify(songConfig.beatmaps || [], null, 2);
+      refreshBeatmapVisualSelector();
       convertedBackingBlob = null;
+    }
+
+    function parseBeatmapsFromEditor() {
+      const beatmaps = JSON.parse(fields.beatmapsJson.value || "[]");
+      if (!Array.isArray(beatmaps)) {
+        throw new Error("Beatmaps JSON must be an array.");
+      }
+      return beatmaps;
+    }
+
+    function selectedBeatmapIndex(beatmaps) {
+      const index = Number(fields.visualBeatmap.value);
+      if (!Number.isInteger(index) || index < 0 || index >= beatmaps.length) {
+        return 0;
+      }
+      return index;
+    }
+
+    function writeBeatmapsAndRefresh(beatmaps, preferredIndex = null) {
+      fields.beatmapsJson.value = JSON.stringify(beatmaps, null, 2);
+      refreshBeatmapVisualSelector(preferredIndex);
+    }
+
+    function refreshBeatmapVisualSelector(preferredIndex = null) {
+      let beatmaps = [];
+      try {
+        beatmaps = parseBeatmapsFromEditor();
+      } catch {
+        fields.visualBeatmap.innerHTML = "<option value=''>-- Invalid beatmaps JSON --</option>";
+        fields.visualGrid.innerHTML = "";
+        fields.visualMeta.textContent = "Fix beatmaps JSON to use tile editor.";
+        return;
+      }
+
+      fields.visualBeatmap.innerHTML = "";
+      beatmaps.forEach((beatmap, index) => {
+        const option = document.createElement("option");
+        option.value = String(index);
+        option.textContent = `${beatmap.slug || `beatmap-${index + 1}`} (${beatmap.category || "Unknown"})`;
+        fields.visualBeatmap.appendChild(option);
+      });
+
+      if (!beatmaps.length) {
+        fields.visualBeatmap.innerHTML = "<option value=''>-- No beatmaps --</option>";
+        fields.visualGrid.innerHTML = "";
+        fields.visualMeta.textContent = "Add beatmaps in JSON to start tile editing.";
+        return;
+      }
+
+      const targetIndex = preferredIndex === null ? selectedBeatmapIndex(beatmaps) : Math.min(Math.max(Number(preferredIndex) || 0, 0), beatmaps.length - 1);
+      fields.visualBeatmap.value = String(targetIndex);
+      renderBeatmapTiles();
+    }
+
+    function renderBeatmapTiles() {
+      let beatmaps = [];
+      try {
+        beatmaps = parseBeatmapsFromEditor();
+      } catch {
+        fields.visualGrid.innerHTML = "";
+        return;
+      }
+      if (!beatmaps.length) {
+        fields.visualGrid.innerHTML = "";
+        fields.visualMeta.textContent = "";
+        return;
+      }
+
+      const beatmapIndex = selectedBeatmapIndex(beatmaps);
+      const beatmap = beatmaps[beatmapIndex] || {};
+      const inputs = Array.isArray(beatmap.inputs) ? beatmap.inputs : [];
+      const laneCount = Math.min(8, Math.max(1, Number(beatmap.laneCount) || Number(fields.visualLanes.value) || 4));
+      fields.visualLanes.value = laneCount;
+      beatmap.laneCount = laneCount;
+      fields.visualMeta.textContent = `Instruments: ${(beatmap.instruments || []).join(", ") || "none"} • Inputs: ${inputs.length}`;
+      fields.visualGrid.innerHTML = "";
+
+      inputs.forEach((input, inputIndex) => {
+        if (!Array.isArray(input.lanes)) input.lanes = [];
+        if (!Array.isArray(input.notes)) input.notes = [];
+
+        const row = document.createElement("div");
+        row.className = "tile-row";
+
+        const timeInput = document.createElement("input");
+        timeInput.type = "number";
+        timeInput.min = "0";
+        timeInput.value = Number(input.start) || 0;
+        timeInput.title = "Input start (ms)";
+        timeInput.addEventListener("change", () => {
+          input.start = Number(timeInput.value) || 0;
+          writeBeatmapsAndRefresh(beatmaps, beatmapIndex);
+        });
+        row.appendChild(timeInput);
+
+        for (let lane = 0; lane < laneCount; lane += 1) {
+          const tile = document.createElement("button");
+          tile.type = "button";
+          tile.className = `tile ${input.lanes.includes(lane) ? "active" : ""}`;
+          tile.textContent = String(lane + 1);
+          tile.addEventListener("click", () => {
+            input.lanes = input.lanes.includes(lane)
+              ? input.lanes.filter((value) => value !== lane)
+              : [...input.lanes, lane].sort((a, b) => a - b);
+            writeBeatmapsAndRefresh(beatmaps, beatmapIndex);
+          });
+          row.appendChild(tile);
+        }
+
+        for (let lane = laneCount; lane < 8; lane += 1) {
+          const spacer = document.createElement("div");
+          row.appendChild(spacer);
+        }
+
+        const removeButton = document.createElement("button");
+        removeButton.type = "button";
+        removeButton.className = "tile-delete";
+        removeButton.textContent = "×";
+        removeButton.title = "Delete row";
+        removeButton.addEventListener("click", () => {
+          beatmap.inputs.splice(inputIndex, 1);
+          writeBeatmapsAndRefresh(beatmaps, beatmapIndex);
+        });
+        row.appendChild(removeButton);
+        fields.visualGrid.appendChild(row);
+      });
+
+      fields.beatmapsJson.value = JSON.stringify(beatmaps, null, 2);
     }
 
     function renderInterpretation(songConfig) {
@@ -330,6 +484,51 @@
       } catch (error) {
         setStatus(`Audio conversion failed: ${error.message}`, true);
       }
+    });
+
+    fields.visualBeatmap.addEventListener("change", () => {
+      renderBeatmapTiles();
+    });
+
+    fields.visualLanes.addEventListener("change", () => {
+      try {
+        const beatmaps = parseBeatmapsFromEditor();
+        if (!beatmaps.length) return;
+        const beatmapIndex = selectedBeatmapIndex(beatmaps);
+        beatmaps[beatmapIndex].laneCount = Math.min(8, Math.max(1, Number(fields.visualLanes.value) || 4));
+        writeBeatmapsAndRefresh(beatmaps, beatmapIndex);
+      } catch {
+        setStatus("Fix beatmaps JSON before updating lanes.", true);
+      }
+    });
+
+    fields.visualAddStep.addEventListener("click", () => {
+      try {
+        const beatmaps = parseBeatmapsFromEditor();
+        if (!beatmaps.length) {
+          throw new Error("Create a beatmap in JSON first.");
+        }
+        const beatmapIndex = selectedBeatmapIndex(beatmaps);
+        const beatmap = beatmaps[beatmapIndex];
+        if (!Array.isArray(beatmap.inputs)) {
+          beatmap.inputs = [];
+        }
+        const lastStart = beatmap.inputs.length
+          ? Number(beatmap.inputs[beatmap.inputs.length - 1].start) || 0
+          : 0;
+        beatmap.inputs.push({
+          start: lastStart + 250,
+          lanes: [],
+          notes: [],
+        });
+        writeBeatmapsAndRefresh(beatmaps, beatmapIndex);
+      } catch (error) {
+        setStatus(error.message, true);
+      }
+    });
+
+    fields.beatmapsJson.addEventListener("change", () => {
+      refreshBeatmapVisualSelector();
     });
 
     document.getElementById("export-folder").addEventListener("click", async () => {

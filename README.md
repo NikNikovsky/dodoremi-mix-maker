@@ -11,6 +11,7 @@ Open `docs/index.html` to:
 
 - interpret existing songs from `songs/*/config.json`
 - edit existing songs or build new song configs
+- edit beatmaps with a graphical piano-tile style lane editor per beatmap/instrument set
 - export a game-ready folder (`songs/<slug>/...`) with `config.json` + locale files
 - convert selected audio to `backing.ogg` in-browser (when browser APIs support it)
 
