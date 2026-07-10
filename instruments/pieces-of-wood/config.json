@@ -1,0 +1,54 @@
+{
+  "slug": "pieces-of-wood",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -4,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "clave_nate_C1_001",
+                "clave_nate_C1_002",
+                "clave_nate_C1_003",
+                "clave_nate_C1_004"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "clave_flub_001",
+              "clave_flub_002",
+              "clave_flub_003"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    37
+  ]
+}

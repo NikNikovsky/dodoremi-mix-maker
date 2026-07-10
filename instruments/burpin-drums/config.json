@@ -1,0 +1,53 @@
+{
+  "slug": "burpin-drums",
+  "capabilities": [],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "a1": [
+                "burp_canDownTom_01",
+                "burp_canDownTom_02",
+                "burp_canDownTom_03",
+                "burp_canDownTom_04"
+              ],
+              "g2": [
+                "burp_click_01"
+              ],
+              "c1": [
+                "burp_gulpKick_01",
+                "burp_gulpKick_02",
+                "burp_gulpKick_03",
+                "burp_gulpKick_04"
+              ],
+              "f1": [
+                "burp_hiHat_0"
+              ],
+              "d2": [
+                "burp_mouthSmack_01"
+              ],
+              "e1": [
+                "burp_pullTop_01",
+                "burp_pullTop_02"
+              ],
+              "eb2": [
+                "burp_rattle_002",
+                "burp_rattle_003"
+              ],
+              "ab1": [
+                "burp_roll_001",
+                "burp_roll_002"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

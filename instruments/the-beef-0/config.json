@@ -1,0 +1,61 @@
+{
+  "slug": "the-beef-0",
+  "capabilities": [
+    "Sustain",
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "synth",
+          "options": {
+            "volume": -10,
+            "oscillator": {
+              "type": "sine1"
+            },
+            "envelope": {
+              "attack": 0.05,
+              "release": 0.25
+            }
+          }
+        },
+        {
+          "type": "compressor",
+          "options": {}
+        },
+        {
+          "type": "distortion",
+          "options": {
+            "oversample": "none",
+            "distortion": 1,
+            "wet": 0.5
+          },
+          "isDisabled": false
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -20,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_01"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    29,
+    48
+  ]
+}

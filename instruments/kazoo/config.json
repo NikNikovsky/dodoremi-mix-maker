@@ -1,0 +1,198 @@
+{
+  "slug": "kazoo",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "kazoo_A3_001",
+                "kazoo_A3_002",
+                "kazoo_A3_003"
+              ],
+              "A4": [
+                "kazoo_A4_001",
+                "kazoo_A4_002",
+                "kazoo_A4_003"
+              ],
+              "Ab2": [
+                "kazoo_Ab2_001",
+                "kazoo_Ab2_002",
+                "kazoo_Ab2_003"
+              ],
+              "Ab3": [
+                "kazoo_Ab3_001",
+                "kazoo_Ab3_002",
+                "kazoo_Ab3_003"
+              ],
+              "Ab4": [
+                "kazoo_Ab4_001",
+                "kazoo_Ab4_002",
+                "kazoo_Ab4_003"
+              ],
+              "B2": [
+                "kazoo_B2_001",
+                "kazoo_B2_002",
+                "kazoo_B2_003"
+              ],
+              "B3": [
+                "kazoo_B3_001",
+                "kazoo_B3_002",
+                "kazoo_B3_003"
+              ],
+              "B4": [
+                "kazoo_B4_001",
+                "kazoo_B4_002",
+                "kazoo_B4_003"
+              ],
+              "Bb2": [
+                "kazoo_Bb2_001",
+                "kazoo_Bb2_002",
+                "kazoo_Bb2_003"
+              ],
+              "Bb3": [
+                "kazoo_Bb3_001",
+                "kazoo_Bb3_002",
+                "kazoo_Bb3_003"
+              ],
+              "Bb4": [
+                "kazoo_Bb4_001",
+                "kazoo_Bb4_002",
+                "kazoo_Bb4_003"
+              ],
+              "C3": [
+                "kazoo_C3_001",
+                "kazoo_C3_002",
+                "kazoo_C3_003"
+              ],
+              "C4": [
+                "kazoo_C4_001",
+                "kazoo_C4_002",
+                "kazoo_C4_003"
+              ],
+              "C5": [
+                "kazoo_C5_001",
+                "kazoo_C5_002",
+                "kazoo_C5_003"
+              ],
+              "D3": [
+                "kazoo_D3_001",
+                "kazoo_D3_002",
+                "kazoo_D3_003"
+              ],
+              "D4": [
+                "kazoo_D4_001",
+                "kazoo_D4_002",
+                "kazoo_D4_003"
+              ],
+              "Db3": [
+                "kazoo_Db3_001",
+                "kazoo_Db3_002",
+                "kazoo_Db3_003"
+              ],
+              "Db4": [
+                "kazoo_Db4_001",
+                "kazoo_Db4_002",
+                "kazoo_Db4_003"
+              ],
+              "E3": [
+                "kazoo_E3_001",
+                "kazoo_E3_002",
+                "kazoo_E3_003"
+              ],
+              "E4": [
+                "kazoo_E4_001",
+                "kazoo_E4_002",
+                "kazoo_E4_003"
+              ],
+              "Eb3": [
+                "kazoo_Eb3_001",
+                "kazoo_Eb3_002",
+                "kazoo_Eb3_003"
+              ],
+              "Eb4": [
+                "kazoo_Eb4_001",
+                "kazoo_Eb4_002",
+                "kazoo_Eb4_003"
+              ],
+              "F3": [
+                "kazoo_F3_001",
+                "kazoo_F3_002",
+                "kazoo_F3_003"
+              ],
+              "F4": [
+                "kazoo_F4_001",
+                "kazoo_F4_002",
+                "kazoo_F4_003"
+              ],
+              "G2": [
+                "kazoo_G2_001",
+                "kazoo_G2_002",
+                "kazoo_G2_003"
+              ],
+              "G3": [
+                "kazoo_G3_001",
+                "kazoo_G3_002",
+                "kazoo_G3_003"
+              ],
+              "G4": [
+                "kazoo_G4_001",
+                "kazoo_G4_002",
+                "kazoo_G4_003"
+              ],
+              "Gb3": [
+                "kazoo_Gb3_001",
+                "kazoo_Gb3_002",
+                "kazoo_Gb3_003"
+              ],
+              "Gb4": [
+                "kazoo_Gb4_001",
+                "kazoo_Gb4_002",
+                "kazoo_Gb4_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -14,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "kazoo_flub_001",
+              "kazoo_flub_002",
+              "kazoo_flub_003",
+              "kazoo_flub_004",
+              "kazoo_flub_005",
+              "kazoo_flub_006",
+              "kazoo_flub_007",
+              "kazoo_flub_008",
+              "kazoo_flub_009"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    41,
+    81
+  ]
+}

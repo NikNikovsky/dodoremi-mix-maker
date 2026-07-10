@@ -1,0 +1,56 @@
+{
+  "slug": "bottlecaps",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "bottleCapShaker_nate_shaker_bottleCap_C1_001",
+                "bottleCapShaker_nate_shaker_bottleCap_C1_002",
+                "bottleCapShaker_nate_shaker_bottleCap_C1_003",
+                "bottleCapShaker_nate_shaker_bottleCap_C1_004",
+                "bottleCapShaker_nate_shaker_bottleCap_C1_005",
+                "bottleCapShaker_nate_shaker_bottleCap_C1_006",
+                "bottleCapShaker_nate_shaker_bottleCap_C1_007"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "bottleCapShaker_nate_shaker_bottleCap_flub_001",
+              "bottleCapShaker_nate_shaker_bottleCap_flub_002"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    37
+  ]
+}

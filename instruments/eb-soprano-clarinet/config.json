@@ -1,0 +1,191 @@
+{
+  "slug": "eb-soprano-clarinet",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "sopranoClarinet_A3_001",
+                "sopranoClarinet_A3_002",
+                "sopranoClarinet_A3_003"
+              ],
+              "A4": [
+                "sopranoClarinet_A4_001",
+                "sopranoClarinet_A4_002",
+                "sopranoClarinet_A4_003"
+              ],
+              "A5": [
+                "sopranoClarinet_A5_001",
+                "sopranoClarinet_A5_002",
+                "sopranoClarinet_A5_003"
+              ],
+              "Ab3": [
+                "sopranoClarinet_Ab3_001",
+                "sopranoClarinet_Ab3_002",
+                "sopranoClarinet_Ab3_003"
+              ],
+              "Ab4": [
+                "sopranoClarinet_Ab4_001",
+                "sopranoClarinet_Ab4_002",
+                "sopranoClarinet_Ab4_003"
+              ],
+              "Ab5": [
+                "sopranoClarinet_Ab5_001",
+                "sopranoClarinet_Ab5_002",
+                "sopranoClarinet_Ab5_003"
+              ],
+              "B3": [
+                "sopranoClarinet_B3_001",
+                "sopranoClarinet_B3_002",
+                "sopranoClarinet_B3_003"
+              ],
+              "B4": [
+                "sopranoClarinet_B4_001",
+                "sopranoClarinet_B4_002",
+                "sopranoClarinet_B4_003"
+              ],
+              "B5": [
+                "sopranoClarinet_B5_001",
+                "sopranoClarinet_B5_002",
+                "sopranoClarinet_B5_003"
+              ],
+              "Bb3": [
+                "sopranoClarinet_Bb3_001",
+                "sopranoClarinet_Bb3_002",
+                "sopranoClarinet_Bb3_003"
+              ],
+              "Bb4": [
+                "sopranoClarinet_Bb4_001",
+                "sopranoClarinet_Bb4_002",
+                "sopranoClarinet_Bb4_003"
+              ],
+              "Bb5": [
+                "sopranoClarinet_Bb5_001",
+                "sopranoClarinet_Bb5_002",
+                "sopranoClarinet_Bb5_003"
+              ],
+              "C4": [
+                "sopranoClarinet_C4_001",
+                "sopranoClarinet_C4_002",
+                "sopranoClarinet_C4_003"
+              ],
+              "C5": [
+                "sopranoClarinet_C5_001",
+                "sopranoClarinet_C5_002",
+                "sopranoClarinet_C5_003"
+              ],
+              "D4": [
+                "sopranoClarinet_D4_001",
+                "sopranoClarinet_D4_002",
+                "sopranoClarinet_D4_003"
+              ],
+              "D5": [
+                "sopranoClarinet_D5_001",
+                "sopranoClarinet_D5_002",
+                "sopranoClarinet_D5_003"
+              ],
+              "Db4": [
+                "sopranoClarinet_Db4_001",
+                "sopranoClarinet_Db4_002",
+                "sopranoClarinet_Db4_003"
+              ],
+              "Db5": [
+                "sopranoClarinet_Db5_001",
+                "sopranoClarinet_Db5_002",
+                "sopranoClarinet_Db5_003"
+              ],
+              "E4": [
+                "sopranoClarinet_E4_001",
+                "sopranoClarinet_E4_002",
+                "sopranoClarinet_E4_003"
+              ],
+              "E5": [
+                "sopranoClarinet_E5_001",
+                "sopranoClarinet_E5_002",
+                "sopranoClarinet_E5_003"
+              ],
+              "Eb4": [
+                "sopranoClarinet_Eb4_001",
+                "sopranoClarinet_Eb4_002",
+                "sopranoClarinet_Eb4_003"
+              ],
+              "Eb5": [
+                "sopranoClarinet_Eb5_001",
+                "sopranoClarinet_Eb5_002",
+                "sopranoClarinet_Eb5_003"
+              ],
+              "F4": [
+                "sopranoClarinet_F4_001",
+                "sopranoClarinet_F4_002",
+                "sopranoClarinet_F4_003"
+              ],
+              "F5": [
+                "sopranoClarinet_F5_001",
+                "sopranoClarinet_F5_002",
+                "sopranoClarinet_F5_003"
+              ],
+              "G3": [
+                "sopranoClarinet_G3_001",
+                "sopranoClarinet_G3_002",
+                "sopranoClarinet_G3_003"
+              ],
+              "G4": [
+                "sopranoClarinet_G4_001",
+                "sopranoClarinet_G4_002",
+                "sopranoClarinet_G4_003"
+              ],
+              "G5": [
+                "sopranoClarinet_G5_001",
+                "sopranoClarinet_G5_002",
+                "sopranoClarinet_G5_003"
+              ],
+              "Gb4": [
+                "sopranoClarinet_Gb4_001",
+                "sopranoClarinet_Gb4_002",
+                "sopranoClarinet_Gb4_003"
+              ],
+              "Gb5": [
+                "sopranoClarinet_Gb5_001",
+                "sopranoClarinet_Gb5_002",
+                "sopranoClarinet_Gb5_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "sopranoClarinet_flub_001",
+              "sopranoClarinet_flub_002"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    55,
+    83
+  ]
+}

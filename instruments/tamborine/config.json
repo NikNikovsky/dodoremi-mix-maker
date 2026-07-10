@@ -1,0 +1,82 @@
+{
+  "slug": "tamborine",
+  "capabilities": [
+    "OneShot",
+    "PercRep",
+    "PercRollable"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "G2": [
+                "tamborine_groove_G1_001",
+                "tamborine_groove_G1_002",
+                "tamborine_groove_G1_003",
+                "tamborine_groove_G1_004",
+                "tamborine_groove_G1_005",
+                "tamborine_groove_G1_006"
+              ],
+              "E2": [
+                "tamborine_mutedHit_E1_001",
+                "tamborine_mutedHit_E1_002",
+                "tamborine_mutedHit_E1_003",
+                "tamborine_mutedHit_E1_004",
+                "tamborine_mutedHit_E1_005",
+                "tamborine_roll_E1_001",
+                "tamborine_roll_E1_002",
+                "tamborine_roll_E1_003"
+              ],
+              "D2": [
+                "tamborine_openHit_D1_001",
+                "tamborine_openHit_D1_002",
+                "tamborine_openHit_D1_003",
+                "tamborine_openHit_D1_004",
+                "tamborine_openHit_D1_005",
+                "tamborine_openHit_D1_006",
+                "tamborine_openHit_D1_007"
+              ],
+              "F2": [
+                "tamborine_shake_F1_001",
+                "tamborine_shake_F1_002",
+                "tamborine_shake_F1_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -17,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "clave_nate_clave_flub_003",
+              "clave_nate_clave_flub_004",
+              "clave_nate_clave_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    43
+  ]
+}

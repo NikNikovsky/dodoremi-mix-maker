@@ -1,0 +1,65 @@
+{
+  "slug": "caxixi",
+  "capabilities": [
+    "OneShot",
+    "PercRep",
+    "PercRollable"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -13,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "D2": [
+                "caxixi_flick_D1_01",
+                "caxixi_flick_D1_02",
+                "caxixi_flick_D1_03",
+                "caxixi_flick_D1_04"
+              ],
+              "E2": [
+                "caxixi_roll_E1_01",
+                "caxixi_roll_E1_02"
+              ],
+              "C2": [
+                "caxixi_shake_C1_01",
+                "caxixi_shake_C1_02",
+                "caxixi_shake_C1_03",
+                "caxixi_shake_C1_04"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -13,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "clave_nate_clave_flub_003",
+              "clave_nate_clave_flub_004",
+              "clave_nate_clave_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    40
+  ]
+}

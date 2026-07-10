@@ -1,0 +1,209 @@
+{
+  "slug": "uncle-sax",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "legato": false,
+            "urls": {
+              "A3": [
+                "tenorSax_A3_001",
+                "tenorSax_A3_002",
+                "tenorSax_A3_003"
+              ],
+              "A4": [
+                "tenorSax_A4_001",
+                "tenorSax_A4_002",
+                "tenorSax_A4_003"
+              ],
+              "Ab3": [
+                "tenorSax_Ab3_001",
+                "tenorSax_Ab3_002",
+                "tenorSax_Ab3_003"
+              ],
+              "Ab4": [
+                "tenorSax_Ab4_001",
+                "tenorSax_Ab4_002",
+                "tenorSax_Ab4_003"
+              ],
+              "B2": [
+                "tenorSax_B2_001",
+                "tenorSax_B2_002",
+                "tenorSax_B2_003"
+              ],
+              "B3": [
+                "tenorSax_B3_001",
+                "tenorSax_B3_002",
+                "tenorSax_B3_003"
+              ],
+              "B4": [
+                "tenorSax_B4_001",
+                "tenorSax_B4_002",
+                "tenorSax_B4_003"
+              ],
+              "Bb2": [
+                "tenorSax_Bb2_001",
+                "tenorSax_Bb2_002",
+                "tenorSax_Bb2_003"
+              ],
+              "Bb3": [
+                "tenorSax_Bb3_001",
+                "tenorSax_Bb3_002",
+                "tenorSax_Bb3_003"
+              ],
+              "Bb4": [
+                "tenorSax_Bb4_001",
+                "tenorSax_Bb4_002",
+                "tenorSax_Bb4_003"
+              ],
+              "C3": [
+                "tenorSax_C3_001",
+                "tenorSax_C3_002",
+                "tenorSax_C3_003"
+              ],
+              "C4": [
+                "tenorSax_C4_001",
+                "tenorSax_C4_002",
+                "tenorSax_C4_003"
+              ],
+              "C5": [
+                "tenorSax_C5_001",
+                "tenorSax_C5_002",
+                "tenorSax_C5_003"
+              ],
+              "D3": [
+                "tenorSax_D3_001",
+                "tenorSax_D3_002",
+                "tenorSax_D3_003"
+              ],
+              "D4": [
+                "tenorSax_D4_001",
+                "tenorSax_D4_002",
+                "tenorSax_D4_003"
+              ],
+              "D5": [
+                "tenorSax_D5_001",
+                "tenorSax_D5_002",
+                "tenorSax_D5_003"
+              ],
+              "Db3": [
+                "tenorSax_Db3_001",
+                "tenorSax_Db3_002",
+                "tenorSax_Db3_003"
+              ],
+              "Db4": [
+                "tenorSax_Db4_001",
+                "tenorSax_Db4_002",
+                "tenorSax_Db4_003"
+              ],
+              "Db5": [
+                "tenorSax_Db5_001",
+                "tenorSax_Db5_002",
+                "tenorSax_Db5_003"
+              ],
+              "E3": [
+                "tenorSax_E3_001",
+                "tenorSax_E3_002",
+                "tenorSax_E3_003"
+              ],
+              "E4": [
+                "tenorSax_E4_001",
+                "tenorSax_E4_002",
+                "tenorSax_E4_003"
+              ],
+              "E5": [
+                "tenorSax_E5_001",
+                "tenorSax_E5_002",
+                "tenorSax_E5_003"
+              ],
+              "Eb3": [
+                "tenorSax_Eb3_001",
+                "tenorSax_Eb3_002",
+                "tenorSax_Eb3_003"
+              ],
+              "Eb4": [
+                "tenorSax_Eb4_001",
+                "tenorSax_Eb4_002",
+                "tenorSax_Eb4_003"
+              ],
+              "Eb5": [
+                "tenorSax_Eb5_001",
+                "tenorSax_Eb5_002",
+                "tenorSax_Eb5_003"
+              ],
+              "F3": [
+                "tenorSax_F3_001",
+                "tenorSax_F3_002",
+                "tenorSax_F3_003"
+              ],
+              "F4": [
+                "tenorSax_F4_001",
+                "tenorSax_F4_002",
+                "tenorSax_F4_003"
+              ],
+              "G3": [
+                "tenorSax_G3_001",
+                "tenorSax_G3_002",
+                "tenorSax_G3_003"
+              ],
+              "G4": [
+                "tenorSax_G4_001",
+                "tenorSax_G4_002",
+                "tenorSax_G4_003"
+              ],
+              "Gb3": [
+                "tenorSax_Gb3_001",
+                "tenorSax_Gb3_002",
+                "tenorSax_Gb3_003"
+              ],
+              "Gb4": [
+                "tenorSax_Gb4_001",
+                "tenorSax_Gb4_002",
+                "tenorSax_Gb4_003"
+              ],
+              "003": [
+                "tenorSax_flub_003_1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "tenorSax_flub_001",
+              "tenorSax_flub_002",
+              "tenorSax_flub_003",
+              "tenorSax_flub_004",
+              "tenorSax_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    46,
+    76
+  ]
+}

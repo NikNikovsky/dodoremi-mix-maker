@@ -1,0 +1,61 @@
+{
+  "slug": "robot-synth",
+  "capabilities": [
+    "Continuous",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "polySynth",
+          "options": {
+            "volume": 3,
+            "voice": {
+              "type": "amSynth",
+              "options": {
+                "volume": 12,
+                "envelope": {
+                  "attack": 0.01,
+                  "release": 0.2
+                },
+                "oscillator": {
+                  "type": "fattriangle8"
+                },
+                "harmonicity": 0
+              }
+            }
+          }
+        },
+        {
+          "type": "reverb",
+          "options": {
+            "preDelay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -20,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_01"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    43,
+    84
+  ]
+}

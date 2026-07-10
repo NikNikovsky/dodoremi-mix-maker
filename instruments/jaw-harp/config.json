@@ -1,0 +1,54 @@
+{
+  "slug": "jaw-harp",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -8,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "Bb2": [
+                "mouthHarp_redo2_Bb4_002",
+                "mouthHarp_redo2_Bb4_004",
+                "mouthHarp_redo2_Bb4_005"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "mouthHarp_redo2_flub_001",
+              "mouthHarp_redo2_flub_002",
+              "mouthHarp_redo2_flub_003",
+              "mouthHarp_redo2_flub_004",
+              "mouthHarp_redo2_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    38,
+    67
+  ]
+}

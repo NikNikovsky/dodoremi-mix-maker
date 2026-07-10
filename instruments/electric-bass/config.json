@@ -1,0 +1,233 @@
+{
+  "slug": "electric-bass",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -1,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A1": [
+                "electricBass_A2_001",
+                "electricBass_A2_002",
+                "electricBass_A2_003"
+              ],
+              "A2": [
+                "electricBass_A3_001",
+                "electricBass_A3_002",
+                "electricBass_A3_003"
+              ],
+              "A3": [
+                "electricBass_A4_001",
+                "electricBass_A4_002",
+                "electricBass_A4_003"
+              ],
+              "Ab1": [
+                "electricBass_Ab2_001",
+                "electricBass_Ab2_002",
+                "electricBass_Ab2_003"
+              ],
+              "Ab2": [
+                "electricBass_Ab3_001",
+                "electricBass_Ab3_002",
+                "electricBass_Ab3_003"
+              ],
+              "Ab3": [
+                "electricBass_Ab4_001",
+                "electricBass_Ab4_002",
+                "electricBass_Ab4_003"
+              ],
+              "B1": [
+                "electricBass_B2_001",
+                "electricBass_B2_002",
+                "electricBass_B2_003"
+              ],
+              "B2": [
+                "electricBass_B3_001",
+                "electricBass_B3_002",
+                "electricBass_B3_003"
+              ],
+              "B3": [
+                "electricBass_B4_001",
+                "electricBass_B4_002",
+                "electricBass_B4_003"
+              ],
+              "Bb1": [
+                "electricBass_Bb2_001",
+                "electricBass_Bb2_002",
+                "electricBass_Bb2_003"
+              ],
+              "Bb2": [
+                "electricBass_Bb3_001",
+                "electricBass_Bb3_002",
+                "electricBass_Bb3_003"
+              ],
+              "Bb3": [
+                "electricBass_Bb4_001",
+                "electricBass_Bb4_002",
+                "electricBass_Bb4_003"
+              ],
+              "C2": [
+                "electricBass_C3_001",
+                "electricBass_C3_002",
+                "electricBass_C3_003"
+              ],
+              "C3": [
+                "electricBass_C4_001",
+                "electricBass_C4_002",
+                "electricBass_C4_003",
+                "electricBass_C4_004",
+                "electricBass_C4_005",
+                "electricBass_C4_006"
+              ],
+              "C4": [
+                "electricBass_C5_001",
+                "electricBass_C5_002",
+                "electricBass_C5_003"
+              ],
+              "D2": [
+                "electricBass_D3_001",
+                "electricBass_D3_002",
+                "electricBass_D3_003"
+              ],
+              "D3": [
+                "electricBass_D4_001",
+                "electricBass_D4_002",
+                "electricBass_D4_003"
+              ],
+              "D4": [
+                "electricBass_D5_001",
+                "electricBass_D5_002",
+                "electricBass_D5_003"
+              ],
+              "Db2": [
+                "electricBass_Db3_001",
+                "electricBass_Db3_002",
+                "electricBass_Db3_003"
+              ],
+              "Db3": [
+                "electricBass_Db4_001",
+                "electricBass_Db4_002",
+                "electricBass_Db4_003"
+              ],
+              "Db4": [
+                "electricBass_Db5_001",
+                "electricBass_Db5_002",
+                "electricBass_Db5_003"
+              ],
+              "E1": [
+                "electricBass_E2_001",
+                "electricBass_E2_002",
+                "electricBass_E2_003"
+              ],
+              "E2": [
+                "electricBass_E3_001",
+                "electricBass_E3_002",
+                "electricBass_E3_003"
+              ],
+              "E3": [
+                "electricBass_E4_001",
+                "electricBass_E4_002",
+                "electricBass_E4_003"
+              ],
+              "Eb2": [
+                "electricBass_Eb3_001",
+                "electricBass_Eb3_002",
+                "electricBass_Eb3_003"
+              ],
+              "Eb3": [
+                "electricBass_Eb4_001",
+                "electricBass_Eb4_002",
+                "electricBass_Eb4_003"
+              ],
+              "Eb4": [
+                "electricBass_Eb5_001",
+                "electricBass_Eb5_002",
+                "electricBass_Eb5_003"
+              ],
+              "F1": [
+                "electricBass_F2_001",
+                "electricBass_F2_002",
+                "electricBass_F2_003"
+              ],
+              "F2": [
+                "electricBass_F3_001",
+                "electricBass_F3_002",
+                "electricBass_F3_003"
+              ],
+              "F3": [
+                "electricBass_F4_001",
+                "electricBass_F4_002",
+                "electricBass_F4_003"
+              ],
+              "G1": [
+                "electricBass_G2_001",
+                "electricBass_G2_002",
+                "electricBass_G2_003"
+              ],
+              "G2": [
+                "electricBass_G3_001",
+                "electricBass_G3_002",
+                "electricBass_G3_003"
+              ],
+              "G3": [
+                "electricBass_G4_001",
+                "electricBass_G4_002",
+                "electricBass_G4_003"
+              ],
+              "Gb1": [
+                "electricBass_Gb2_001",
+                "electricBass_Gb2_002",
+                "electricBass_Gb2_003"
+              ],
+              "Gb2": [
+                "electricBass_Gb3_001",
+                "electricBass_Gb3_002",
+                "electricBass_Gb3_003"
+              ],
+              "Gb3": [
+                "electricBass_Gb4_001",
+                "electricBass_Gb4_002",
+                "electricBass_Gb4_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "electricBass_flub_001",
+              "electricBass_flub_002",
+              "electricBass_flub_003",
+              "electricBass_flub_004",
+              "electricBass_flub_005",
+              "electricBass_flub_006"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    28,
+    75
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "contrabass-clarinet",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -2,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A2": [
+                "contrabassClarinet_A2_001",
+                "contrabassClarinet_A2_002",
+                "contrabassClarinet_A2_003"
+              ],
+              "A3": [
+                "contrabassClarinet_A3_001",
+                "contrabassClarinet_A3_002",
+                "contrabassClarinet_A3_003"
+              ],
+              "Ab2": [
+                "contrabassClarinet_Ab2_001",
+                "contrabassClarinet_Ab2_002",
+                "contrabassClarinet_Ab2_003"
+              ],
+              "Ab3": [
+                "contrabassClarinet_Ab3_001",
+                "contrabassClarinet_Ab3_002",
+                "contrabassClarinet_Ab3_003"
+              ],
+              "B1": [
+                "contrabassClarinet_B1_001",
+                "contrabassClarinet_B1_002",
+                "contrabassClarinet_B1_003"
+              ],
+              "B2": [
+                "contrabassClarinet_B2_001",
+                "contrabassClarinet_B2_002",
+                "contrabassClarinet_B2_003"
+              ],
+              "B3": [
+                "contrabassClarinet_B3_001",
+                "contrabassClarinet_B3_002",
+                "contrabassClarinet_B3_003"
+              ],
+              "Bb1": [
+                "contrabassClarinet_Bb1_001",
+                "contrabassClarinet_Bb1_002",
+                "contrabassClarinet_Bb1_003"
+              ],
+              "Bb2": [
+                "contrabassClarinet_Bb2_001",
+                "contrabassClarinet_Bb2_002",
+                "contrabassClarinet_Bb2_003"
+              ],
+              "Bb3": [
+                "contrabassClarinet_Bb3_001",
+                "contrabassClarinet_Bb3_002",
+                "contrabassClarinet_Bb3_003"
+              ],
+              "C2": [
+                "contrabassClarinet_C2_001",
+                "contrabassClarinet_C2_002",
+                "contrabassClarinet_C2_003"
+              ],
+              "C3": [
+                "contrabassClarinet_C3_001",
+                "contrabassClarinet_C3_002",
+                "contrabassClarinet_C3_003"
+              ],
+              "D2": [
+                "contrabassClarinet_D2_001",
+                "contrabassClarinet_D2_002",
+                "contrabassClarinet_D2_003"
+              ],
+              "D3": [
+                "contrabassClarinet_D3_001",
+                "contrabassClarinet_D3_002",
+                "contrabassClarinet_D3_003"
+              ],
+              "Db3": [
+                "contrabassClarinet_Db3_001",
+                "contrabassClarinet_Db3_002",
+                "contrabassClarinet_Db3_003"
+              ],
+              "E2": [
+                "contrabassClarinet_E2_001",
+                "contrabassClarinet_E2_002",
+                "contrabassClarinet_E2_003"
+              ],
+              "E3": [
+                "contrabassClarinet_E3_001",
+                "contrabassClarinet_E3_002",
+                "contrabassClarinet_E3_003"
+              ],
+              "Eb2": [
+                "contrabassClarinet_Eb2_001",
+                "contrabassClarinet_Eb2_002",
+                "contrabassClarinet_Eb2_003"
+              ],
+              "Eb3": [
+                "contrabassClarinet_Eb3_001",
+                "contrabassClarinet_Eb3_002",
+                "contrabassClarinet_Eb3_003"
+              ],
+              "F2": [
+                "contrabassClarinet_F2_001",
+                "contrabassClarinet_F2_002",
+                "contrabassClarinet_F2_003"
+              ],
+              "F3": [
+                "contrabassClarinet_F3_001",
+                "contrabassClarinet_F3_002",
+                "contrabassClarinet_F3_003"
+              ],
+              "G2": [
+                "contrabassClarinet_G2_001",
+                "contrabassClarinet_G2_002",
+                "contrabassClarinet_G2_003"
+              ],
+              "G3": [
+                "contrabassClarinet_G3_001",
+                "contrabassClarinet_G3_002",
+                "contrabassClarinet_G3_003"
+              ],
+              "Gb2": [
+                "contrabassClarinet_Gb2_001",
+                "contrabassClarinet_Gb2_002",
+                "contrabassClarinet_Gb2_003"
+              ],
+              "Gb3": [
+                "contrabassClarinet_Gb3_001",
+                "contrabassClarinet_Gb3_002",
+                "contrabassClarinet_Gb3_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "contrabassClarinet_flub_001",
+              "contrabassClarinet_flub_002",
+              "contrabassClarinet_flub_003",
+              "contrabassClarinet_flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    34,
+    59
+  ]
+}

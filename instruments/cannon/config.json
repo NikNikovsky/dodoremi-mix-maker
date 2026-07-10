@@ -1,0 +1,54 @@
+{
+  "slug": "cannon",
+  "capabilities": [
+    "OneShot",
+    "PercSingle"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "cannon_C1_01",
+                "cannon_C1_02",
+                "cannon_C1_03",
+                "cannon_C1_04"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "cannon_flub_01",
+              "cannon_flub_02",
+              "cannon_flub_03"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    37
+  ]
+}

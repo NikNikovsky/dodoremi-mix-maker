@@ -1,0 +1,61 @@
+{
+  "slug": "continuous-jan",
+  "capabilities": [
+    "Continuous",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "legato": false,
+            "urls": {
+              "C4": [
+                "jan_C5_001"
+              ],
+              "C5": [
+                "jan_C6_001"
+              ],
+              "Gb3": [
+                "jan_Gb4_001"
+              ],
+              "Gb4": [
+                "jan_Gb5_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "voice_alto_flub_001",
+              "voice_alto_flub_002",
+              "voice_alto_flub_003"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    54,
+    76
+  ]
+}

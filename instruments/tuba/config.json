@@ -1,0 +1,169 @@
+{
+  "slug": "tuba",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -1,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A1": [
+                "tuba_A1_001",
+                "tuba_A1_002",
+                "tuba_A1_003"
+              ],
+              "A2": [
+                "tuba_A2_001",
+                "tuba_A2_002",
+                "tuba_A2_003"
+              ],
+              "Ab1": [
+                "tuba_Ab1_001",
+                "tuba_Ab1_002",
+                "tuba_Ab1_003"
+              ],
+              "B1": [
+                "tuba_B1_001",
+                "tuba_B1_002",
+                "tuba_B1_003"
+              ],
+              "Bb1": [
+                "tuba_Bb1_001",
+                "tuba_Bb1_002",
+                "tuba_Bb1_003"
+              ],
+              "Bb2": [
+                "tuba_Bb2_001",
+                "tuba_Bb2_002",
+                "tuba_Bb2_003"
+              ],
+              "C2": [
+                "tuba_C2_001",
+                "tuba_C2_002",
+                "tuba_C2_003"
+              ],
+              "C3": [
+                "tuba_C3_001",
+                "tuba_C3_002",
+                "tuba_C3_003"
+              ],
+              "D2": [
+                "tuba_D2_001",
+                "tuba_D2_002",
+                "tuba_D2_003"
+              ],
+              "D3": [
+                "tuba_D3_001",
+                "tuba_D3_002",
+                "tuba_D3_003"
+              ],
+              "Db2": [
+                "tuba_Db2_001",
+                "tuba_Db2_002",
+                "tuba_Db2_003"
+              ],
+              "Db3": [
+                "tuba_Db3_001",
+                "tuba_Db3_002",
+                "tuba_Db3_003"
+              ],
+              "E2": [
+                "tuba_E2_001",
+                "tuba_E2_002",
+                "tuba_E2_003"
+              ],
+              "E3": [
+                "tuba_E3_001",
+                "tuba_E3_002",
+                "tuba_E3_003"
+              ],
+              "Eb2": [
+                "tuba_Eb2_001",
+                "tuba_Eb2_002",
+                "tuba_Eb2_003"
+              ],
+              "Eb3": [
+                "tuba_Eb3_001",
+                "tuba_Eb3_002",
+                "tuba_Eb3_003"
+              ],
+              "F1": [
+                "tuba_F1_001",
+                "tuba_F1_002",
+                "tuba_F1_003"
+              ],
+              "F2": [
+                "tuba_F2_001",
+                "tuba_F2_002",
+                "tuba_F2_003"
+              ],
+              "G1": [
+                "tuba_G1_001",
+                "tuba_G1_002",
+                "tuba_G1_003"
+              ],
+              "G2": [
+                "tuba_G2_001",
+                "tuba_G2_002",
+                "tuba_G2_003"
+              ],
+              "G3": [
+                "tuba_G3_001",
+                "tuba_G3_002",
+                "tuba_G3_003"
+              ],
+              "Gb1": [
+                "tuba_Gb1_001",
+                "tuba_Gb1_002",
+                "tuba_Gb1_003"
+              ],
+              "Gb2": [
+                "tuba_Gb2_001",
+                "tuba_Gb2_002",
+                "tuba_Gb2_003"
+              ],
+              "Gb3": [
+                "tuba_Gb3_001",
+                "tuba_Gb3_002",
+                "tuba_Gb3_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "tuba_flub_001",
+              "tuba_flub_002",
+              "tuba_flub_003",
+              "tuba_flub_004",
+              "tuba_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    29,
+    60
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "alarm-clock",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "alarmClock_C1_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "alarmClock_flub_001"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    37
+  ]
+}

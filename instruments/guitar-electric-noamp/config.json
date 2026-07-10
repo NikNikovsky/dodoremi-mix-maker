@@ -1,0 +1,290 @@
+{
+  "slug": "guitar-electric-noamp",
+  "capabilities": [
+    "Sustain",
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "restrictToSingleNotes": false,
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A2": [
+                "guitar_electric_noAmp_notes_A2_001",
+                "guitar_electric_noAmp_notes_A2_002",
+                "guitar_electric_noAmp_notes_A2_003"
+              ],
+              "A3": [
+                "guitar_electric_noAmp_notes_A3_001",
+                "guitar_electric_noAmp_notes_A3_002",
+                "guitar_electric_noAmp_notes_A3_003"
+              ],
+              "A4": [
+                "guitar_electric_noAmp_notes_A4_001",
+                "guitar_electric_noAmp_notes_A4_002",
+                "guitar_electric_noAmp_notes_A4_003"
+              ],
+              "A5": [
+                "guitar_electric_noAmp_notes_A5_001",
+                "guitar_electric_noAmp_notes_A5_002",
+                "guitar_electric_noAmp_notes_A5_003"
+              ],
+              "Ab2": [
+                "guitar_electric_noAmp_notes_Ab2_001",
+                "guitar_electric_noAmp_notes_Ab2_002",
+                "guitar_electric_noAmp_notes_Ab2_003"
+              ],
+              "Ab3": [
+                "guitar_electric_noAmp_notes_Ab3_001",
+                "guitar_electric_noAmp_notes_Ab3_002",
+                "guitar_electric_noAmp_notes_Ab3_003"
+              ],
+              "Ab4": [
+                "guitar_electric_noAmp_notes_Ab4_001",
+                "guitar_electric_noAmp_notes_Ab4_002",
+                "guitar_electric_noAmp_notes_Ab4_003"
+              ],
+              "Ab5": [
+                "guitar_electric_noAmp_notes_Ab5_001",
+                "guitar_electric_noAmp_notes_Ab5_002",
+                "guitar_electric_noAmp_notes_Ab5_003"
+              ],
+              "B2": [
+                "guitar_electric_noAmp_notes_B2_001",
+                "guitar_electric_noAmp_notes_B2_002",
+                "guitar_electric_noAmp_notes_B2_003"
+              ],
+              "B3": [
+                "guitar_electric_noAmp_notes_B3_001",
+                "guitar_electric_noAmp_notes_B3_002",
+                "guitar_electric_noAmp_notes_B3_003"
+              ],
+              "B4": [
+                "guitar_electric_noAmp_notes_B4_001",
+                "guitar_electric_noAmp_notes_B4_002",
+                "guitar_electric_noAmp_notes_B4_003"
+              ],
+              "B5": [
+                "guitar_electric_noAmp_notes_B5_001",
+                "guitar_electric_noAmp_notes_B5_002",
+                "guitar_electric_noAmp_notes_B5_003"
+              ],
+              "Bb2": [
+                "guitar_electric_noAmp_notes_Bb2_001",
+                "guitar_electric_noAmp_notes_Bb2_002",
+                "guitar_electric_noAmp_notes_Bb2_003"
+              ],
+              "Bb3": [
+                "guitar_electric_noAmp_notes_Bb3_001",
+                "guitar_electric_noAmp_notes_Bb3_002",
+                "guitar_electric_noAmp_notes_Bb3_003"
+              ],
+              "Bb4": [
+                "guitar_electric_noAmp_notes_Bb4_001",
+                "guitar_electric_noAmp_notes_Bb4_002",
+                "guitar_electric_noAmp_notes_Bb4_003"
+              ],
+              "Bb5": [
+                "guitar_electric_noAmp_notes_Bb5_001",
+                "guitar_electric_noAmp_notes_Bb5_002",
+                "guitar_electric_noAmp_notes_Bb5_003"
+              ],
+              "C3": [
+                "guitar_electric_noAmp_notes_C3_001",
+                "guitar_electric_noAmp_notes_C3_002",
+                "guitar_electric_noAmp_notes_C3_003"
+              ],
+              "C4": [
+                "guitar_electric_noAmp_notes_C4_001",
+                "guitar_electric_noAmp_notes_C4_002",
+                "guitar_electric_noAmp_notes_C4_003"
+              ],
+              "C5": [
+                "guitar_electric_noAmp_notes_C5_001",
+                "guitar_electric_noAmp_notes_C5_002",
+                "guitar_electric_noAmp_notes_C5_003"
+              ],
+              "C6": [
+                "guitar_electric_noAmp_notes_C6_001",
+                "guitar_electric_noAmp_notes_C6_002",
+                "guitar_electric_noAmp_notes_C6_003"
+              ],
+              "D3": [
+                "guitar_electric_noAmp_notes_D3_001",
+                "guitar_electric_noAmp_notes_D3_002",
+                "guitar_electric_noAmp_notes_D3_003"
+              ],
+              "D4": [
+                "guitar_electric_noAmp_notes_D4_001",
+                "guitar_electric_noAmp_notes_D4_002",
+                "guitar_electric_noAmp_notes_D4_003"
+              ],
+              "D5": [
+                "guitar_electric_noAmp_notes_D5_001",
+                "guitar_electric_noAmp_notes_D5_002",
+                "guitar_electric_noAmp_notes_D5_003"
+              ],
+              "D6": [
+                "guitar_electric_noAmp_notes_D6_001",
+                "guitar_electric_noAmp_notes_D6_002",
+                "guitar_electric_noAmp_notes_D6_003"
+              ],
+              "Db3": [
+                "guitar_electric_noAmp_notes_Db3_001",
+                "guitar_electric_noAmp_notes_Db3_002",
+                "guitar_electric_noAmp_notes_Db3_003"
+              ],
+              "Db4": [
+                "guitar_electric_noAmp_notes_Db4_001",
+                "guitar_electric_noAmp_notes_Db4_002",
+                "guitar_electric_noAmp_notes_Db4_003"
+              ],
+              "Db5": [
+                "guitar_electric_noAmp_notes_Db5_001",
+                "guitar_electric_noAmp_notes_Db5_002",
+                "guitar_electric_noAmp_notes_Db5_003"
+              ],
+              "Db6": [
+                "guitar_electric_noAmp_notes_Db6_001",
+                "guitar_electric_noAmp_notes_Db6_002",
+                "guitar_electric_noAmp_notes_Db6_003"
+              ],
+              "E2": [
+                "guitar_electric_noAmp_notes_E2_001",
+                "guitar_electric_noAmp_notes_E2_002",
+                "guitar_electric_noAmp_notes_E2_003"
+              ],
+              "E3": [
+                "guitar_electric_noAmp_notes_E3_001",
+                "guitar_electric_noAmp_notes_E3_002",
+                "guitar_electric_noAmp_notes_E3_003"
+              ],
+              "E4": [
+                "guitar_electric_noAmp_notes_E4_001",
+                "guitar_electric_noAmp_notes_E4_002",
+                "guitar_electric_noAmp_notes_E4_003"
+              ],
+              "E5": [
+                "guitar_electric_noAmp_notes_E5_001",
+                "guitar_electric_noAmp_notes_E5_002",
+                "guitar_electric_noAmp_notes_E5_003"
+              ],
+              "Eb3": [
+                "guitar_electric_noAmp_notes_Eb3_001",
+                "guitar_electric_noAmp_notes_Eb3_002",
+                "guitar_electric_noAmp_notes_Eb3_003"
+              ],
+              "Eb4": [
+                "guitar_electric_noAmp_notes_Eb4_001",
+                "guitar_electric_noAmp_notes_Eb4_002",
+                "guitar_electric_noAmp_notes_Eb4_003"
+              ],
+              "Eb5": [
+                "guitar_electric_noAmp_notes_Eb5_001",
+                "guitar_electric_noAmp_notes_Eb5_002",
+                "guitar_electric_noAmp_notes_Eb5_003"
+              ],
+              "F2": [
+                "guitar_electric_noAmp_notes_F2_001",
+                "guitar_electric_noAmp_notes_F2_002",
+                "guitar_electric_noAmp_notes_F2_003"
+              ],
+              "F3": [
+                "guitar_electric_noAmp_notes_F3_001",
+                "guitar_electric_noAmp_notes_F3_002",
+                "guitar_electric_noAmp_notes_F3_003"
+              ],
+              "F4": [
+                "guitar_electric_noAmp_notes_F4_001",
+                "guitar_electric_noAmp_notes_F4_002",
+                "guitar_electric_noAmp_notes_F4_003"
+              ],
+              "F5": [
+                "guitar_electric_noAmp_notes_F5_001",
+                "guitar_electric_noAmp_notes_F5_002",
+                "guitar_electric_noAmp_notes_F5_003"
+              ],
+              "G2": [
+                "guitar_electric_noAmp_notes_G2_001",
+                "guitar_electric_noAmp_notes_G2_002",
+                "guitar_electric_noAmp_notes_G2_003"
+              ],
+              "G3": [
+                "guitar_electric_noAmp_notes_G3_001",
+                "guitar_electric_noAmp_notes_G3_002",
+                "guitar_electric_noAmp_notes_G3_003"
+              ],
+              "G4": [
+                "guitar_electric_noAmp_notes_G4_001",
+                "guitar_electric_noAmp_notes_G4_002",
+                "guitar_electric_noAmp_notes_G4_003"
+              ],
+              "G5": [
+                "guitar_electric_noAmp_notes_G5_001",
+                "guitar_electric_noAmp_notes_G5_002",
+                "guitar_electric_noAmp_notes_G5_003"
+              ],
+              "Gb2": [
+                "guitar_electric_noAmp_notes_Gb2_001",
+                "guitar_electric_noAmp_notes_Gb2_002",
+                "guitar_electric_noAmp_notes_Gb2_003"
+              ],
+              "Gb3": [
+                "guitar_electric_noAmp_notes_Gb3_001",
+                "guitar_electric_noAmp_notes_Gb3_002",
+                "guitar_electric_noAmp_notes_Gb3_003"
+              ],
+              "Gb4": [
+                "guitar_electric_noAmp_notes_Gb4_001",
+                "guitar_electric_noAmp_notes_Gb4_002",
+                "guitar_electric_noAmp_notes_Gb4_003"
+              ],
+              "Gb5": [
+                "guitar_electric_noAmp_notes_Gb5_001",
+                "guitar_electric_noAmp_notes_Gb5_002",
+                "guitar_electric_noAmp_notes_Gb5_003"
+              ],
+              "003": [
+                "guitar_electric_noAmp_notes_flub_003_1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "guitar_electric_noAmp_notes_flub_001",
+              "guitar_electric_noAmp_notes_flub_002",
+              "guitar_electric_noAmp_notes_flub_003",
+              "guitar_electric_noAmp_notes_flub_004",
+              "guitar_electric_noAmp_notes_flub_005",
+              "guitar_electric_noAmp_notes_flub_006",
+              "guitar_electric_noAmp_notes_flub_007"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    40,
+    85
+  ]
+}

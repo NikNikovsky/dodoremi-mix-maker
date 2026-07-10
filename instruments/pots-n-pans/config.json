@@ -1,0 +1,149 @@
+{
+  "slug": "pots-n-pans",
+  "capabilities": [
+    "OneShot",
+    "DrumRack"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "drumRackSampler",
+          "options": {
+            "volume": -8,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "click": [
+                "click_01",
+                "click_02",
+                "click_03",
+                "click_04",
+                "click_05",
+                "click_06"
+              ],
+              "closedhh": [
+                "closedhh_01",
+                "closedhh_02",
+                "closedhh_03",
+                "closedhh_04"
+              ],
+              "crash": [
+                "crash_01",
+                "crash_02",
+                "crash_03",
+                "crash_04"
+              ],
+              "floortom": [
+                "floortom_01",
+                "floortom_02",
+                "floortom_03",
+                "floortom_04"
+              ],
+              "hitom": [
+                "hitom_01",
+                "hitom_02",
+                "hitom_03",
+                "hitom_04"
+              ],
+              "kick": [
+                "kick_01",
+                "kick_02",
+                "kick_03",
+                "kick_04"
+              ],
+              "lowtom": [
+                "lowtom_01",
+                "lowtom_02"
+              ],
+              "mediumhh": [
+                "mediumhh_01",
+                "mediumhh_02"
+              ],
+              "midtom": [
+                "midtom_01",
+                "midtom_02",
+                "midtom_03"
+              ],
+              "openhh": [
+                "openhh_01",
+                "openhh_02",
+                "openhh_03",
+                "openhh_04"
+              ],
+              "pedalhh": [
+                "pedalhh_01",
+                "pedalhh_02",
+                "pedalhh_03",
+                "pedalhh_04",
+                "pedalhh_05",
+                "pedalhh_06"
+              ],
+              "ride": [
+                "ride_01",
+                "ride_02",
+                "ride_03",
+                "ride_04",
+                "ride_05",
+                "ride_06"
+              ],
+              "rim": [
+                "rim_01",
+                "rim_02",
+                "rim_03",
+                "rim_04"
+              ],
+              "rimshot": [
+                "rimshot_01",
+                "rimshot_02",
+                "rimshot_03",
+                "rimshot_04"
+              ],
+              "sidestick": [
+                "sidestick_01",
+                "sidestick_02",
+                "sidestick_03",
+                "sidestick_04",
+                "sidestick_05",
+                "sidestick_06"
+              ],
+              "snare": [
+                "snare_01",
+                "snare_02",
+                "snare_03",
+                "snare_04"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -13,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "potsNPans_flub_001",
+              "potsNPans_flub_002",
+              "potsNPans_flub_003",
+              "potsNPans_flub_004",
+              "potsNPans_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    60
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "slug": "bongo",
+    "chains": [
+        {
+            "type": "main",
+            "nodes": [
+                {
+                    "type": "membraneSynth",
+                    "options": {
+                        "octaves": 10,
+                        "oscillator": {
+                            "type": "amsine3"
+                        },
+                        "pitchDecay": 0.05
+                    }
+                }
+            ]
+        },
+        {
+            "type": "flub",
+            "duration": 0.25,
+            "nodes": [
+                {
+                    "type": "pluckSynth",
+                    "options": {}
+                }
+            ]
+        }
+    ],
+    "samples": {}
+}

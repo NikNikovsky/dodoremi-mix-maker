@@ -1,0 +1,140 @@
+{
+  "slug": "drum-set-clean",
+  "capabilities": [
+    "DrumRack",
+    "OneShot"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "drumRackSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "click": [
+                "drums_acoustic_click_001",
+                "drums_acoustic_click_002",
+                "drums_acoustic_click_003",
+                "drums_acoustic_click_004"
+              ],
+              "closedhh": [
+                "drums_acoustic_closedhh_001",
+                "drums_acoustic_closedhh_002",
+                "drums_acoustic_closedhh_003",
+                "drums_acoustic_closedhh_004"
+              ],
+              "crash": [
+                "drums_acoustic_crash_001",
+                "drums_acoustic_crash_002",
+                "drums_acoustic_crash_003",
+                "drums_acoustic_crash_004"
+              ],
+              "kick": [
+                "drums_acoustic_eqd_kick_01",
+                "drums_acoustic_eqd_kick_02",
+                "drums_acoustic_eqd_kick_03"
+              ],
+              "snare": [
+                "drums_acoustic_eqd_snare_01",
+                "drums_acoustic_eqd_snare_02",
+                "drums_acoustic_eqd_snare_03"
+              ],
+              "floortom": [
+                "drums_acoustic_floortom_001",
+                "drums_acoustic_floortom_002",
+                "drums_acoustic_floortom_003",
+                "drums_acoustic_floortom_004"
+              ],
+              "hitom": [
+                "drums_acoustic_hitom_001",
+                "drums_acoustic_hitom_002",
+                "drums_acoustic_hitom_003",
+                "drums_acoustic_hitom_004"
+              ],
+              "lowtom": [
+                "drums_acoustic_lowtom_001",
+                "drums_acoustic_lowtom_002",
+                "drums_acoustic_lowtom_003",
+                "drums_acoustic_lowtom_004"
+              ],
+              "mediumhh": [
+                "drums_acoustic_mediumhh_001",
+                "drums_acoustic_mediumhh_002",
+                "drums_acoustic_mediumhh_003",
+                "drums_acoustic_mediumhh_004"
+              ],
+              "midtom": [
+                "drums_acoustic_midtom_001",
+                "drums_acoustic_midtom_002",
+                "drums_acoustic_midtom_003",
+                "drums_acoustic_midtom_004"
+              ],
+              "openhh": [
+                "drums_acoustic_openhh_001",
+                "drums_acoustic_openhh_002",
+                "drums_acoustic_openhh_003",
+                "drums_acoustic_openhh_004"
+              ],
+              "ride": [
+                "drums_acoustic_ride_001",
+                "drums_acoustic_ride_002",
+                "drums_acoustic_ride_003",
+                "drums_acoustic_ride_004"
+              ],
+              "rim": [
+                "drums_acoustic_rim_001",
+                "drums_acoustic_rim_002",
+                "drums_acoustic_rim_003",
+                "drums_acoustic_rim_004"
+              ],
+              "rimshot": [
+                "drums_acoustic_rimshot_001",
+                "drums_acoustic_rimshot_002",
+                "drums_acoustic_rimshot_003",
+                "drums_acoustic_rimshot_004"
+              ],
+              "sidestick": [
+                "drums_acoustic_sidestick_001",
+                "drums_acoustic_sidestick_002",
+                "drums_acoustic_sidestick_003",
+                "drums_acoustic_sidestick_004"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_001",
+              "flub_003",
+              "flub_004",
+              "flub_005",
+              "flub_006",
+              "flub_007",
+              "flub_008",
+              "flub_012"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    60
+  ]
+}

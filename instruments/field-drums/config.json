@@ -1,0 +1,115 @@
+{
+  "slug": "field-drums",
+  "capabilities": [
+    "OneShot",
+    "Percussive",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -8,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "F2": [
+                "10_inch_normal_hit_F2_001",
+                "10_inch_normal_hit_F2_002",
+                "10_inch_normal_hit_F2_003",
+                "10_inch_normal_hit_F2_004",
+                "10_inch_normal_hit_F2_005",
+                "10_inch_normal_hit_F2_006",
+                "10_inch_normal_hit_F2_007",
+                "10_inch_normal_hit_F2_008"
+              ],
+              "E2": [
+                "12_inch_normal_hit_E2_001",
+                "12_inch_normal_hit_E2_002",
+                "12_inch_normal_hit_E2_003",
+                "12_inch_normal_hit_E2_004",
+                "12_inch_normal_hit_E2_005",
+                "12_inch_normal_hit_E2_006",
+                "12_inch_normal_hit_E2_007",
+                "12_inch_normal_hit_E2_008"
+              ],
+              "D2": [
+                "13_inch_normal_hit_D2_001",
+                "13_inch_normal_hit_D2_002",
+                "13_inch_normal_hit_D2_003",
+                "13_inch_normal_hit_D2_004",
+                "13_inch_normal_hit_D2_005",
+                "13_inch_normal_hit_D2_006",
+                "13_inch_normal_hit_D2_007",
+                "13_inch_normal_hit_D2_008"
+              ],
+              "C2": [
+                "14_inch_normal_hit_C2_001",
+                "14_inch_normal_hit_C2_002",
+                "14_inch_normal_hit_C2_003",
+                "14_inch_normal_hit_C2_004",
+                "14_inch_normal_hit_C2_005",
+                "14_inch_normal_hit_C2_006",
+                "14_inch_normal_hit_C2_007",
+                "14_inch_normal_hit_C2_008"
+              ],
+              "A2": [
+                "6_inch_normal_hit_A2_001",
+                "6_inch_normal_hit_A2_002",
+                "6_inch_normal_hit_A2_003",
+                "6_inch_normal_hit_A2_004",
+                "6_inch_normal_hit_A2_005",
+                "6_inch_normal_hit_A2_006",
+                "6_inch_normal_hit_A2_007",
+                "6_inch_normal_hit_A2_008"
+              ],
+              "G2": [
+                "8_inch_normal_hit_G2_001",
+                "8_inch_normal_hit_G2_002",
+                "8_inch_normal_hit_G2_003",
+                "8_inch_normal_hit_G2_004",
+                "8_inch_normal_hit_G2_005",
+                "8_inch_normal_hit_G2_006",
+                "8_inch_normal_hit_G2_007",
+                "8_inch_normal_hit_G2_008"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -7,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_001",
+              "flub_003",
+              "flub_004",
+              "flub_005",
+              "flub_006",
+              "flub_007",
+              "flub_008",
+              "flub_012"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    45
+  ]
+}

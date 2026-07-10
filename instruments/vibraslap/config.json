@@ -1,0 +1,54 @@
+{
+  "slug": "vibraslap",
+  "capabilities": [
+    "OneShot",
+    "PercSingle"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "vibraSlap_C1_01",
+                "vibraSlap_C1_02",
+                "vibraSlap_C1_03",
+                "vibraSlap_C1_04",
+                "vibraSlap_C1_05"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "vibraSlap_flub_01"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    37
+  ]
+}

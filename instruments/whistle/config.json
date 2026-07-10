@@ -1,0 +1,66 @@
+{
+  "slug": "whistle",
+  "capabilities": [
+    "Melodic",
+    "Continuous",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "duoSynth",
+          "options": {
+            "volume": -24,
+            "harmonicity": 2,
+            "vibratoAmount": 0.5,
+            "voice0": {
+              "oscillator": {
+                "type": "sine"
+              }
+            },
+            "voice1": {
+              "oscillator": {
+                "type": "sine"
+              }
+            }
+          }
+        },
+        {
+          "type": "reverb",
+          "options": {
+            "decay": 4,
+            "wet": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -14,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "theremin_ampCable_flub_001",
+              "theremin_ampCable_flub_002",
+              "theremin_ampCable_flub_003",
+              "theremin_ampCable_flub_004",
+              "theremin_ampCable_flub_005",
+              "theremin_ampCable_flub_006"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    0,
+    127
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "slug": "cello-bowed",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A2": [
+                "cello_bowed_A2_001",
+                "cello_bowed_A2_002",
+                "cello_bowed_A2_003"
+              ],
+              "A3": [
+                "cello_bowed_A3_001",
+                "cello_bowed_A3_002",
+                "cello_bowed_A3_003"
+              ],
+              "A4": [
+                "cello_bowed_A4_001",
+                "cello_bowed_A4_002",
+                "cello_bowed_A4_003"
+              ],
+              "Ab2": [
+                "cello_bowed_Ab2_001",
+                "cello_bowed_Ab2_002",
+                "cello_bowed_Ab2_003"
+              ],
+              "Ab3": [
+                "cello_bowed_Ab3_001",
+                "cello_bowed_Ab3_002",
+                "cello_bowed_Ab3_003"
+              ],
+              "Ab4": [
+                "cello_bowed_Ab4_001",
+                "cello_bowed_Ab4_002",
+                "cello_bowed_Ab4_003"
+              ],
+              "B2": [
+                "cello_bowed_B2_001",
+                "cello_bowed_B2_002",
+                "cello_bowed_B2_003"
+              ],
+              "B3": [
+                "cello_bowed_B3_001",
+                "cello_bowed_B3_002",
+                "cello_bowed_B3_003"
+              ],
+              "B4": [
+                "cello_bowed_B4_001",
+                "cello_bowed_B4_002",
+                "cello_bowed_B4_003"
+              ],
+              "Bb2": [
+                "cello_bowed_Bb2_001",
+                "cello_bowed_Bb2_002",
+                "cello_bowed_Bb2_003"
+              ],
+              "Bb3": [
+                "cello_bowed_Bb3_001",
+                "cello_bowed_Bb3_002",
+                "cello_bowed_Bb3_003"
+              ],
+              "Bb4": [
+                "cello_bowed_Bb4_001",
+                "cello_bowed_Bb4_002",
+                "cello_bowed_Bb4_003"
+              ],
+              "C2": [
+                "cello_bowed_C2_001",
+                "cello_bowed_C2_002",
+                "cello_bowed_C2_003"
+              ],
+              "C3": [
+                "cello_bowed_C3_001",
+                "cello_bowed_C3_002",
+                "cello_bowed_C3_003"
+              ],
+              "C4": [
+                "cello_bowed_C4_001",
+                "cello_bowed_C4_002",
+                "cello_bowed_C4_003"
+              ],
+              "C5": [
+                "cello_bowed_C5_001",
+                "cello_bowed_C5_002",
+                "cello_bowed_C5_003"
+              ],
+              "D2": [
+                "cello_bowed_D2_001",
+                "cello_bowed_D2_002",
+                "cello_bowed_D2_003"
+              ],
+              "D3": [
+                "cello_bowed_D3_001",
+                "cello_bowed_D3_002",
+                "cello_bowed_D3_003"
+              ],
+              "D4": [
+                "cello_bowed_D4_001",
+                "cello_bowed_D4_002",
+                "cello_bowed_D4_003"
+              ],
+              "D5": [
+                "cello_bowed_D5_001",
+                "cello_bowed_D5_002",
+                "cello_bowed_D5_003"
+              ],
+              "Db2": [
+                "cello_bowed_Db2_001",
+                "cello_bowed_Db2_002",
+                "cello_bowed_Db2_003"
+              ],
+              "Db3": [
+                "cello_bowed_Db3_001",
+                "cello_bowed_Db3_002",
+                "cello_bowed_Db3_003"
+              ],
+              "Db4": [
+                "cello_bowed_Db4_001",
+                "cello_bowed_Db4_002",
+                "cello_bowed_Db4_003"
+              ],
+              "Db5": [
+                "cello_bowed_Db5_001",
+                "cello_bowed_Db5_002",
+                "cello_bowed_Db5_003"
+              ],
+              "E2": [
+                "cello_bowed_E2_001",
+                "cello_bowed_E2_002",
+                "cello_bowed_E2_003"
+              ],
+              "E3": [
+                "cello_bowed_E3_001",
+                "cello_bowed_E3_002",
+                "cello_bowed_E3_003"
+              ],
+              "E4": [
+                "cello_bowed_E4_001",
+                "cello_bowed_E4_002",
+                "cello_bowed_E4_003"
+              ],
+              "E5": [
+                "cello_bowed_E5_001",
+                "cello_bowed_E5_002",
+                "cello_bowed_E5_003"
+              ],
+              "Eb2": [
+                "cello_bowed_Eb2_001",
+                "cello_bowed_Eb2_002",
+                "cello_bowed_Eb2_003"
+              ],
+              "Eb3": [
+                "cello_bowed_Eb3_001",
+                "cello_bowed_Eb3_002",
+                "cello_bowed_Eb3_003"
+              ],
+              "Eb4": [
+                "cello_bowed_Eb4_001",
+                "cello_bowed_Eb4_002",
+                "cello_bowed_Eb4_003"
+              ],
+              "Eb5": [
+                "cello_bowed_Eb5_001",
+                "cello_bowed_Eb5_002",
+                "cello_bowed_Eb5_003"
+              ],
+              "F2": [
+                "cello_bowed_F2_001",
+                "cello_bowed_F2_002",
+                "cello_bowed_F2_003"
+              ],
+              "F3": [
+                "cello_bowed_F3_001",
+                "cello_bowed_F3_002",
+                "cello_bowed_F3_003"
+              ],
+              "F4": [
+                "cello_bowed_F4_001",
+                "cello_bowed_F4_002",
+                "cello_bowed_F4_003"
+              ],
+              "F5": [
+                "cello_bowed_F5_001",
+                "cello_bowed_F5_002",
+                "cello_bowed_F5_003"
+              ],
+              "G2": [
+                "cello_bowed_G2_001",
+                "cello_bowed_G2_002",
+                "cello_bowed_G2_003"
+              ],
+              "G3": [
+                "cello_bowed_G3_001",
+                "cello_bowed_G3_002",
+                "cello_bowed_G3_003"
+              ],
+              "G4": [
+                "cello_bowed_G4_001",
+                "cello_bowed_G4_002",
+                "cello_bowed_G4_003"
+              ],
+              "Gb2": [
+                "cello_bowed_Gb2_001",
+                "cello_bowed_Gb2_002",
+                "cello_bowed_Gb2_003"
+              ],
+              "Gb3": [
+                "cello_bowed_Gb3_001",
+                "cello_bowed_Gb3_002",
+                "cello_bowed_Gb3_003"
+              ],
+              "Gb4": [
+                "cello_bowed_Gb4_001",
+                "cello_bowed_Gb4_002",
+                "cello_bowed_Gb4_003"
+              ],
+              "003": [
+                "cello_bowed_flub_003_1"
+              ],
+              "005": [
+                "cello_bowed_flub_005_1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "cello_bowed_flub_001",
+              "cello_bowed_flub_002",
+              "cello_bowed_flub_003",
+              "cello_bowed_flub_004",
+              "cello_bowed_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    77
+  ]
+}

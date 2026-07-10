@@ -1,0 +1,352 @@
+{
+  "slug": "guitar-electric-chords",
+  "capabilities": [
+    "Chord",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "harmonicSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A7": [
+                "guitar_noAmp_chords_A7_001",
+                "guitar_noAmp_chords_A7_002",
+                "guitar_noAmp_chords_A7_003"
+              ],
+              "AM7": [
+                "guitar_noAmp_chords_AM7_004",
+                "guitar_noAmp_chords_AM7_005",
+                "guitar_noAmp_chords_AM7_006"
+              ],
+              "A": [
+                "guitar_noAmp_chords_A_001",
+                "guitar_noAmp_chords_A_002",
+                "guitar_noAmp_chords_A_003"
+              ],
+              "Ab7": [
+                "guitar_noAmp_chords_Ab7_001",
+                "guitar_noAmp_chords_Ab7_002",
+                "guitar_noAmp_chords_Ab7_003"
+              ],
+              "AbM7": [
+                "guitar_noAmp_chords_AbM7_004",
+                "guitar_noAmp_chords_AbM7_005",
+                "guitar_noAmp_chords_AbM7_006"
+              ],
+              "Ab": [
+                "guitar_noAmp_chords_Ab_001",
+                "guitar_noAmp_chords_Ab_002",
+                "guitar_noAmp_chords_Ab_003"
+              ],
+              "Abm7": [
+                "guitar_noAmp_chords_Abm7_001",
+                "guitar_noAmp_chords_Abm7_002",
+                "guitar_noAmp_chords_Abm7_003"
+              ],
+              "Abm": [
+                "guitar_noAmp_chords_Abm_001",
+                "guitar_noAmp_chords_Abm_002",
+                "guitar_noAmp_chords_Abm_003"
+              ],
+              "Am7": [
+                "guitar_noAmp_chords_Am7_001",
+                "guitar_noAmp_chords_Am7_002",
+                "guitar_noAmp_chords_Am7_003"
+              ],
+              "Am": [
+                "guitar_noAmp_chords_Am_001",
+                "guitar_noAmp_chords_Am_002",
+                "guitar_noAmp_chords_Am_003"
+              ],
+              "B7": [
+                "guitar_noAmp_chords_B7_001",
+                "guitar_noAmp_chords_B7_002",
+                "guitar_noAmp_chords_B7_003"
+              ],
+              "BM7": [
+                "guitar_noAmp_chords_BM7_004",
+                "guitar_noAmp_chords_BM7_005",
+                "guitar_noAmp_chords_BM7_006"
+              ],
+              "B": [
+                "guitar_noAmp_chords_B_001",
+                "guitar_noAmp_chords_B_002",
+                "guitar_noAmp_chords_B_003"
+              ],
+              "Bb7": [
+                "guitar_noAmp_chords_Bb7_001",
+                "guitar_noAmp_chords_Bb7_002",
+                "guitar_noAmp_chords_Bb7_003"
+              ],
+              "BbM7": [
+                "guitar_noAmp_chords_BbM7_004",
+                "guitar_noAmp_chords_BbM7_005",
+                "guitar_noAmp_chords_BbM7_006"
+              ],
+              "Bb": [
+                "guitar_noAmp_chords_Bb_001",
+                "guitar_noAmp_chords_Bb_002",
+                "guitar_noAmp_chords_Bb_003"
+              ],
+              "Bbm7": [
+                "guitar_noAmp_chords_Bbm7_001",
+                "guitar_noAmp_chords_Bbm7_002",
+                "guitar_noAmp_chords_Bbm7_003"
+              ],
+              "Bbm": [
+                "guitar_noAmp_chords_Bbm_001",
+                "guitar_noAmp_chords_Bbm_002",
+                "guitar_noAmp_chords_Bbm_003"
+              ],
+              "Bm7": [
+                "guitar_noAmp_chords_Bm7_001",
+                "guitar_noAmp_chords_Bm7_002",
+                "guitar_noAmp_chords_Bm7_003"
+              ],
+              "Bm": [
+                "guitar_noAmp_chords_Bm_001",
+                "guitar_noAmp_chords_Bm_002",
+                "guitar_noAmp_chords_Bm_003"
+              ],
+              "C7": [
+                "guitar_noAmp_chords_C7_001",
+                "guitar_noAmp_chords_C7_002",
+                "guitar_noAmp_chords_C7_003"
+              ],
+              "CM7": [
+                "guitar_noAmp_chords_CM7_004",
+                "guitar_noAmp_chords_CM7_005",
+                "guitar_noAmp_chords_CM7_006"
+              ],
+              "C": [
+                "guitar_noAmp_chords_C_001",
+                "guitar_noAmp_chords_C_002",
+                "guitar_noAmp_chords_C_003"
+              ],
+              "Cm7": [
+                "guitar_noAmp_chords_Cm7_001",
+                "guitar_noAmp_chords_Cm7_002",
+                "guitar_noAmp_chords_Cm7_003"
+              ],
+              "Cm": [
+                "guitar_noAmp_chords_Cm_001",
+                "guitar_noAmp_chords_Cm_002",
+                "guitar_noAmp_chords_Cm_003"
+              ],
+              "D7": [
+                "guitar_noAmp_chords_D7_001",
+                "guitar_noAmp_chords_D7_002",
+                "guitar_noAmp_chords_D7_003"
+              ],
+              "DM7": [
+                "guitar_noAmp_chords_DM7_004",
+                "guitar_noAmp_chords_DM7_005",
+                "guitar_noAmp_chords_DM7_006"
+              ],
+              "D": [
+                "guitar_noAmp_chords_D_001",
+                "guitar_noAmp_chords_D_002",
+                "guitar_noAmp_chords_D_003"
+              ],
+              "Db7": [
+                "guitar_noAmp_chords_Db7_001",
+                "guitar_noAmp_chords_Db7_002",
+                "guitar_noAmp_chords_Db7_003"
+              ],
+              "DbM7": [
+                "guitar_noAmp_chords_DbM7_004",
+                "guitar_noAmp_chords_DbM7_005",
+                "guitar_noAmp_chords_DbM7_006"
+              ],
+              "Db": [
+                "guitar_noAmp_chords_Db_001",
+                "guitar_noAmp_chords_Db_002",
+                "guitar_noAmp_chords_Db_003"
+              ],
+              "Dbm7": [
+                "guitar_noAmp_chords_Dbm7_001",
+                "guitar_noAmp_chords_Dbm7_002",
+                "guitar_noAmp_chords_Dbm7_003"
+              ],
+              "Dbm": [
+                "guitar_noAmp_chords_Dbm_001",
+                "guitar_noAmp_chords_Dbm_002",
+                "guitar_noAmp_chords_Dbm_003"
+              ],
+              "Dm7": [
+                "guitar_noAmp_chords_Dm7_001",
+                "guitar_noAmp_chords_Dm7_002",
+                "guitar_noAmp_chords_Dm7_003"
+              ],
+              "Dm": [
+                "guitar_noAmp_chords_Dm_001",
+                "guitar_noAmp_chords_Dm_002",
+                "guitar_noAmp_chords_Dm_003"
+              ],
+              "E7": [
+                "guitar_noAmp_chords_E7_001",
+                "guitar_noAmp_chords_E7_002",
+                "guitar_noAmp_chords_E7_003"
+              ],
+              "EM7": [
+                "guitar_noAmp_chords_EM7_004",
+                "guitar_noAmp_chords_EM7_005",
+                "guitar_noAmp_chords_EM7_006"
+              ],
+              "E": [
+                "guitar_noAmp_chords_E_001",
+                "guitar_noAmp_chords_E_002",
+                "guitar_noAmp_chords_E_003"
+              ],
+              "Eb7": [
+                "guitar_noAmp_chords_Eb7_001",
+                "guitar_noAmp_chords_Eb7_002",
+                "guitar_noAmp_chords_Eb7_003"
+              ],
+              "EbM7": [
+                "guitar_noAmp_chords_EbM7_004",
+                "guitar_noAmp_chords_EbM7_005",
+                "guitar_noAmp_chords_EbM7_006"
+              ],
+              "Eb": [
+                "guitar_noAmp_chords_Eb_001",
+                "guitar_noAmp_chords_Eb_002",
+                "guitar_noAmp_chords_Eb_003"
+              ],
+              "Ebm7": [
+                "guitar_noAmp_chords_Ebm7_001",
+                "guitar_noAmp_chords_Ebm7_002",
+                "guitar_noAmp_chords_Ebm7_003"
+              ],
+              "Ebm": [
+                "guitar_noAmp_chords_Ebm_001",
+                "guitar_noAmp_chords_Ebm_002",
+                "guitar_noAmp_chords_Ebm_003"
+              ],
+              "Em7": [
+                "guitar_noAmp_chords_Em7_001",
+                "guitar_noAmp_chords_Em7_002",
+                "guitar_noAmp_chords_Em7_003"
+              ],
+              "Em": [
+                "guitar_noAmp_chords_Em_001",
+                "guitar_noAmp_chords_Em_002",
+                "guitar_noAmp_chords_Em_003"
+              ],
+              "F7": [
+                "guitar_noAmp_chords_F7_001",
+                "guitar_noAmp_chords_F7_002",
+                "guitar_noAmp_chords_F7_003"
+              ],
+              "FM7": [
+                "guitar_noAmp_chords_FM7_004",
+                "guitar_noAmp_chords_FM7_005",
+                "guitar_noAmp_chords_FM7_006"
+              ],
+              "F": [
+                "guitar_noAmp_chords_F_001",
+                "guitar_noAmp_chords_F_002",
+                "guitar_noAmp_chords_F_003"
+              ],
+              "Fm7": [
+                "guitar_noAmp_chords_Fm7_001",
+                "guitar_noAmp_chords_Fm7_002",
+                "guitar_noAmp_chords_Fm7_003"
+              ],
+              "Fm": [
+                "guitar_noAmp_chords_Fm_001",
+                "guitar_noAmp_chords_Fm_002",
+                "guitar_noAmp_chords_Fm_003"
+              ],
+              "G7": [
+                "guitar_noAmp_chords_G7_001",
+                "guitar_noAmp_chords_G7_002",
+                "guitar_noAmp_chords_G7_003"
+              ],
+              "GM7": [
+                "guitar_noAmp_chords_GM7_004",
+                "guitar_noAmp_chords_GM7_005",
+                "guitar_noAmp_chords_GM7_006"
+              ],
+              "G": [
+                "guitar_noAmp_chords_G_001",
+                "guitar_noAmp_chords_G_002",
+                "guitar_noAmp_chords_G_003"
+              ],
+              "Gb7": [
+                "guitar_noAmp_chords_Gb7_001",
+                "guitar_noAmp_chords_Gb7_002",
+                "guitar_noAmp_chords_Gb7_003"
+              ],
+              "GbM7": [
+                "guitar_noAmp_chords_GbM7_004",
+                "guitar_noAmp_chords_GbM7_005",
+                "guitar_noAmp_chords_GbM7_006"
+              ],
+              "Gb": [
+                "guitar_noAmp_chords_Gb_001",
+                "guitar_noAmp_chords_Gb_002",
+                "guitar_noAmp_chords_Gb_003"
+              ],
+              "Gbm7": [
+                "guitar_noAmp_chords_Gbm7_001",
+                "guitar_noAmp_chords_Gbm7_002",
+                "guitar_noAmp_chords_Gbm7_003"
+              ],
+              "Gbm": [
+                "guitar_noAmp_chords_Gbm_001",
+                "guitar_noAmp_chords_Gbm_002",
+                "guitar_noAmp_chords_Gbm_003"
+              ],
+              "Gm7": [
+                "guitar_noAmp_chords_Gm7_001",
+                "guitar_noAmp_chords_Gm7_002",
+                "guitar_noAmp_chords_Gm7_003"
+              ],
+              "Gm": [
+                "guitar_noAmp_chords_Gm_001",
+                "guitar_noAmp_chords_Gm_002",
+                "guitar_noAmp_chords_Gm_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "guitar_electric_noAmp_notes_flub_001",
+              "guitar_electric_noAmp_notes_flub_002",
+              "guitar_electric_noAmp_notes_flub_003",
+              "guitar_electric_noAmp_notes_flub_004",
+              "guitar_electric_noAmp_notes_flub_005",
+              "guitar_electric_noAmp_notes_flub_006",
+              "guitar_electric_noAmp_notes_flub_007",
+              "guitar_electric_noAmp_notes_flub_008"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    0,
+    127
+  ]
+}

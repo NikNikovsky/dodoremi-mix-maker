@@ -1,0 +1,65 @@
+{
+  "slug": "burps-melody",
+  "capabilities": [
+    "OneShot",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -5,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "Bb3": [
+                "burp_melody_Bb2_001",
+                "burp_melody_Bb2_002"
+              ],
+              "C4": [
+                "burp_melody_C3_001",
+                "burp_melody_C3_002",
+                "burp_melody_C3_003"
+              ],
+              "D4": [
+                "burp_melody_D3_001",
+                "burp_melody_D3_002",
+                "burp_melody_D3_003",
+                "burp_melody_D3_004",
+                "burp_melody_D3_005",
+                "burp_melody_D3_006"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "burp_melody_flub_002",
+              "burp_melody_flub_003",
+              "burp_melody_flub_004",
+              "burp_melody_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    48,
+    69
+  ]
+}

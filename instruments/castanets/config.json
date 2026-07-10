@@ -1,0 +1,69 @@
+{
+  "slug": "castanets",
+  "capabilities": [
+    "OneShot",
+    "PercRep",
+    "PercRollable"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -10,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "F2": [
+                "castanets_16th_F1_01",
+                "castanets_16th_F1_02"
+              ],
+              "E2": [
+                "castanets_both_E1_01",
+                "castanets_both_E1_02"
+              ],
+              "D2": [
+                "castanets_hi_D1_01",
+                "castanets_hi_D1_02"
+              ],
+              "C2": [
+                "castanets_lo_C1_01",
+                "castanets_lo_C1_02"
+              ],
+              "G2": [
+                "castanets_triplet_G1_01",
+                "castanets_triplet_G1_02"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -13,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "clave_nate_clave_flub_003",
+              "clave_nate_clave_flub_004",
+              "clave_nate_clave_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    43
+  ]
+}

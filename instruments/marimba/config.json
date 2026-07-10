@@ -1,0 +1,354 @@
+{
+  "slug": "marimba",
+  "capabilities": [
+    "Melodic",
+    "OneShot"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A2": [
+                "marimba_A2_001",
+                "marimba_A2_002",
+                "marimba_A2_003"
+              ],
+              "A3": [
+                "marimba_A3_001",
+                "marimba_A3_002",
+                "marimba_A3_003"
+              ],
+              "A4": [
+                "marimba_A4_001",
+                "marimba_A4_002",
+                "marimba_A4_003"
+              ],
+              "A5": [
+                "marimba_A5_001",
+                "marimba_A5_002",
+                "marimba_A5_003"
+              ],
+              "A6": [
+                "marimba_A6_001",
+                "marimba_A6_002",
+                "marimba_A6_003"
+              ],
+              "Ab2": [
+                "marimba_Ab2_001",
+                "marimba_Ab2_002",
+                "marimba_Ab2_003"
+              ],
+              "Ab3": [
+                "marimba_Ab3_001",
+                "marimba_Ab3_002",
+                "marimba_Ab3_003"
+              ],
+              "Ab4": [
+                "marimba_Ab4_001",
+                "marimba_Ab4_002",
+                "marimba_Ab4_003"
+              ],
+              "Ab5": [
+                "marimba_Ab5_001",
+                "marimba_Ab5_002",
+                "marimba_Ab5_003"
+              ],
+              "Ab6": [
+                "marimba_Ab6_001",
+                "marimba_Ab6_002",
+                "marimba_Ab6_003"
+              ],
+              "B2": [
+                "marimba_B2_001",
+                "marimba_B2_002",
+                "marimba_B2_003"
+              ],
+              "B3": [
+                "marimba_B3_001",
+                "marimba_B3_002",
+                "marimba_B3_003"
+              ],
+              "B4": [
+                "marimba_B4_001",
+                "marimba_B4_002",
+                "marimba_B4_003"
+              ],
+              "B5": [
+                "marimba_B5_001",
+                "marimba_B5_002",
+                "marimba_B5_003"
+              ],
+              "B6": [
+                "marimba_B6_001",
+                "marimba_B6_002",
+                "marimba_B6_003"
+              ],
+              "Bb2": [
+                "marimba_Bb2_001",
+                "marimba_Bb2_002",
+                "marimba_Bb2_003"
+              ],
+              "Bb3": [
+                "marimba_Bb3_001",
+                "marimba_Bb3_002",
+                "marimba_Bb3_003"
+              ],
+              "Bb4": [
+                "marimba_Bb4_001",
+                "marimba_Bb4_002",
+                "marimba_Bb4_003"
+              ],
+              "Bb5": [
+                "marimba_Bb5_001",
+                "marimba_Bb5_002",
+                "marimba_Bb5_003"
+              ],
+              "Bb6": [
+                "marimba_Bb6_001",
+                "marimba_Bb6_002",
+                "marimba_Bb6_003"
+              ],
+              "C2": [
+                "marimba_C2_001",
+                "marimba_C2_002",
+                "marimba_C2_003"
+              ],
+              "C3": [
+                "marimba_C3_001",
+                "marimba_C3_002",
+                "marimba_C3_003"
+              ],
+              "C4": [
+                "marimba_C4_001",
+                "marimba_C4_002",
+                "marimba_C4_003"
+              ],
+              "C5": [
+                "marimba_C5_001",
+                "marimba_C5_002",
+                "marimba_C5_003"
+              ],
+              "C6": [
+                "marimba_C6_001",
+                "marimba_C6_002",
+                "marimba_C6_003"
+              ],
+              "C7": [
+                "marimba_C7_001",
+                "marimba_C7_002",
+                "marimba_C7_003"
+              ],
+              "D2": [
+                "marimba_D2_001",
+                "marimba_D2_002",
+                "marimba_D2_003"
+              ],
+              "D3": [
+                "marimba_D3_001",
+                "marimba_D3_002",
+                "marimba_D3_003"
+              ],
+              "D4": [
+                "marimba_D4_001",
+                "marimba_D4_002",
+                "marimba_D4_003"
+              ],
+              "D5": [
+                "marimba_D5_001",
+                "marimba_D5_002",
+                "marimba_D5_003"
+              ],
+              "D6": [
+                "marimba_D6_001",
+                "marimba_D6_002",
+                "marimba_D6_003"
+              ],
+              "Db2": [
+                "marimba_Db2_001",
+                "marimba_Db2_002",
+                "marimba_Db2_003"
+              ],
+              "Db3": [
+                "marimba_Db3_001",
+                "marimba_Db3_002",
+                "marimba_Db3_003"
+              ],
+              "Db4": [
+                "marimba_Db4_001",
+                "marimba_Db4_002",
+                "marimba_Db4_003"
+              ],
+              "Db5": [
+                "marimba_Db5_001",
+                "marimba_Db5_002",
+                "marimba_Db5_003"
+              ],
+              "Db6": [
+                "marimba_Db6_001",
+                "marimba_Db6_002",
+                "marimba_Db6_003"
+              ],
+              "E2": [
+                "marimba_E2_001",
+                "marimba_E2_002",
+                "marimba_E2_003"
+              ],
+              "E3": [
+                "marimba_E3_001",
+                "marimba_E3_002",
+                "marimba_E3_003"
+              ],
+              "E4": [
+                "marimba_E4_001",
+                "marimba_E4_002",
+                "marimba_E4_003"
+              ],
+              "E5": [
+                "marimba_E5_001",
+                "marimba_E5_002",
+                "marimba_E5_003"
+              ],
+              "E6": [
+                "marimba_E6_001",
+                "marimba_E6_002",
+                "marimba_E6_003"
+              ],
+              "Eb2": [
+                "marimba_Eb2_001",
+                "marimba_Eb2_002",
+                "marimba_Eb2_003"
+              ],
+              "Eb3": [
+                "marimba_Eb3_001",
+                "marimba_Eb3_002",
+                "marimba_Eb3_003"
+              ],
+              "Eb4": [
+                "marimba_Eb4_001",
+                "marimba_Eb4_002",
+                "marimba_Eb4_003"
+              ],
+              "Eb5": [
+                "marimba_Eb5_001",
+                "marimba_Eb5_002",
+                "marimba_Eb5_003"
+              ],
+              "Eb6": [
+                "marimba_Eb6_001",
+                "marimba_Eb6_002",
+                "marimba_Eb6_003"
+              ],
+              "F2": [
+                "marimba_F2_001",
+                "marimba_F2_002",
+                "marimba_F2_003"
+              ],
+              "F3": [
+                "marimba_F3_001",
+                "marimba_F3_002",
+                "marimba_F3_003"
+              ],
+              "F4": [
+                "marimba_F4_001",
+                "marimba_F4_002",
+                "marimba_F4_003"
+              ],
+              "F5": [
+                "marimba_F5_001",
+                "marimba_F5_002",
+                "marimba_F5_003"
+              ],
+              "F6": [
+                "marimba_F6_001",
+                "marimba_F6_002",
+                "marimba_F6_003"
+              ],
+              "G2": [
+                "marimba_G2_001",
+                "marimba_G2_002",
+                "marimba_G2_003"
+              ],
+              "G3": [
+                "marimba_G3_001",
+                "marimba_G3_002",
+                "marimba_G3_003"
+              ],
+              "G4": [
+                "marimba_G4_001",
+                "marimba_G4_002",
+                "marimba_G4_003"
+              ],
+              "G5": [
+                "marimba_G5_001",
+                "marimba_G5_002",
+                "marimba_G5_003"
+              ],
+              "G6": [
+                "marimba_G6_001",
+                "marimba_G6_002",
+                "marimba_G6_003"
+              ],
+              "Gb2": [
+                "marimba_Gb2_001",
+                "marimba_Gb2_002",
+                "marimba_Gb2_003"
+              ],
+              "Gb3": [
+                "marimba_Gb3_001",
+                "marimba_Gb3_002",
+                "marimba_Gb3_003"
+              ],
+              "Gb4": [
+                "marimba_Gb4_001",
+                "marimba_Gb4_002",
+                "marimba_Gb4_003"
+              ],
+              "Gb5": [
+                "marimba_Gb5_001",
+                "marimba_Gb5_002",
+                "marimba_Gb5_003"
+              ],
+              "Gb6": [
+                "marimba_Gb6_001",
+                "marimba_Gb6_002",
+                "marimba_Gb6_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -10,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "marimba_flub_001",
+              "marimba_flub_002",
+              "marimba_flub_003",
+              "marimba_flub_004",
+              "marimba_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    96
+  ]
+}

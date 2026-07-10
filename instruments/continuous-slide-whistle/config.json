@@ -1,0 +1,70 @@
+{
+  "slug": "continuous-slide-whistle",
+  "capabilities": [
+    "Continuous",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "legato": false,
+            "urls": {
+              "C5": [
+                "slideWhistle_REDO_C6_001"
+              ],
+              "C6": [
+                "slideWhistle_REDO_C7_001"
+              ],
+              "C7": [
+                "slideWhistle_REDO_C8_001"
+              ],
+              "Gb4": [
+                "slideWhistle_REDO_Gb5_001"
+              ],
+              "Gb5": [
+                "slideWhistle_REDO_Gb6_001"
+              ],
+              "Gb6": [
+                "slideWhistle_REDO_Gb7_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "lipFlipper_flub_001",
+              "lipFlipper_flub_002",
+              "lipFlipper_flub_003",
+              "lipFlipper_flub_004",
+              "lipFlipper_flub_005",
+              "lipFlipper_flub_006"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    60,
+    96
+  ]
+}

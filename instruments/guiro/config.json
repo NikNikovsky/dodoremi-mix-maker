@@ -1,0 +1,61 @@
+{
+  "slug": "guiro",
+  "capabilities": [
+    "OneShot",
+    "PercRep",
+    "PercRollable"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -11,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "guiro_chop_D1_01",
+                "guiro_chop_D1_02",
+                "guiro_chop_D1_03",
+                "guiro_chop_D1_04"
+              ],
+              "E2": [
+                "guiro_roll_E1_01",
+                "guiro_roll_E1_02"
+              ],
+              "D2": [
+                "guiro_stroke_C1_01",
+                "guiro_stroke_C1_02"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "scratchyFish_flub_001"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    43
+  ]
+}

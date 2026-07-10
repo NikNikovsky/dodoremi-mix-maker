@@ -1,0 +1,190 @@
+{
+  "slug": "shy-flute",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "altoFlute_A3_001",
+                "altoFlute_A3_002",
+                "altoFlute_A3_003"
+              ],
+              "A4": [
+                "altoFlute_A4_001",
+                "altoFlute_A4_002",
+                "altoFlute_A4_003"
+              ],
+              "A5": [
+                "altoFlute_A5_001",
+                "altoFlute_A5_002",
+                "altoFlute_A5_003"
+              ],
+              "Ab4": [
+                "altoFlute_Ab4_001",
+                "altoFlute_Ab4_002",
+                "altoFlute_Ab4_003"
+              ],
+              "Ab5": [
+                "altoFlute_Ab5_001",
+                "altoFlute_Ab5_002",
+                "altoFlute_Ab5_003"
+              ],
+              "B3": [
+                "altoFlute_B3_001",
+                "altoFlute_B3_002",
+                "altoFlute_B3_003"
+              ],
+              "B4": [
+                "altoFlute_B4_001",
+                "altoFlute_B4_002",
+                "altoFlute_B4_003"
+              ],
+              "B5": [
+                "altoFlute_B5_001",
+                "altoFlute_B5_002",
+                "altoFlute_B5_003"
+              ],
+              "Bb3": [
+                "altoFlute_Bb3_001",
+                "altoFlute_Bb3_002",
+                "altoFlute_Bb3_003"
+              ],
+              "Bb4": [
+                "altoFlute_Bb4_001",
+                "altoFlute_Bb4_002",
+                "altoFlute_Bb4_003"
+              ],
+              "Bb5": [
+                "altoFlute_Bb5_001",
+                "altoFlute_Bb5_002",
+                "altoFlute_Bb5_003"
+              ],
+              "C4": [
+                "altoFlute_C4_001",
+                "altoFlute_C4_002",
+                "altoFlute_C4_003"
+              ],
+              "C5": [
+                "altoFlute_C5_001",
+                "altoFlute_C5_002",
+                "altoFlute_C5_003"
+              ],
+              "C6": [
+                "altoFlute_C6_001",
+                "altoFlute_C6_002",
+                "altoFlute_C6_003"
+              ],
+              "D4": [
+                "altoFlute_D4_001",
+                "altoFlute_D4_002",
+                "altoFlute_D4_003"
+              ],
+              "D5": [
+                "altoFlute_D5_001",
+                "altoFlute_D5_002",
+                "altoFlute_D5_003"
+              ],
+              "Db4": [
+                "altoFlute_Db4_001",
+                "altoFlute_Db4_002",
+                "altoFlute_Db4_003"
+              ],
+              "Db5": [
+                "altoFlute_Db5_001",
+                "altoFlute_Db5_002",
+                "altoFlute_Db5_003"
+              ],
+              "E4": [
+                "altoFlute_E4_001",
+                "altoFlute_E4_002",
+                "altoFlute_E4_003"
+              ],
+              "E5": [
+                "altoFlute_E5_001",
+                "altoFlute_E5_002",
+                "altoFlute_E5_003"
+              ],
+              "Eb4": [
+                "altoFlute_Eb4_001",
+                "altoFlute_Eb4_002",
+                "altoFlute_Eb4_003"
+              ],
+              "Eb5": [
+                "altoFlute_Eb5_001",
+                "altoFlute_Eb5_002",
+                "altoFlute_Eb5_003"
+              ],
+              "F4": [
+                "altoFlute_F4_001",
+                "altoFlute_F4_002",
+                "altoFlute_F4_003"
+              ],
+              "F5": [
+                "altoFlute_F5_001",
+                "altoFlute_F5_002",
+                "altoFlute_F5_003"
+              ],
+              "G4": [
+                "altoFlute_G4_001",
+                "altoFlute_G4_002",
+                "altoFlute_G4_003"
+              ],
+              "G5": [
+                "altoFlute_G5_001",
+                "altoFlute_G5_002",
+                "altoFlute_G5_003"
+              ],
+              "Gb4": [
+                "altoFlute_Gb4_001",
+                "altoFlute_Gb4_002",
+                "altoFlute_Gb4_003"
+              ],
+              "Gb5": [
+                "altoFlute_Gb5_001",
+                "altoFlute_Gb5_002",
+                "altoFlute_Gb5_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "altoFlute_flub_001",
+              "altoFlute_flub_002",
+              "altoFlute_flub_003",
+              "altoFlute_flub_004",
+              "altoFlute_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    48,
+    84
+  ]
+}

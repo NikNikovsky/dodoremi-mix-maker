@@ -1,0 +1,81 @@
+{
+  "slug": "kettle-drums",
+  "capabilities": [
+    "OneShot",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -4,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A2": [
+                "timpani_A1_001",
+                "timpani_A1_002",
+                "timpani_A1_003"
+              ],
+              "Ab3": [
+                "timpani_Ab2_001",
+                "timpani_Ab2_002",
+                "timpani_Ab2_003"
+              ],
+              "B2": [
+                "timpani_B1_001",
+                "timpani_B1_002",
+                "timpani_B1_003"
+              ],
+              "D2": [
+                "timpani_D1_001",
+                "timpani_D1_002",
+                "timpani_D1_003"
+              ],
+              "D3": [
+                "timpani_D2_001",
+                "timpani_D2_002",
+                "timpani_D2_003"
+              ],
+              "Db3": [
+                "timpani_Db2_001",
+                "timpani_Db2_002",
+                "timpani_Db2_003"
+              ],
+              "F3": [
+                "timpani_F2_001",
+                "timpani_F2_002",
+                "timpani_F2_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "timpani_flub_001"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    50
+  ]
+}

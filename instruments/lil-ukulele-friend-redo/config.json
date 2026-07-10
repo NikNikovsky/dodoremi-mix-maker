@@ -1,0 +1,156 @@
+{
+  "slug": "lil-ukulele-friend-redo",
+  "capabilities": [
+    "Sustain",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -11,
+            "attack": 0,
+            "release": 0.1,
+            "restrictToSingleNotes": false,
+            "urls": {
+              "A4": [
+                "ukelele_notes_A4_001",
+                "ukelele_notes_A4_002",
+                "ukelele_notes_A4_003"
+              ],
+              "A5": [
+                "ukelele_notes_A5_001",
+                "ukelele_notes_A5_002",
+                "ukelele_notes_A5_003"
+              ],
+              "Ab4": [
+                "ukelele_notes_Ab4_001",
+                "ukelele_notes_Ab4_002",
+                "ukelele_notes_Ab4_003"
+              ],
+              "Ab5": [
+                "ukelele_notes_Ab5_001",
+                "ukelele_notes_Ab5_002",
+                "ukelele_notes_Ab5_003"
+              ],
+              "B4": [
+                "ukelele_notes_B4_001",
+                "ukelele_notes_B4_002",
+                "ukelele_notes_B4_003"
+              ],
+              "Bb4": [
+                "ukelele_notes_Bb4_001",
+                "ukelele_notes_Bb4_002",
+                "ukelele_notes_Bb4_003"
+              ],
+              "C4": [
+                "ukelele_notes_C4_001",
+                "ukelele_notes_C4_002",
+                "ukelele_notes_C4_003"
+              ],
+              "C5": [
+                "ukelele_notes_C5_001",
+                "ukelele_notes_C5_002",
+                "ukelele_notes_C5_003"
+              ],
+              "D4": [
+                "ukelele_notes_D4_001",
+                "ukelele_notes_D4_002",
+                "ukelele_notes_D4_003"
+              ],
+              "D5": [
+                "ukelele_notes_D5_001",
+                "ukelele_notes_D5_002",
+                "ukelele_notes_D5_003"
+              ],
+              "Db4": [
+                "ukelele_notes_Db4_001",
+                "ukelele_notes_Db4_002",
+                "ukelele_notes_Db4_003"
+              ],
+              "Db5": [
+                "ukelele_notes_Db5_001",
+                "ukelele_notes_Db5_002",
+                "ukelele_notes_Db5_003"
+              ],
+              "E4": [
+                "ukelele_notes_E4_001",
+                "ukelele_notes_E4_002",
+                "ukelele_notes_E4_003"
+              ],
+              "E5": [
+                "ukelele_notes_E5_001",
+                "ukelele_notes_E5_002",
+                "ukelele_notes_E5_003"
+              ],
+              "Eb4": [
+                "ukelele_notes_Eb4_001",
+                "ukelele_notes_Eb4_002",
+                "ukelele_notes_Eb4_003"
+              ],
+              "Eb5": [
+                "ukelele_notes_Eb5_001",
+                "ukelele_notes_Eb5_002",
+                "ukelele_notes_Eb5_003"
+              ],
+              "F4": [
+                "ukelele_notes_F4_001",
+                "ukelele_notes_F4_002",
+                "ukelele_notes_F4_003"
+              ],
+              "F5": [
+                "ukelele_notes_F5_001",
+                "ukelele_notes_F5_002",
+                "ukelele_notes_F5_003"
+              ],
+              "G4": [
+                "ukelele_notes_G4_001",
+                "ukelele_notes_G4_002",
+                "ukelele_notes_G4_003"
+              ],
+              "G5": [
+                "ukelele_notes_G5_001",
+                "ukelele_notes_G5_002",
+                "ukelele_notes_G5_003"
+              ],
+              "Gb4": [
+                "ukelele_notes_Gb4_001",
+                "ukelele_notes_Gb4_002",
+                "ukelele_notes_Gb4_003"
+              ],
+              "Gb5": [
+                "ukelele_notes_Gb5_001",
+                "ukelele_notes_Gb5_002",
+                "ukelele_notes_Gb5_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -11,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "viola_plucked_flub_001"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    60,
+    81
+  ]
+}

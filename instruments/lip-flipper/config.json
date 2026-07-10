@@ -1,0 +1,217 @@
+{
+  "slug": "lip-flipper",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -4,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "a3": [
+                "lipFlipper_nate_a3_001",
+                "lipFlipper_nate_a3_002",
+                "lipFlipper_nate_a3_003",
+                "lipFlipper_nate_a3_004"
+              ],
+              "a4": [
+                "lipFlipper_nate_a4_001",
+                "lipFlipper_nate_a4_002",
+                "lipFlipper_nate_a4_003",
+                "lipFlipper_nate_a4_004"
+              ],
+              "ab3": [
+                "lipFlipper_nate_ab3_001",
+                "lipFlipper_nate_ab3_002",
+                "lipFlipper_nate_ab3_003",
+                "lipFlipper_nate_ab3_004"
+              ],
+              "ab4": [
+                "lipFlipper_nate_ab4_001",
+                "lipFlipper_nate_ab4_002",
+                "lipFlipper_nate_ab4_003",
+                "lipFlipper_nate_ab4_004"
+              ],
+              "b2": [
+                "lipFlipper_nate_b2_001",
+                "lipFlipper_nate_b2_002",
+                "lipFlipper_nate_b2_003",
+                "lipFlipper_nate_b2_004"
+              ],
+              "b3": [
+                "lipFlipper_nate_b3_001",
+                "lipFlipper_nate_b3_002",
+                "lipFlipper_nate_b3_003",
+                "lipFlipper_nate_b3_004"
+              ],
+              "b4": [
+                "lipFlipper_nate_b4_001",
+                "lipFlipper_nate_b4_002",
+                "lipFlipper_nate_b4_003",
+                "lipFlipper_nate_b4_004"
+              ],
+              "bb2": [
+                "lipFlipper_nate_bb2_001",
+                "lipFlipper_nate_bb2_002",
+                "lipFlipper_nate_bb2_003",
+                "lipFlipper_nate_bb2_004"
+              ],
+              "bb3": [
+                "lipFlipper_nate_bb3_001",
+                "lipFlipper_nate_bb3_002",
+                "lipFlipper_nate_bb3_003",
+                "lipFlipper_nate_bb3_004"
+              ],
+              "bb4": [
+                "lipFlipper_nate_bb4_001",
+                "lipFlipper_nate_bb4_002",
+                "lipFlipper_nate_bb4_003",
+                "lipFlipper_nate_bb4_004"
+              ],
+              "c3": [
+                "lipFlipper_nate_c3_001",
+                "lipFlipper_nate_c3_002",
+                "lipFlipper_nate_c3_003",
+                "lipFlipper_nate_c3_004"
+              ],
+              "c4": [
+                "lipFlipper_nate_c4_001",
+                "lipFlipper_nate_c4_002",
+                "lipFlipper_nate_c4_003",
+                "lipFlipper_nate_c4_004"
+              ],
+              "c5": [
+                "lipFlipper_nate_c5_001",
+                "lipFlipper_nate_c5_002",
+                "lipFlipper_nate_c5_003",
+                "lipFlipper_nate_c5_004"
+              ],
+              "d3": [
+                "lipFlipper_nate_d3_001",
+                "lipFlipper_nate_d3_002",
+                "lipFlipper_nate_d3_003",
+                "lipFlipper_nate_d3_004"
+              ],
+              "d4": [
+                "lipFlipper_nate_d4_001",
+                "lipFlipper_nate_d4_002",
+                "lipFlipper_nate_d4_003",
+                "lipFlipper_nate_d4_004"
+              ],
+              "db3": [
+                "lipFlipper_nate_db3_001",
+                "lipFlipper_nate_db3_002",
+                "lipFlipper_nate_db3_003"
+              ],
+              "db4": [
+                "lipFlipper_nate_db4_001",
+                "lipFlipper_nate_db4_002",
+                "lipFlipper_nate_db4_003",
+                "lipFlipper_nate_db4_004"
+              ],
+              "db5": [
+                "lipFlipper_nate_db5_001",
+                "lipFlipper_nate_db5_002",
+                "lipFlipper_nate_db5_003",
+                "lipFlipper_nate_db5_004"
+              ],
+              "e3": [
+                "lipFlipper_nate_e3_001",
+                "lipFlipper_nate_e3_002",
+                "lipFlipper_nate_e3_003",
+                "lipFlipper_nate_e3_004"
+              ],
+              "e4": [
+                "lipFlipper_nate_e4_001",
+                "lipFlipper_nate_e4_002",
+                "lipFlipper_nate_e4_003",
+                "lipFlipper_nate_e4_004"
+              ],
+              "eb3": [
+                "lipFlipper_nate_eb3_001",
+                "lipFlipper_nate_eb3_002",
+                "lipFlipper_nate_eb3_003",
+                "lipFlipper_nate_eb3_004"
+              ],
+              "eb4": [
+                "lipFlipper_nate_eb4_001",
+                "lipFlipper_nate_eb4_002",
+                "lipFlipper_nate_eb4_003",
+                "lipFlipper_nate_eb4_004"
+              ],
+              "f3": [
+                "lipFlipper_nate_f3_001",
+                "lipFlipper_nate_f3_002",
+                "lipFlipper_nate_f3_003",
+                "lipFlipper_nate_f3_004"
+              ],
+              "f4": [
+                "lipFlipper_nate_f4_001",
+                "lipFlipper_nate_f4_002",
+                "lipFlipper_nate_f4_003",
+                "lipFlipper_nate_f4_004"
+              ],
+              "g3": [
+                "lipFlipper_nate_g3_001",
+                "lipFlipper_nate_g3_002",
+                "lipFlipper_nate_g3_003",
+                "lipFlipper_nate_g3_004"
+              ],
+              "g4": [
+                "lipFlipper_nate_g4_001",
+                "lipFlipper_nate_g4_002",
+                "lipFlipper_nate_g4_003",
+                "lipFlipper_nate_g4_004"
+              ],
+              "gb3": [
+                "lipFlipper_nate_gb3_001",
+                "lipFlipper_nate_gb3_002",
+                "lipFlipper_nate_gb3_003",
+                "lipFlipper_nate_gb3_004"
+              ],
+              "gb4": [
+                "lipFlipper_nate_gb4_001",
+                "lipFlipper_nate_gb4_002",
+                "lipFlipper_nate_gb4_003",
+                "lipFlipper_nate_gb4_004"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -7,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "lipFlipper_flub_001",
+              "lipFlipper_flub_002",
+              "lipFlipper_flub_003",
+              "lipFlipper_flub_004",
+              "lipFlipper_flub_005",
+              "lipFlipper_flub_006"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    44,
+    75
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "burpin-conga",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -10,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "hiConga_C1_001",
+                "hiConga_C1_002",
+                "hiConga_C1_003"
+              ],
+              "D2": [
+                "loConga_D1_001",
+                "loConga_D1_002"
+              ],
+              "E2": [
+                "smacks_E1_001",
+                "smacks_E1_002",
+                "smacks_E1_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_001",
+              "flub_003",
+              "flub_004",
+              "flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    40
+  ]
+}

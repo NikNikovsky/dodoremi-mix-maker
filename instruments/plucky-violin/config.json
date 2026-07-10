@@ -1,0 +1,190 @@
+{
+  "slug": "plucky-violin",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "violin_plucked_A4_001",
+                "violin_plucked_A4_002",
+                "violin_plucked_A4_003"
+              ],
+              "A4": [
+                "violin_plucked_A5_001",
+                "violin_plucked_A5_002",
+                "violin_plucked_A5_003"
+              ],
+              "A5": [
+                "violin_plucked_A6_001",
+                "violin_plucked_A6_002",
+                "violin_plucked_A6_003"
+              ],
+              "Ab3": [
+                "violin_plucked_Ab4_001",
+                "violin_plucked_Ab4_002",
+                "violin_plucked_Ab4_003"
+              ],
+              "Ab5": [
+                "violin_plucked_Ab6_001",
+                "violin_plucked_Ab6_002",
+                "violin_plucked_Ab6_003"
+              ],
+              "B3": [
+                "violin_plucked_B4_001",
+                "violin_plucked_B4_002",
+                "violin_plucked_B4_003"
+              ],
+              "B4": [
+                "violin_plucked_B5_001",
+                "violin_plucked_B5_002",
+                "violin_plucked_B5_003"
+              ],
+              "B5": [
+                "violin_plucked_B6_001",
+                "violin_plucked_B6_002",
+                "violin_plucked_B6_003"
+              ],
+              "Bb3": [
+                "violin_plucked_Bb4_001",
+                "violin_plucked_Bb4_002",
+                "violin_plucked_Bb4_003"
+              ],
+              "Bb4": [
+                "violin_plucked_Bb5_001",
+                "violin_plucked_Bb5_002",
+                "violin_plucked_Bb5_003"
+              ],
+              "Bb5": [
+                "violin_plucked_Bb6_001",
+                "violin_plucked_Bb6_002",
+                "violin_plucked_Bb6_003"
+              ],
+              "C4": [
+                "violin_plucked_C5_001",
+                "violin_plucked_C5_002",
+                "violin_plucked_C5_003"
+              ],
+              "C5": [
+                "violin_plucked_C6_001",
+                "violin_plucked_C6_002",
+                "violin_plucked_C6_003"
+              ],
+              "C6": [
+                "violin_plucked_C7_001",
+                "violin_plucked_C7_002",
+                "violin_plucked_C7_003"
+              ],
+              "D5": [
+                "violin_plucked_D6_001",
+                "violin_plucked_D6_002",
+                "violin_plucked_D6_003"
+              ],
+              "Db4": [
+                "violin_plucked_Db5_001",
+                "violin_plucked_Db5_002",
+                "violin_plucked_Db5_003"
+              ],
+              "Db5": [
+                "violin_plucked_Db6_001",
+                "violin_plucked_Db6_002",
+                "violin_plucked_Db6_003"
+              ],
+              "Db6": [
+                "violin_plucked_Db7_001",
+                "violin_plucked_Db7_002",
+                "violin_plucked_Db7_003"
+              ],
+              "E4": [
+                "violin_plucked_E5_001",
+                "violin_plucked_E5_002",
+                "violin_plucked_E5_003"
+              ],
+              "E5": [
+                "violin_plucked_E6_001",
+                "violin_plucked_E6_002",
+                "violin_plucked_E6_003"
+              ],
+              "Eb4": [
+                "violin_plucked_Eb5_001",
+                "violin_plucked_Eb5_002",
+                "violin_plucked_Eb5_003"
+              ],
+              "Eb5": [
+                "violin_plucked_Eb6_001",
+                "violin_plucked_Eb6_002",
+                "violin_plucked_Eb6_003"
+              ],
+              "F4": [
+                "violin_plucked_F5_001",
+                "violin_plucked_F5_002",
+                "violin_plucked_F5_003"
+              ],
+              "F5": [
+                "violin_plucked_F6_001",
+                "violin_plucked_F6_002",
+                "violin_plucked_F6_003"
+              ],
+              "G3": [
+                "violin_plucked_G4_001",
+                "violin_plucked_G4_002",
+                "violin_plucked_G4_003"
+              ],
+              "G4": [
+                "violin_plucked_G5_001",
+                "violin_plucked_G5_002",
+                "violin_plucked_G5_003"
+              ],
+              "G5": [
+                "violin_plucked_G6_001",
+                "violin_plucked_G6_002",
+                "violin_plucked_G6_003"
+              ],
+              "Gb4": [
+                "violin_plucked_Gb5_001",
+                "violin_plucked_Gb5_002",
+                "violin_plucked_Gb5_003"
+              ],
+              "Gb5": [
+                "violin_plucked_Gb6_001",
+                "violin_plucked_Gb6_002",
+                "violin_plucked_Gb6_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -11,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "viola_plucked_flub_001"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    55,
+    88
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "piccolo-trumpet",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": 5,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A4": [
+                "piccoloTrumpet_A5_001",
+                "piccoloTrumpet_A5_002",
+                "piccoloTrumpet_A5_003"
+              ],
+              "A5": [
+                "piccoloTrumpet_A6_001",
+                "piccoloTrumpet_A6_002",
+                "piccoloTrumpet_A6_003"
+              ],
+              "Ab4": [
+                "piccoloTrumpet_Ab5_001",
+                "piccoloTrumpet_Ab5_002",
+                "piccoloTrumpet_Ab5_003"
+              ],
+              "Ab5": [
+                "piccoloTrumpet_Ab6_001",
+                "piccoloTrumpet_Ab6_002",
+                "piccoloTrumpet_Ab6_003"
+              ],
+              "B4": [
+                "piccoloTrumpet_B5_001",
+                "piccoloTrumpet_B5_002",
+                "piccoloTrumpet_B5_003"
+              ],
+              "B5": [
+                "piccoloTrumpet_B6_001",
+                "piccoloTrumpet_B6_002"
+              ],
+              "Bb4": [
+                "piccoloTrumpet_Bb5_001",
+                "piccoloTrumpet_Bb5_002",
+                "piccoloTrumpet_Bb5_003"
+              ],
+              "Bb5": [
+                "piccoloTrumpet_Bb6_001",
+                "piccoloTrumpet_Bb6_002",
+                "piccoloTrumpet_Bb6_003"
+              ],
+              "C5": [
+                "piccoloTrumpet_C6_001",
+                "piccoloTrumpet_C6_002",
+                "piccoloTrumpet_C6_003"
+              ],
+              "D5": [
+                "piccoloTrumpet_D6_001",
+                "piccoloTrumpet_D6_002",
+                "piccoloTrumpet_D6_003"
+              ],
+              "Db5": [
+                "piccoloTrumpet_Db6_001",
+                "piccoloTrumpet_Db6_002",
+                "piccoloTrumpet_Db6_003"
+              ],
+              "E4": [
+                "piccoloTrumpet_E5_001",
+                "piccoloTrumpet_E5_002",
+                "piccoloTrumpet_E5_003"
+              ],
+              "E5": [
+                "piccoloTrumpet_E6_001",
+                "piccoloTrumpet_E6_002",
+                "piccoloTrumpet_E6_003"
+              ],
+              "Eb4": [
+                "piccoloTrumpet_Eb5_001",
+                "piccoloTrumpet_Eb5_002",
+                "piccoloTrumpet_Eb5_003"
+              ],
+              "Eb5": [
+                "piccoloTrumpet_Eb6_001",
+                "piccoloTrumpet_Eb6_002",
+                "piccoloTrumpet_Eb6_003"
+              ],
+              "F4": [
+                "piccoloTrumpet_F5_001",
+                "piccoloTrumpet_F5_002",
+                "piccoloTrumpet_F5_003"
+              ],
+              "F5": [
+                "piccoloTrumpet_F6_001",
+                "piccoloTrumpet_F6_002",
+                "piccoloTrumpet_F6_003"
+              ],
+              "G4": [
+                "piccoloTrumpet_G5_001",
+                "piccoloTrumpet_G5_002",
+                "piccoloTrumpet_G5_003"
+              ],
+              "G5": [
+                "piccoloTrumpet_G6_001",
+                "piccoloTrumpet_G6_002",
+                "piccoloTrumpet_G6_003"
+              ],
+              "Gb4": [
+                "piccoloTrumpet_Gb5_001",
+                "piccoloTrumpet_Gb5_002",
+                "piccoloTrumpet_Gb5_003"
+              ],
+              "Gb5": [
+                "piccoloTrumpet_Gb6_001",
+                "piccoloTrumpet_Gb6_002",
+                "piccoloTrumpet_Gb6_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -8,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "piccoloTrumpet_flub_001",
+              "piccoloTrumpet_flub_006"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    62,
+    84
+  ]
+}

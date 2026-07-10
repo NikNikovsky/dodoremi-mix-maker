@@ -1,0 +1,60 @@
+{
+  "slug": "rain-stick",
+  "capabilities": [
+    "Sustain",
+    "PercSingle"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -14,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "D2": [
+                "rainStick_mid_D1_001",
+                "rainStick_mid_D1_002"
+              ],
+              "C2": [
+                "rainStick_short_C1_001",
+                "rainStick_short_C1_002"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -16,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "rainStick_flub_001",
+              "rainStick_flub_002",
+              "rainStick_flub_003",
+              "rainStick_flub_004",
+              "rainStick_flub_005",
+              "rainStick_flub_006"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    38
+  ]
+}

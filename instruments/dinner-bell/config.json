@@ -1,0 +1,53 @@
+{
+  "slug": "dinner-bell",
+  "capabilities": [
+    "OneShot",
+    "PercSingle"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -14,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C1": [
+                "triangle_C1_01",
+                "triangle_C1_02",
+                "triangle_C1_03",
+                "triangle_C1_04"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -15,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "triangle_flub_01"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    37
+  ]
+}

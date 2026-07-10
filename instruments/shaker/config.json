@@ -1,0 +1,25 @@
+{
+    "slug": "shaker",
+    "chains": [
+        {
+            "type": "main",
+            "nodes": [
+                {
+                    "type": "noiseSynth",
+                    "options": {}
+                }
+            ]
+        },
+        {
+            "type": "flub",
+            "duration": 0.25,
+            "nodes": [
+                {
+                    "type": "pluckSynth",
+                    "options": {}
+                }
+            ]
+        }
+    ],
+    "samples": {}
+}

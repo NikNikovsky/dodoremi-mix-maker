@@ -1,0 +1,72 @@
+{
+  "slug": "continuous-kazoo",
+  "capabilities": [
+    "Melodic",
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -4,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "kazoo_continuous_C2_001"
+              ],
+              "C3": [
+                "kazoo_continuous_C3_001"
+              ],
+              "C4": [
+                "kazoo_continuous_C4_001"
+              ],
+              "Gb2": [
+                "kazoo_continuous_Gb2_001"
+              ],
+              "Gb3": [
+                "kazoo_continuous_Gb3_001"
+              ],
+              "Gb4": [
+                "kazoo_continuous_Gb4_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -14,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "kazoo_flub_001",
+              "kazoo_flub_002",
+              "kazoo_flub_003",
+              "kazoo_flub_004",
+              "kazoo_flub_005",
+              "kazoo_flub_006",
+              "kazoo_flub_007",
+              "kazoo_flub_008",
+              "kazoo_flub_009"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    72
+  ]
+}

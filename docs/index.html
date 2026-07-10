@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DoDoReMi Song Editor</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0 auto; max-width: 1100px; padding: 1rem; line-height: 1.4; }
+    h1, h2 { margin-bottom: 0.5rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+    .panel { border: 1px solid #ddd; border-radius: 8px; padding: 1rem; }
+    label { display: block; margin: 0.4rem 0 0.2rem; font-weight: 600; }
+    input, textarea, select, button { width: 100%; box-sizing: border-box; padding: 0.5rem; margin-bottom: 0.6rem; }
+    textarea { min-height: 120px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    button { cursor: pointer; }
+    .row { display: flex; gap: 0.6rem; align-items: center; }
+    .row > * { flex: 1; }
+    pre { background: #f7f7f7; border-radius: 6px; padding: 0.8rem; overflow: auto; }
+    .status { font-weight: 700; min-height: 1.2em; }
+    .ok { color: #067d17; }
+    .error { color: #b00020; }
+  </style>
+</head>
+<body>
+  <h1>DoDoReMi Song Interpreter & Editor</h1>
+  <p>Load existing songs from this repository, edit them, create new songs, and export a game-ready song folder.</p>
+
+  <div class="grid">
+    <section class="panel">
+      <h2>Interpreter</h2>
+      <label for="song-select">Existing song</label>
+      <select id="song-select"></select>
+      <button id="load-song">Load selected song</button>
+      <label for="config-upload">or load local config.json</label>
+      <input id="config-upload" type="file" accept="application/json" />
+      <pre id="interpretation-output">No song loaded.</pre>
+    </section>
+
+    <section class="panel">
+      <h2>Editor</h2>
+      <label for="slug">Slug</label>
+      <input id="slug" placeholder="my-song" />
+      <label for="composer">Composer</label>
+      <input id="composer" placeholder="Composer name" />
+      <div class="row">
+        <div>
+          <label for="duration">Duration (ms)</label>
+          <input id="duration" type="number" min="0" value="0" />
+        </div>
+        <div>
+          <label for="bucket">Bucket</label>
+          <input id="bucket" value="Original" />
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="scaleKey">Scale key</label>
+          <input id="scaleKey" value="c" />
+        </div>
+        <div>
+          <label for="scaleType">Scale type</label>
+          <input id="scaleType" value="major" />
+        </div>
+      </div>
+      <label for="guide-json">Guide (JSON array)</label>
+      <textarea id="guide-json">[]</textarea>
+      <label for="beatmaps-json">Beatmaps (JSON array)</label>
+      <textarea id="beatmaps-json">[]</textarea>
+      <label for="backing-upload">Optional backing audio (OGG preferred)</label>
+      <input id="backing-upload" type="file" accept="audio/*" />
+      <button id="convert-audio">Convert selected audio to backing.ogg (if supported)</button>
+      <button id="export-folder">Export game-ready song folder</button>
+      <button id="download-config">Download config.json</button>
+      <div id="status" class="status"></div>
+    </section>
+  </div>
+
+  <script type="module">
+    import { interpretSong, validateSongConfig } from "./song-interpreter.js";
+
+    const songSelect = document.getElementById("song-select");
+    const interpretationOutput = document.getElementById("interpretation-output");
+    const status = document.getElementById("status");
+
+    const fields = {
+      slug: document.getElementById("slug"),
+      composer: document.getElementById("composer"),
+      duration: document.getElementById("duration"),
+      bucket: document.getElementById("bucket"),
+      scaleKey: document.getElementById("scaleKey"),
+      scaleType: document.getElementById("scaleType"),
+      guideJson: document.getElementById("guide-json"),
+      beatmapsJson: document.getElementById("beatmaps-json"),
+      backingUpload: document.getElementById("backing-upload"),
+    };
+
+    let loadedSong = null;
+    let songsBasePath = "../songs";
+    let convertedBackingBlob = null;
+
+    function setStatus(message, isError = false) {
+      status.className = `status ${isError ? "error" : "ok"}`;
+      status.textContent = message;
+    }
+
+    function mediaRecorderMimeType() {
+      const candidates = [
+        "audio/ogg;codecs=opus",
+        "audio/ogg",
+        "audio/webm;codecs=opus",
+        "audio/webm",
+      ];
+      return candidates.find((type) => window.MediaRecorder && MediaRecorder.isTypeSupported(type)) || "";
+    }
+
+    async function convertAudioToOgg(file) {
+      if (!window.AudioContext && !window.webkitAudioContext) {
+        throw new Error("Web Audio API is not available in this browser.");
+      }
+      const recorderType = mediaRecorderMimeType();
+      if (!recorderType) {
+        throw new Error("Audio recording/encoding is not supported in this browser.");
+      }
+
+      const AudioContextImpl = window.AudioContext || window.webkitAudioContext;
+      const audioContext = new AudioContextImpl();
+      const fileBuffer = await file.arrayBuffer();
+      const decoded = await audioContext.decodeAudioData(fileBuffer.slice(0));
+      const destination = audioContext.createMediaStreamDestination();
+      const source = audioContext.createBufferSource();
+      source.buffer = decoded;
+      source.connect(destination);
+
+      const chunks = [];
+      const recorder = new MediaRecorder(destination.stream, { mimeType: recorderType });
+      const finished = new Promise((resolve) => {
+        recorder.ondataavailable = (event) => {
+          if (event.data.size) chunks.push(event.data);
+        };
+        recorder.onstop = () => resolve(new Blob(chunks, { type: "audio/ogg" }));
+      });
+
+      recorder.start();
+      source.start();
+
+      await new Promise((resolve) => setTimeout(resolve, Math.ceil((decoded.duration + 0.1) * 1000)));
+      recorder.stop();
+      await audioContext.close();
+      return finished;
+    }
+
+    async function detectSongsBasePath() {
+      const candidates = ["./songs", "../songs"];
+      for (const candidate of candidates) {
+        const response = await fetch(`${candidate}/acceleringo/config.json`);
+        if (response.ok) {
+          return candidate;
+        }
+      }
+      throw new Error("Songs folder is unavailable. Use local config upload if needed.");
+    }
+
+    async function listSongSlugs() {
+      const response = await fetch("./songs-manifest.json");
+      if (!response.ok) {
+        throw new Error("songs-manifest.json is unavailable.");
+      }
+      const manifest = await response.json();
+      if (!Array.isArray(manifest.songs)) {
+        throw new Error("songs-manifest.json has invalid format.");
+      }
+      return manifest.songs;
+    }
+
+    async function loadSongFromSlug(slug) {
+      const [configRes, enRes] = await Promise.all([
+        fetch(`${songsBasePath}/${slug}/config.json`),
+        fetch(`${songsBasePath}/${slug}/en.json`).catch(() => null),
+      ]);
+
+      if (!configRes.ok) {
+        throw new Error(`Could not load songs/${slug}/config.json`);
+      }
+
+      const config = await configRes.json();
+      const en = enRes && enRes.ok ? await enRes.json() : {};
+      return { config, localeEn: en };
+    }
+
+    function updateEditor(songConfig) {
+      fields.slug.value = songConfig.slug || "";
+      fields.composer.value = songConfig.composer || "";
+      fields.duration.value = Number(songConfig.duration) || 0;
+      fields.bucket.value = songConfig.bucket || "Original";
+      fields.scaleKey.value = songConfig.scaleKey || "c";
+      fields.scaleType.value = songConfig.scaleType || "major";
+      fields.guideJson.value = JSON.stringify(songConfig.guide || [], null, 2);
+      fields.beatmapsJson.value = JSON.stringify(songConfig.beatmaps || [], null, 2);
+      convertedBackingBlob = null;
+    }
+
+    function renderInterpretation(songConfig) {
+      const issues = validateSongConfig(songConfig);
+      if (issues.length) {
+        interpretationOutput.textContent = `Validation issues:\n- ${issues.join("\n- ")}`;
+        return;
+      }
+
+      const interpreted = interpretSong(songConfig);
+      interpretationOutput.textContent = JSON.stringify(interpreted, null, 2);
+    }
+
+    function collectSongConfig() {
+      const config = {
+        slug: fields.slug.value.trim(),
+        composer: fields.composer.value.trim(),
+        duration: Number(fields.duration.value),
+        bucket: fields.bucket.value.trim() || "Original",
+        scaleKey: fields.scaleKey.value.trim() || "c",
+        scaleType: fields.scaleType.value.trim() || "major",
+        guideStartOffset: loadedSong?.guideStartOffset || 0,
+        guide: JSON.parse(fields.guideJson.value || "[]"),
+        hasLocalizedBackingTrack: loadedSong?.hasLocalizedBackingTrack || false,
+        beatmaps: JSON.parse(fields.beatmapsJson.value || "[]"),
+        preferredAssignments: loadedSong?.preferredAssignments || [],
+        unlockType: loadedSong?.unlockType || "None",
+        unlockRequirement: loadedSong?.unlockRequirement || "",
+      };
+
+      return config;
+    }
+
+    async function exportFolder(config) {
+      if (!window.showDirectoryPicker) {
+        throw new Error("This browser does not support folder export. Use Chrome/Edge or download config.json only.");
+      }
+
+      const root = await window.showDirectoryPicker({ mode: "readwrite" });
+      const songsDir = await root.getDirectoryHandle("songs", { create: true });
+      const songDir = await songsDir.getDirectoryHandle(config.slug, { create: true });
+
+      const configHandle = await songDir.getFileHandle("config.json", { create: true });
+      const configWritable = await configHandle.createWritable();
+      await configWritable.write(JSON.stringify(config, null, 2));
+      await configWritable.close();
+
+      const locales = loadedSong?.locales || {
+        "de.json": {},
+        "en.json": {},
+        "es.json": {},
+        "es-XL.json": {},
+        "fr.json": {},
+        "it.json": {},
+      };
+
+      for (const [fileName, value] of Object.entries(locales)) {
+        const handle = await songDir.getFileHandle(fileName, { create: true });
+        const writable = await handle.createWritable();
+        await writable.write(JSON.stringify(value, null, 2));
+        await writable.close();
+      }
+
+      const backingFile = convertedBackingBlob || fields.backingUpload.files?.[0];
+      if (backingFile) {
+        const handle = await songDir.getFileHandle("backing.ogg", { create: true });
+        const writable = await handle.createWritable();
+        await writable.write(await backingFile.arrayBuffer());
+        await writable.close();
+      }
+    }
+
+    function downloadConfig(config) {
+      const blob = new Blob([JSON.stringify(config, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "config.json";
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    document.getElementById("load-song").addEventListener("click", async () => {
+      try {
+        const slug = songSelect.value;
+        if (!slug) {
+          throw new Error("Select a song first.");
+        }
+        const { config, localeEn } = await loadSongFromSlug(slug);
+        const localeFiles = await Promise.all(["de.json", "en.json", "es.json", "es-XL.json", "fr.json", "it.json"].map(async (name) => {
+          const response = await fetch(`${songsBasePath}/${slug}/${name}`);
+          return [name, response.ok ? await response.json() : {}];
+        }));
+        loadedSong = {
+          ...config,
+          localeEn,
+          locales: Object.fromEntries(localeFiles),
+        };
+        updateEditor(config);
+        renderInterpretation(config);
+        setStatus(`Loaded '${slug}'.`);
+      } catch (error) {
+        setStatus(error.message, true);
+      }
+    });
+
+    document.getElementById("config-upload").addEventListener("change", async (event) => {
+      try {
+        const file = event.target.files?.[0];
+        if (!file) {
+          return;
+        }
+        const config = JSON.parse(await file.text());
+        loadedSong = config;
+        updateEditor(config);
+        renderInterpretation(config);
+        setStatus(`Loaded local config '${file.name}'.`);
+      } catch (error) {
+        setStatus(`Failed to load config: ${error.message}`, true);
+      }
+    });
+
+    document.getElementById("convert-audio").addEventListener("click", async () => {
+      try {
+        const file = fields.backingUpload.files?.[0];
+        if (!file) {
+          throw new Error("Choose an audio file first.");
+        }
+        convertedBackingBlob = await convertAudioToOgg(file);
+        setStatus(`Converted '${file.name}' to backing.ogg.`);
+      } catch (error) {
+        setStatus(`Audio conversion failed: ${error.message}`, true);
+      }
+    });
+
+    document.getElementById("export-folder").addEventListener("click", async () => {
+      try {
+        const config = collectSongConfig();
+        renderInterpretation(config);
+        const issues = validateSongConfig(config);
+        if (issues.length) {
+          throw new Error(issues[0]);
+        }
+        await exportFolder(config);
+        setStatus(`Exported songs/${config.slug}/ folder.`);
+      } catch (error) {
+        setStatus(`Export failed: ${error.message}`, true);
+      }
+    });
+
+    document.getElementById("download-config").addEventListener("click", () => {
+      try {
+        const config = collectSongConfig();
+        const issues = validateSongConfig(config);
+        if (issues.length) {
+          throw new Error(issues[0]);
+        }
+        downloadConfig(config);
+        setStatus("Downloaded config.json.");
+      } catch (error) {
+        setStatus(`Download failed: ${error.message}`, true);
+      }
+    });
+
+    (async () => {
+      songSelect.innerHTML = "<option value=''>-- Select an existing song --</option>";
+      try {
+        songsBasePath = await detectSongsBasePath();
+        const songSlugs = await listSongSlugs();
+        for (const slug of songSlugs) {
+          const option = document.createElement("option");
+          option.value = slug;
+          option.textContent = slug;
+          songSelect.appendChild(option);
+        }
+        setStatus(`Loaded ${songSlugs.length} song slugs.`);
+      } catch (error) {
+        setStatus(`${error.message}`, true);
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+{
+  "slug": "marching-bass-drum",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": 0,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "G2": [
+                "march_bass_18_inch_normal_hit_G1_001",
+                "march_bass_18_inch_normal_hit_G1_002",
+                "march_bass_18_inch_normal_hit_G1_003",
+                "march_bass_18_inch_normal_hit_G1_004",
+                "march_bass_18_inch_normal_hit_G1_005",
+                "march_bass_18_inch_normal_hit_G1_006",
+                "march_bass_18_inch_normal_hit_G1_007",
+                "march_bass_18_inch_normal_hit_G1_008"
+              ],
+              "F2": [
+                "march_bass_20_inch_normal_hit_F1_001",
+                "march_bass_20_inch_normal_hit_F1_002",
+                "march_bass_20_inch_normal_hit_F1_003",
+                "march_bass_20_inch_normal_hit_F1_004",
+                "march_bass_20_inch_normal_hit_F1_005",
+                "march_bass_20_inch_normal_hit_F1_006",
+                "march_bass_20_inch_normal_hit_F1_007",
+                "march_bass_20_inch_normal_hit_F1_008",
+                "march_bass_20_inch_normal_hit_F1_009"
+              ],
+              "E2": [
+                "march_bass_22_inch_normal_hit_E1_001",
+                "march_bass_22_inch_normal_hit_E1_002",
+                "march_bass_22_inch_normal_hit_E1_003",
+                "march_bass_22_inch_normal_hit_E1_004",
+                "march_bass_22_inch_normal_hit_E1_005",
+                "march_bass_22_inch_normal_hit_E1_006",
+                "march_bass_22_inch_normal_hit_E1_007",
+                "march_bass_22_inch_normal_hit_E1_008",
+                "march_bass_22_inch_normal_hit_E1_009"
+              ],
+              "D2": [
+                "march_bass_26_inch_normal_hit_D1_001",
+                "march_bass_26_inch_normal_hit_D1_002",
+                "march_bass_26_inch_normal_hit_D1_003",
+                "march_bass_26_inch_normal_hit_D1_004",
+                "march_bass_26_inch_normal_hit_D1_005",
+                "march_bass_26_inch_normal_hit_D1_006",
+                "march_bass_26_inch_normal_hit_D1_007",
+                "march_bass_26_inch_normal_hit_D1_008",
+                "march_bass_26_inch_normal_hit_D1_009"
+              ],
+              "C2": [
+                "march_bass_28_inch_normal_hit_C1_002",
+                "march_bass_28_inch_normal_hit_C1_003",
+                "march_bass_28_inch_normal_hit_C1_004",
+                "march_bass_28_inch_normal_hit_C1_005",
+                "march_bass_28_inch_normal_hit_C1_006",
+                "march_bass_28_inch_normal_hit_C1_007",
+                "march_bass_28_inch_normal_hit_C1_008",
+                "march_bass_28_inch_normal_hit_C1_009",
+                "march_bass_28_inch_normal_hit_C1_010"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_001",
+              "flub_003",
+              "flub_004",
+              "flub_005",
+              "flub_006",
+              "flub_007",
+              "flub_008",
+              "flub_012"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    43
+  ]
+}

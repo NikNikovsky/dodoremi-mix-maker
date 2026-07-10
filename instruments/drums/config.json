@@ -1,0 +1,34 @@
+{
+    "slug": "drums",
+    "chains": [
+        {
+            "type": "main",
+            "nodes": [
+                {
+                    "type": "membraneSynth",
+                    "options": {
+                        "octaves": 10,
+                        "envelope": {
+                            "attack": 1
+                        },
+                        "oscillator": {
+                            "type": "sine"
+                        },
+                        "pitchDecay": 0.05
+                    }
+                }
+            ]
+        },
+        {
+            "type": "flub",
+            "duration": 0.25,
+            "nodes": [
+                {
+                    "type": "pluckSynth",
+                    "options": {}
+                }
+            ]
+        }
+    ],
+    "samples": {}
+}

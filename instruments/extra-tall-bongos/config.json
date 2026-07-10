@@ -1,0 +1,69 @@
+{
+  "slug": "extra-tall-bongos",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "hiConga_lo_open_C2_001",
+                "hiConga_lo_open_C2_002",
+                "hiConga_lo_open_C2_003",
+                "hiConga_lo_open_C2_004",
+                "hiConga_lo_open_C2_005"
+              ],
+              "E2": [
+                "hiConga_muted_E2_001"
+              ],
+              "D2": [
+                "hiConga_open_D2_006",
+                "hiConga_open_D2_007",
+                "hiConga_open_D2_008",
+                "hiConga_open_D2_009",
+                "hiConga_open_D2_010",
+                "hiConga_open_D2_011",
+                "hiConga_open_D2_012",
+                "hiConga_open_D2_013",
+                "hiConga_open_D2_014"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "hiConga_flub_001",
+              "hiConga_flub_002"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    40
+  ]
+}

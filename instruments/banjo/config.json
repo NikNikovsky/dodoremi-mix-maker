@@ -1,0 +1,196 @@
+{
+  "slug": "banjo",
+  "capabilities": [
+    "Melodic",
+    "Chord",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "banjo_A3_001",
+                "banjo_A3_002",
+                "banjo_A3_003"
+              ],
+              "A4": [
+                "banjo_A4_001",
+                "banjo_A4_002",
+                "banjo_A4_003"
+              ],
+              "Ab3": [
+                "banjo_Ab3_001",
+                "banjo_Ab3_002",
+                "banjo_Ab3_003"
+              ],
+              "Ab4": [
+                "banjo_Ab4_001",
+                "banjo_Ab4_002",
+                "banjo_Ab4_003"
+              ],
+              "B3": [
+                "banjo_B3_001",
+                "banjo_B3_002",
+                "banjo_B3_003"
+              ],
+              "B4": [
+                "banjo_B4_001",
+                "banjo_B4_002",
+                "banjo_B4_003"
+              ],
+              "Bb4": [
+                "banjo_Bb4_001",
+                "banjo_Bb4_002",
+                "banjo_Bb4_003"
+              ],
+              "C4": [
+                "banjo_C4_001",
+                "banjo_C4_002",
+                "banjo_C4_003"
+              ],
+              "C5": [
+                "banjo_C5_001",
+                "banjo_C5_002",
+                "banjo_C5_003"
+              ],
+              "D3": [
+                "banjo_D3_001",
+                "banjo_D3_002",
+                "banjo_D3_003"
+              ],
+              "D4": [
+                "banjo_D4_001",
+                "banjo_D4_002",
+                "banjo_D4_003"
+              ],
+              "D5": [
+                "banjo_D5_001",
+                "banjo_D5_002",
+                "banjo_D5_003"
+              ],
+              "Db4": [
+                "banjo_Db4_001",
+                "banjo_Db4_002",
+                "banjo_Db4_003"
+              ],
+              "Db5": [
+                "banjo_Db5_001",
+                "banjo_Db5_002",
+                "banjo_Db5_003"
+              ],
+              "E3": [
+                "banjo_E3_001",
+                "banjo_E3_002",
+                "banjo_E3_003"
+              ],
+              "E4": [
+                "banjo_E4_001",
+                "banjo_E4_002",
+                "banjo_E4_003"
+              ],
+              "E5": [
+                "banjo_E5_001",
+                "banjo_E5_002",
+                "banjo_E5_003"
+              ],
+              "Eb3": [
+                "banjo_Eb3_001",
+                "banjo_Eb3_002",
+                "banjo_Eb3_003"
+              ],
+              "Eb4": [
+                "banjo_Eb4_001",
+                "banjo_Eb4_002",
+                "banjo_Eb4_003"
+              ],
+              "Eb5": [
+                "banjo_Eb5_001",
+                "banjo_Eb5_002",
+                "banjo_Eb5_003"
+              ],
+              "F3": [
+                "banjo_F3_001",
+                "banjo_F3_002",
+                "banjo_F3_003"
+              ],
+              "F4": [
+                "banjo_F4_001",
+                "banjo_F4_002",
+                "banjo_F4_003"
+              ],
+              "F5": [
+                "banjo_F5_001",
+                "banjo_F5_002",
+                "banjo_F5_003"
+              ],
+              "G3": [
+                "banjo_G3_001",
+                "banjo_G3_002",
+                "banjo_G3_003"
+              ],
+              "G4": [
+                "banjo_G4_001",
+                "banjo_G4_002",
+                "banjo_G4_003"
+              ],
+              "G5": [
+                "banjo_G5_001",
+                "banjo_G5_002",
+                "banjo_G5_003"
+              ],
+              "Gb3": [
+                "banjo_Gb3_001",
+                "banjo_Gb3_002",
+                "banjo_Gb3_003"
+              ],
+              "Gb4": [
+                "banjo_Gb4_001",
+                "banjo_Gb4_002",
+                "banjo_Gb4_003"
+              ],
+              "Gb5": [
+                "banjo_Gb5_001",
+                "banjo_Gb5_002",
+                "banjo_Gb5_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -11,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "guitar_acoustic_note_flub_003",
+              "guitar_acoustic_note_flub_010",
+              "guitar_acoustic_note_flub_011",
+              "guitar_acoustic_note_flub_012",
+              "guitar_acoustic_note_flub_015"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    50,
+    79
+  ]
+}

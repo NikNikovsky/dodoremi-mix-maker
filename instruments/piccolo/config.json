@@ -1,0 +1,195 @@
+{
+  "slug": "piccolo",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -2,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A5": [
+                "piccolo_A6_001",
+                "piccolo_A6_002",
+                "piccolo_A6_003"
+              ],
+              "A6": [
+                "piccolo_A7_001",
+                "piccolo_A7_002",
+                "piccolo_A7_003"
+              ],
+              "Ab5": [
+                "piccolo_Ab6_001",
+                "piccolo_Ab6_002",
+                "piccolo_Ab6_003"
+              ],
+              "Ab6": [
+                "piccolo_Ab7_001",
+                "piccolo_Ab7_002",
+                "piccolo_Ab7_003"
+              ],
+              "B5": [
+                "piccolo_B6_001",
+                "piccolo_B6_002",
+                "piccolo_B6_003"
+              ],
+              "B6": [
+                "piccolo_B7_001",
+                "piccolo_B7_002",
+                "piccolo_B7_003"
+              ],
+              "Bb5": [
+                "piccolo_Bb6_001",
+                "piccolo_Bb6_002",
+                "piccolo_Bb6_003"
+              ],
+              "Bb6": [
+                "piccolo_Bb7_001",
+                "piccolo_Bb7_002",
+                "piccolo_Bb7_003"
+              ],
+              "C6": [
+                "piccolo_C7_001",
+                "piccolo_C7_002",
+                "piccolo_C7_003"
+              ],
+              "C7": [
+                "piccolo_C8_001",
+                "piccolo_C8_002",
+                "piccolo_C8_003"
+              ],
+              "D5": [
+                "piccolo_D6_001",
+                "piccolo_D6_002",
+                "piccolo_D6_003"
+              ],
+              "D6": [
+                "piccolo_D7_001",
+                "piccolo_D7_002",
+                "piccolo_D7_003"
+              ],
+              "D7": [
+                "piccolo_D8_001",
+                "piccolo_D8_002",
+                "piccolo_D8_003"
+              ],
+              "Db6": [
+                "piccolo_Db7_001",
+                "piccolo_Db7_002",
+                "piccolo_Db7_003"
+              ],
+              "Db7": [
+                "piccolo_Db8_001",
+                "piccolo_Db8_002",
+                "piccolo_Db8_003"
+              ],
+              "E5": [
+                "piccolo_E6_001",
+                "piccolo_E6_002",
+                "piccolo_E6_003"
+              ],
+              "E6": [
+                "piccolo_E7_001",
+                "piccolo_E7_002",
+                "piccolo_E7_003"
+              ],
+              "E7": [
+                "piccolo_E8_001",
+                "piccolo_E8_002",
+                "piccolo_E8_003"
+              ],
+              "Eb5": [
+                "piccolo_Eb6_001",
+                "piccolo_Eb6_002",
+                "piccolo_Eb6_003"
+              ],
+              "Eb6": [
+                "piccolo_Eb7_001",
+                "piccolo_Eb7_002",
+                "piccolo_Eb7_003"
+              ],
+              "Eb7": [
+                "piccolo_Eb8_001",
+                "piccolo_Eb8_002",
+                "piccolo_Eb8_003"
+              ],
+              "F5": [
+                "piccolo_F6_001",
+                "piccolo_F6_002",
+                "piccolo_F6_003"
+              ],
+              "F6": [
+                "piccolo_F7_001",
+                "piccolo_F7_002",
+                "piccolo_F7_003"
+              ],
+              "F7": [
+                "piccolo_F8_001",
+                "piccolo_F8_002",
+                "piccolo_F8_003"
+              ],
+              "G5": [
+                "piccolo_G6_001",
+                "piccolo_G6_002",
+                "piccolo_G6_003"
+              ],
+              "G6": [
+                "piccolo_G7_001",
+                "piccolo_G7_002",
+                "piccolo_G7_003"
+              ],
+              "Gb5": [
+                "piccolo_Gb6_001",
+                "piccolo_Gb6_002",
+                "piccolo_Gb6_003"
+              ],
+              "Gb6": [
+                "piccolo_Gb7_001",
+                "piccolo_Gb7_002",
+                "piccolo_Gb7_003"
+              ],
+              "Gb7": [
+                "piccolo_Gb8_001",
+                "piccolo_Gb8_002",
+                "piccolo_Gb8_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "isDisabled": false,
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "piccolo_flub_001",
+              "piccolo_flub_002",
+              "piccolo_flub_003",
+              "piccolo_flub_004",
+              "piccolo_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    74,
+    101
+  ]
+}

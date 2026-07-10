@@ -1,0 +1,110 @@
+{
+  "slug": "extra-sloppy-horn",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -4,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A1": [
+                "contrabassTrombone_A1_001",
+                "contrabassTrombone_A1_002",
+                "contrabassTrombone_A1_003"
+              ],
+              "Ab1": [
+                "contrabassTrombone_Ab1_001",
+                "contrabassTrombone_Ab1_002",
+                "contrabassTrombone_Ab1_003"
+              ],
+              "B1": [
+                "contrabassTrombone_B1_001",
+                "contrabassTrombone_B1_003"
+              ],
+              "Bb1": [
+                "contrabassTrombone_Bb1_001",
+                "contrabassTrombone_Bb1_002",
+                "contrabassTrombone_Bb1_003"
+              ],
+              "C2": [
+                "contrabassTrombone_C2_001",
+                "contrabassTrombone_C2_002",
+                "contrabassTrombone_C2_003"
+              ],
+              "D2": [
+                "contrabassTrombone_D2_001",
+                "contrabassTrombone_D2_002",
+                "contrabassTrombone_D2_003"
+              ],
+              "Db2": [
+                "contrabassTrombone_Db2_001",
+                "contrabassTrombone_Db2_002",
+                "contrabassTrombone_Db2_003"
+              ],
+              "E2": [
+                "contrabassTrombone_E2_001",
+                "contrabassTrombone_E2_002",
+                "contrabassTrombone_E2_003"
+              ],
+              "Eb2": [
+                "contrabassTrombone_Eb2_001",
+                "contrabassTrombone_Eb2_002",
+                "contrabassTrombone_Eb2_003"
+              ],
+              "F1": [
+                "contrabassTrombone_F1_001",
+                "contrabassTrombone_F1_002",
+                "contrabassTrombone_F1_003"
+              ],
+              "F2": [
+                "contrabassTrombone_F2_001",
+                "contrabassTrombone_F2_002",
+                "contrabassTrombone_F2_003"
+              ],
+              "G1": [
+                "contrabassTrombone_G1_001",
+                "contrabassTrombone_G1_002",
+                "contrabassTrombone_G1_003"
+              ],
+              "Gb1": [
+                "contrabassTrombone_Gb1_001",
+                "contrabassTrombone_Gb1_002",
+                "contrabassTrombone_Gb1_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "contrabassTrombone_flub_001"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    29,
+    48
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "slug": "tutorial",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "clap_group_C2_01",
+                "clap_group_C2_02",
+                "clap_group_C2_03",
+                "clap_group_C2_04",
+                "clap_group_C2_05"
+              ],
+              "A3": [
+                "rhodes_A3_001",
+                "rhodes_A3_003"
+              ],
+              "A4": [
+                "rhodes_A4_001",
+                "rhodes_A4_003"
+              ],
+              "A5": [
+                "rhodes_A5_001",
+                "rhodes_A5_003"
+              ],
+              "A6": [
+                "rhodes_A6_001",
+                "rhodes_A6_003"
+              ],
+              "Ab4": [
+                "rhodes_Ab4_001",
+                "rhodes_Ab4_003"
+              ],
+              "Ab5": [
+                "rhodes_Ab5_001",
+                "rhodes_Ab5_003"
+              ],
+              "Ab6": [
+                "rhodes_Ab6_001",
+                "rhodes_Ab6_003"
+              ],
+              "B3": [
+                "rhodes_B3_001",
+                "rhodes_B3_003"
+              ],
+              "B4": [
+                "rhodes_B4_001",
+                "rhodes_B4_003"
+              ],
+              "B5": [
+                "rhodes_B5_001",
+                "rhodes_B5_003"
+              ],
+              "B6": [
+                "rhodes_B6_001",
+                "rhodes_B6_003"
+              ],
+              "Bb3": [
+                "rhodes_Bb3_001",
+                "rhodes_Bb3_003"
+              ],
+              "Bb4": [
+                "rhodes_Bb4_001",
+                "rhodes_Bb4_003"
+              ],
+              "Bb5": [
+                "rhodes_Bb5_001",
+                "rhodes_Bb5_003"
+              ],
+              "Bb6": [
+                "rhodes_Bb6_001",
+                "rhodes_Bb6_003"
+              ],
+              "C4": [
+                "rhodes_C4_001",
+                "rhodes_C4_003"
+              ],
+              "C5": [
+                "rhodes_C5_001",
+                "rhodes_C5_003"
+              ],
+              "C6": [
+                "rhodes_C6_001",
+                "rhodes_C6_003"
+              ],
+              "001": [
+                "rhodes_C7_001_1"
+              ],
+              "003": [
+                "rhodes_C7_003_1"
+              ],
+              "D4": [
+                "rhodes_D4_001",
+                "rhodes_D4_003"
+              ],
+              "D5": [
+                "rhodes_D5_001",
+                "rhodes_D5_003"
+              ],
+              "D6": [
+                "rhodes_D6_001",
+                "rhodes_D6_003"
+              ],
+              "Db4": [
+                "rhodes_Db4_001",
+                "rhodes_Db4_003"
+              ],
+              "Db5": [
+                "rhodes_Db5_001",
+                "rhodes_Db5_003"
+              ],
+              "Db6": [
+                "rhodes_Db6_001",
+                "rhodes_Db6_003"
+              ],
+              "E4": [
+                "rhodes_E4_001",
+                "rhodes_E4_003"
+              ],
+              "E5": [
+                "rhodes_E5_001",
+                "rhodes_E5_003"
+              ],
+              "E6": [
+                "rhodes_E6_001",
+                "rhodes_E6_003"
+              ],
+              "Eb4": [
+                "rhodes_Eb4_001",
+                "rhodes_Eb4_003"
+              ],
+              "Eb5": [
+                "rhodes_Eb5_001",
+                "rhodes_Eb5_003"
+              ],
+              "Eb6": [
+                "rhodes_Eb6_001",
+                "rhodes_Eb6_003"
+              ],
+              "F4": [
+                "rhodes_F4_001",
+                "rhodes_F4_003"
+              ],
+              "F5": [
+                "rhodes_F5_001",
+                "rhodes_F5_003"
+              ],
+              "F6": [
+                "rhodes_F6_001",
+                "rhodes_F6_003"
+              ],
+              "G4": [
+                "rhodes_G4_001",
+                "rhodes_G4_003"
+              ],
+              "G5": [
+                "rhodes_G5_001",
+                "rhodes_G5_003"
+              ],
+              "G6": [
+                "rhodes_G6_001",
+                "rhodes_G6_003"
+              ],
+              "Gb4": [
+                "rhodes_Gb4_001",
+                "rhodes_Gb4_003"
+              ],
+              "Gb5": [
+                "rhodes_Gb5_001",
+                "rhodes_Gb5_003"
+              ],
+              "Gb6": [
+                "rhodes_Gb6_001",
+                "rhodes_Gb6_003"
+              ],
+              "A7": [
+                "vibes_trem_moreAttack_A7_001",
+                "vibes_trem_moreAttack_A7_002",
+                "vibes_trem_moreAttack_A7_003"
+              ],
+              "A8": [
+                "vibes_trem_moreAttack_A8_001",
+                "vibes_trem_moreAttack_A8_002",
+                "vibes_trem_moreAttack_A8_003"
+              ],
+              "Ab7": [
+                "vibes_trem_moreAttack_Ab7_001",
+                "vibes_trem_moreAttack_Ab7_002",
+                "vibes_trem_moreAttack_Ab7_003"
+              ],
+              "Ab8": [
+                "vibes_trem_moreAttack_Ab8_001",
+                "vibes_trem_moreAttack_Ab8_002",
+                "vibes_trem_moreAttack_Ab8_003"
+              ],
+              "B7": [
+                "vibes_trem_moreAttack_B7_001",
+                "vibes_trem_moreAttack_B7_002",
+                "vibes_trem_moreAttack_B7_003"
+              ],
+              "B8": [
+                "vibes_trem_moreAttack_B8_001",
+                "vibes_trem_moreAttack_B8_002",
+                "vibes_trem_moreAttack_B8_003"
+              ],
+              "Bb7": [
+                "vibes_trem_moreAttack_Bb7_001",
+                "vibes_trem_moreAttack_Bb7_002",
+                "vibes_trem_moreAttack_Bb7_003"
+              ],
+              "Bb8": [
+                "vibes_trem_moreAttack_Bb8_001",
+                "vibes_trem_moreAttack_Bb8_002",
+                "vibes_trem_moreAttack_Bb8_003"
+              ],
+              "C8": [
+                "vibes_trem_moreAttack_C8_001",
+                "vibes_trem_moreAttack_C8_002",
+                "vibes_trem_moreAttack_C8_003"
+              ],
+              "C9": [
+                "vibes_trem_moreAttack_C9_001",
+                "vibes_trem_moreAttack_C9_002",
+                "vibes_trem_moreAttack_C9_003"
+              ],
+              "D8": [
+                "vibes_trem_moreAttack_D8_001",
+                "vibes_trem_moreAttack_D8_002",
+                "vibes_trem_moreAttack_D8_003"
+              ],
+              "D9": [
+                "vibes_trem_moreAttack_D9_001",
+                "vibes_trem_moreAttack_D9_002",
+                "vibes_trem_moreAttack_D9_003"
+              ],
+              "Db8": [
+                "vibes_trem_moreAttack_Db8_001",
+                "vibes_trem_moreAttack_Db8_002",
+                "vibes_trem_moreAttack_Db8_003"
+              ],
+              "Db9": [
+                "vibes_trem_moreAttack_Db9_001",
+                "vibes_trem_moreAttack_Db9_002",
+                "vibes_trem_moreAttack_Db9_003"
+              ],
+              "E8": [
+                "vibes_trem_moreAttack_E8_001",
+                "vibes_trem_moreAttack_E8_002",
+                "vibes_trem_moreAttack_E8_003"
+              ],
+              "E9": [
+                "vibes_trem_moreAttack_E9_001",
+                "vibes_trem_moreAttack_E9_002",
+                "vibes_trem_moreAttack_E9_003"
+              ],
+              "Eb8": [
+                "vibes_trem_moreAttack_Eb8_001",
+                "vibes_trem_moreAttack_Eb8_002",
+                "vibes_trem_moreAttack_Eb8_003"
+              ],
+              "Eb9": [
+                "vibes_trem_moreAttack_Eb9_001",
+                "vibes_trem_moreAttack_Eb9_002",
+                "vibes_trem_moreAttack_Eb9_003"
+              ],
+              "F8": [
+                "vibes_trem_moreAttack_F8_001",
+                "vibes_trem_moreAttack_F8_002",
+                "vibes_trem_moreAttack_F8_003"
+              ],
+              "F9": [
+                "vibes_trem_moreAttack_F9_001",
+                "vibes_trem_moreAttack_F9_002",
+                "vibes_trem_moreAttack_F9_003"
+              ],
+              "G7": [
+                "vibes_trem_moreAttack_G7_001",
+                "vibes_trem_moreAttack_G7_002",
+                "vibes_trem_moreAttack_G7_003"
+              ],
+              "G8": [
+                "vibes_trem_moreAttack_G8_001",
+                "vibes_trem_moreAttack_G8_002",
+                "vibes_trem_moreAttack_G8_003"
+              ],
+              "Gb7": [
+                "vibes_trem_moreAttack_Gb7_001",
+                "vibes_trem_moreAttack_Gb7_002",
+                "vibes_trem_moreAttack_Gb7_003"
+              ],
+              "Gb8": [
+                "vibes_trem_moreAttack_Gb8_001",
+                "vibes_trem_moreAttack_Gb8_002",
+                "vibes_trem_moreAttack_Gb8_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "rhodes_flub_001",
+              "rhodes_flub_003",
+              "rhodes_flub_004",
+              "rhodes_flub_005",
+              "rhodes_flub_006",
+              "rhodes_flub_007",
+              "rhodes_flub_008",
+              "rhodes_flub_009",
+              "rhodes_flub_010",
+              "rhodes_flub_011",
+              "rhodes_flub_013",
+              "vibes_flub_002",
+              "vibes_flub_003",
+              "vibes_flub_006",
+              "vibes_flub_007",
+              "vibes_flub_008",
+              "vibes_flub_009"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    119
+  ]
+}

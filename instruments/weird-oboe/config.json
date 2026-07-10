@@ -1,0 +1,185 @@
+{
+  "slug": "weird-oboe",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "englishHorn_A4_001",
+                "englishHorn_A4_002",
+                "englishHorn_A4_003"
+              ],
+              "A4": [
+                "englishHorn_A5_001",
+                "englishHorn_A5_002",
+                "englishHorn_A5_003"
+              ],
+              "Ab3": [
+                "englishHorn_Ab4_001",
+                "englishHorn_Ab4_002",
+                "englishHorn_Ab4_003"
+              ],
+              "Ab4": [
+                "englishHorn_Ab5_001",
+                "englishHorn_Ab5_002",
+                "englishHorn_Ab5_003"
+              ],
+              "B3": [
+                "englishHorn_B4_001",
+                "englishHorn_B4_002",
+                "englishHorn_B4_003"
+              ],
+              "B4": [
+                "englishHorn_B5_001",
+                "englishHorn_B5_002",
+                "englishHorn_B5_003"
+              ],
+              "Bb3": [
+                "englishHorn_Bb4_001",
+                "englishHorn_Bb4_002",
+                "englishHorn_Bb4_003"
+              ],
+              "Bb4": [
+                "englishHorn_Bb5_001",
+                "englishHorn_Bb5_002",
+                "englishHorn_Bb5_003"
+              ],
+              "C4": [
+                "englishHorn_C5_001",
+                "englishHorn_C5_002",
+                "englishHorn_C5_003"
+              ],
+              "C5": [
+                "englishHorn_C6_001",
+                "englishHorn_C6_002",
+                "englishHorn_C6_003"
+              ],
+              "D4": [
+                "englishHorn_D5_001",
+                "englishHorn_D5_002",
+                "englishHorn_D5_003"
+              ],
+              "D5": [
+                "englishHorn_D6_001",
+                "englishHorn_D6_002",
+                "englishHorn_D6_003"
+              ],
+              "Db4": [
+                "englishHorn_Db5_001",
+                "englishHorn_Db5_002",
+                "englishHorn_Db5_003"
+              ],
+              "Db5": [
+                "englishHorn_Db6_001",
+                "englishHorn_Db6_002",
+                "englishHorn_Db6_003"
+              ],
+              "E3": [
+                "englishHorn_E4_001",
+                "englishHorn_E4_002",
+                "englishHorn_E4_003"
+              ],
+              "E4": [
+                "englishHorn_E5_001",
+                "englishHorn_E5_002",
+                "englishHorn_E5_003"
+              ],
+              "E5": [
+                "englishHorn_E6_001",
+                "englishHorn_E6_002",
+                "englishHorn_E6_003"
+              ],
+              "Eb4": [
+                "englishHorn_Eb5_001",
+                "englishHorn_Eb5_002",
+                "englishHorn_Eb5_003"
+              ],
+              "Eb5": [
+                "englishHorn_Eb6_001",
+                "englishHorn_Eb6_002",
+                "englishHorn_Eb6_003"
+              ],
+              "F3": [
+                "englishHorn_F4_001",
+                "englishHorn_F4_002",
+                "englishHorn_F4_003"
+              ],
+              "F4": [
+                "englishHorn_F5_001",
+                "englishHorn_F5_002",
+                "englishHorn_F5_003"
+              ],
+              "F5": [
+                "englishHorn_F6_001",
+                "englishHorn_F6_002",
+                "englishHorn_F6_003"
+              ],
+              "G4": [
+                "englishHorn_G5_001",
+                "englishHorn_G5_002",
+                "englishHorn_G5_003"
+              ],
+              "G5": [
+                "englishHorn_G6_001",
+                "englishHorn_G6_002",
+                "englishHorn_G6_003"
+              ],
+              "Gb3": [
+                "englishHorn_Gb4_001",
+                "englishHorn_Gb4_002",
+                "englishHorn_Gb4_003"
+              ],
+              "Gb4": [
+                "englishHorn_Gb5_001",
+                "englishHorn_Gb5_002",
+                "englishHorn_Gb5_003"
+              ],
+              "Gb5": [
+                "englishHorn_Gb6_001",
+                "englishHorn_Gb6_002",
+                "englishHorn_Gb6_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "englishHorn_flub_001",
+              "englishHorn_flub_002",
+              "englishHorn_flub_003",
+              "englishHorn_flub_004",
+              "englishHorn_flub_005",
+              "englishHorn_flub_006"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    53,
+    79
+  ]
+}

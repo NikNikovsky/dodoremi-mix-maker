@@ -1,0 +1,147 @@
+{
+  "slug": "voice-alto",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": 0,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "voice_alto_A4_001",
+                "voice_alto_A4_002",
+                "voice_alto_A4_003"
+              ],
+              "A4": [
+                "voice_alto_A5_001",
+                "voice_alto_A5_002",
+                "voice_alto_A5_003"
+              ],
+              "Ab5": [
+                "voice_alto_Ab4_001",
+                "voice_alto_Ab4_002",
+                "voice_alto_Ab4_003"
+              ],
+              "Ab6": [
+                "voice_alto_Ab5_001",
+                "voice_alto_Ab5_002",
+                "voice_alto_Ab5_003"
+              ],
+              "B3": [
+                "voice_alto_B4_001",
+                "voice_alto_B4_002",
+                "voice_alto_B4_003"
+              ],
+              "B4": [
+                "voice_alto_B5_001",
+                "voice_alto_B5_002",
+                "voice_alto_B5_003"
+              ],
+              "Bb4": [
+                "voice_alto_Bb5_001",
+                "voice_alto_Bb5_002",
+                "voice_alto_Bb5_003"
+              ],
+              "C4": [
+                "voice_alto_C5_001",
+                "voice_alto_C5_002",
+                "voice_alto_C5_003"
+              ],
+              "C5": [
+                "voice_alto_C6_001",
+                "voice_alto_C6_002",
+                "voice_alto_C6_003"
+              ],
+              "D4": [
+                "voice_alto_D5_001",
+                "voice_alto_D5_002",
+                "voice_alto_D5_003"
+              ],
+              "D5": [
+                "voice_alto_D6_001",
+                "voice_alto_D6_002",
+                "voice_alto_D6_003"
+              ],
+              "Db4": [
+                "voice_alto_Db5_001",
+                "voice_alto_Db5_002",
+                "voice_alto_Db5_003"
+              ],
+              "Db5": [
+                "voice_alto_Db6_001",
+                "voice_alto_Db6_002",
+                "voice_alto_Db6_003"
+              ],
+              "E4": [
+                "voice_alto_E5_001",
+                "voice_alto_E5_002",
+                "voice_alto_E5_003"
+              ],
+              "Eb5": [
+                "voice_alto_Eb6_001",
+                "voice_alto_Eb6_002",
+                "voice_alto_Eb6_003"
+              ],
+              "F4": [
+                "voice_alto_F5_001",
+                "voice_alto_F5_002",
+                "voice_alto_F5_003"
+              ],
+              "G3": [
+                "voice_alto_G4_001",
+                "voice_alto_G4_002",
+                "voice_alto_G4_003"
+              ],
+              "G4": [
+                "voice_alto_G5_001",
+                "voice_alto_G5_002",
+                "voice_alto_G5_003"
+              ],
+              "Gb3": [
+                "voice_alto_Gb4_001",
+                "voice_alto_Gb4_002",
+                "voice_alto_Gb4_003"
+              ],
+              "Gb4": [
+                "voice_alto_Gb5_001",
+                "voice_alto_Gb5_002",
+                "voice_alto_Gb5_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "voice_alto_flub_001",
+              "voice_alto_flub_002",
+              "voice_alto_flub_003"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    54,
+    75
+  ]
+}

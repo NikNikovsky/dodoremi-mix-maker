@@ -1,0 +1,129 @@
+{
+  "slug": "cajon",
+  "capabilities": [
+    "OneShot",
+    "DrumRack"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "drumRackSampler",
+          "options": {
+            "volume": -8,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "pedalhh": [
+                "castanets_pedalhh_01",
+                "castanets_pedalhh_02"
+              ],
+              "rim": [
+                "castanets_rim_01",
+                "castanets_rim_02"
+              ],
+              "rimshot": [
+                "castanets_rimshot_01",
+                "castanets_rimshot_02"
+              ],
+              "sidestick": [
+                "castanets_sidestick_01",
+                "castanets_sidestick_02"
+              ],
+              "closedhh": [
+                "caxixi_closedhh_01",
+                "caxixi_closedhh_02",
+                "caxixi_closedhh_03",
+                "caxixi_closedhh_04"
+              ],
+              "mediumhh": [
+                "caxixi_mediumhh_01",
+                "caxixi_mediumhh_02"
+              ],
+              "openhh": [
+                "caxixi_openhh_01",
+                "caxixi_openhh_02",
+                "caxixi_openhh_03",
+                "caxixi_openhh_04"
+              ],
+              "floortom": [
+                "floortom_01",
+                "floortom_02",
+                "floortom_03",
+                "floortom_04"
+              ],
+              "click": [
+                "guiro_click_01",
+                "guiro_click_02",
+                "guiro_click_03",
+                "guiro_click_04"
+              ],
+              "crash": [
+                "guiro_crash_01",
+                "guiro_crash_02"
+              ],
+              "ride": [
+                "guiro_ride_01",
+                "guiro_ride_02"
+              ],
+              "hitom": [
+                "hitom_01",
+                "hitom_02",
+                "hitom_03",
+                "hitom_04"
+              ],
+              "kick": [
+                "kick_01",
+                "kick_02",
+                "kick_03",
+                "kick_04"
+              ],
+              "lowtom": [
+                "lowtom_01",
+                "lowtom_02",
+                "lowtom_03",
+                "lowtom_04"
+              ],
+              "midtom": [
+                "midtom_01",
+                "midtom_02",
+                "midtom_03",
+                "midtom_04"
+              ],
+              "snare": [
+                "snare_01",
+                "snare_02",
+                "snare_03",
+                "snare_04"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "clave_nate_clave_flub_003",
+              "clave_nate_clave_flub_004",
+              "clave_nate_clave_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    60
+  ]
+}

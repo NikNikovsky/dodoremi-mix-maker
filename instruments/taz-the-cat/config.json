@@ -1,0 +1,80 @@
+{
+  "slug": "taz-the-cat",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "B4": [
+                "cat_taz_B5_001",
+                "cat_taz_B5_002"
+              ],
+              "Bb4": [
+                "cat_taz_Bb5_001",
+                "cat_taz_Bb5_002",
+                "cat_taz_Bb5_003"
+              ],
+              "C5": [
+                "cat_taz_C6_001"
+              ],
+              "D5": [
+                "cat_taz_D6_001",
+                "cat_taz_D6_002",
+                "cat_taz_D6_003",
+                "cat_taz_D6_004",
+                "cat_taz_D6_005"
+              ],
+              "Db5": [
+                "cat_taz_Db6_001",
+                "cat_taz_Db6_002",
+                "cat_taz_Db6_003"
+              ],
+              "E5": [
+                "cat_taz_E6_001"
+              ],
+              "Eb5": [
+                "cat_taz_Eb6_001",
+                "cat_taz_Eb6_002",
+                "cat_taz_Eb6_004",
+                "cat_taz_Eb6_005",
+                "cat_taz_Eb6_006"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "cat_taz_flub_001",
+              "cat_taz_flub_002"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    67,
+    82
+  ]
+}

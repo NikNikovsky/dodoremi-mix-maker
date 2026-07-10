@@ -1,0 +1,19 @@
+{
+  "slug": "didgeridoo",
+  "capabilities": [
+    "Mono",
+    "OneShot",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": []
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    0,
+    8
+  ]
+}

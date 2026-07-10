@@ -1,0 +1,69 @@
+{
+  "slug": "fast-food-cup",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "FastFoodCup_C1_01",
+                "FastFoodCup_C1_02",
+                "FastFoodCup_C1_03"
+              ],
+              "D2": [
+                "FastFoodCup_D1_01",
+                "FastFoodCup_D1_02",
+                "FastFoodCup_D1_03"
+              ],
+              "E2": [
+                "FastFoodCup_E1_01",
+                "FastFoodCup_E1_02",
+                "FastFoodCup_E1_03"
+              ],
+              "F2": [
+                "FastFoodCup_F1_01",
+                "FastFoodCup_F1_02",
+                "FastFoodCup_F1_03"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -11,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "fastFoodCups_slurp_flub_002",
+              "fastFoodCups_slurp_flub_003",
+              "fastFoodCups_slurp_flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    41
+  ]
+}

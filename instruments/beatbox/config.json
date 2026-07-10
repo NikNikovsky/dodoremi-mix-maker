@@ -1,0 +1,125 @@
+{
+  "slug": "beatbox",
+  "capabilities": [
+    "OneShot",
+    "DrumRack"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "drumRackSampler",
+          "options": {
+            "volume": -4,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "click": [
+                "mouthDrums_click_1",
+                "mouthDrums_click_2",
+                "mouthDrums_click_3"
+              ],
+              "closedhh": [
+                "mouthDrums_closedhh_1",
+                "mouthDrums_closedhh_2",
+                "mouthDrums_closedhh_3"
+              ],
+              "crash": [
+                "mouthDrums_crash_1",
+                "mouthDrums_crash_2",
+                "mouthDrums_crash_3"
+              ],
+              "floortom": [
+                "mouthDrums_floortom_1",
+                "mouthDrums_floortom_2",
+                "mouthDrums_floortom_3"
+              ],
+              "hitom": [
+                "mouthDrums_hitom_1",
+                "mouthDrums_hitom_2",
+                "mouthDrums_hitom_3"
+              ],
+              "kick": [
+                "mouthDrums_kick_1",
+                "mouthDrums_kick_2",
+                "mouthDrums_kick_3"
+              ],
+              "lowtom": [
+                "mouthDrums_lowtom_1",
+                "mouthDrums_lowtom_2",
+                "mouthDrums_lowtom_3"
+              ],
+              "mediumhh": [
+                "mouthDrums_mediumhh_1",
+                "mouthDrums_mediumhh_2",
+                "mouthDrums_mediumhh_3"
+              ],
+              "midtom": [
+                "mouthDrums_midtom_1",
+                "mouthDrums_midtom_2",
+                "mouthDrums_midtom_3"
+              ],
+              "openhh": [
+                "mouthDrums_openhh_1",
+                "mouthDrums_openhh_2",
+                "mouthDrums_openhh_3"
+              ],
+              "ride": [
+                "mouthDrums_ride_1",
+                "mouthDrums_ride_2",
+                "mouthDrums_ride_3"
+              ],
+              "rim": [
+                "mouthDrums_rim_1",
+                "mouthDrums_rim_2",
+                "mouthDrums_rim_3"
+              ],
+              "rimshot": [
+                "mouthDrums_rimshot_1",
+                "mouthDrums_rimshot_2",
+                "mouthDrums_rimshot_3"
+              ],
+              "sidestick": [
+                "mouthDrums_sidestick_1",
+                "mouthDrums_sidestick_2",
+                "mouthDrums_sidestick_3"
+              ],
+              "snare": [
+                "mouthDrums_snare_1",
+                "mouthDrums_snare_2",
+                "mouthDrums_snare_3"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -7,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "lipFlipper_flub_001",
+              "lipFlipper_flub_002",
+              "lipFlipper_flub_003",
+              "lipFlipper_flub_004",
+              "lipFlipper_flub_005",
+              "lipFlipper_flub_006"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    60
+  ]
+}

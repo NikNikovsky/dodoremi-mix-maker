@@ -1,0 +1,72 @@
+{
+  "slug": "wind-chimes",
+  "capabilities": [
+    "OneShot",
+    "PercSingle"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -15,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "march_windChimes_ascending_fast_felt_C1_01",
+                "march_windChimes_ascending_fast_felt_C1_02"
+              ],
+              "Db2": [
+                "march_windChimes_ascending_fast_felt_Db1_01",
+                "march_windChimes_ascending_fast_felt_Db1_02"
+              ],
+              "D2": [
+                "march_windChimes_ascending_slow_felt_D1_01",
+                "march_windChimes_ascending_slow_felt_D1_02"
+              ],
+              "Eb2": [
+                "march_windChimes_descending_fast_felt_Eb1_01",
+                "march_windChimes_descending_fast_felt_Eb1_02"
+              ],
+              "E2": [
+                "march_windChimes_descending_felt_medium_E1_01",
+                "march_windChimes_descending_felt_medium_E1_02"
+              ],
+              "F2": [
+                "march_windChimes_descending_slow_felt_F1_01",
+                "march_windChimes_descending_slow_felt_F1_02"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -18,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "march_windChimes_lift_flub_01",
+              "march_windChimes_lift_flub_02"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    41
+  ]
+}

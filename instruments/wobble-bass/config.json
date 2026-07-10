@@ -1,0 +1,87 @@
+{
+  "slug": "wobble-bass",
+  "capabilities": [
+    "Sustain",
+    "Melodic",
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "monoSynth",
+          "options": {
+            "filter": {
+              "type": "allpass",
+              "frequency": "50"
+            },
+            "filterEnvelope": {
+              "attack": 0.01
+            },
+            "envelope": {
+              "release": 0.01
+            },
+            "volume": -6,
+            "oscillator": {
+              "type": "square"
+            }
+          }
+        },
+        {
+          "type": "distortion",
+          "options": {
+            "distortion": 1,
+            "wet": 0.4,
+            "oversample": "2x"
+          },
+          "isDisabled": false
+        },
+        {
+          "type": "autoFilter",
+          "options": {
+            "type": "sawtooth2",
+            "frequency": "5",
+            "depth": 1
+          },
+          "isDisabled": false
+        },
+        {
+          "type": "compressor",
+          "options": {
+            "attack": 1,
+            "threshold": -8
+          },
+          "isDisabled": false
+        },
+        {
+          "type": "volume",
+          "options": {
+            "volume": -8
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -20,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_01"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    31,
+    50
+  ]
+}
