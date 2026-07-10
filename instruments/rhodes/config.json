@@ -1,0 +1,348 @@
+{
+  "slug": "rhodes",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A1": [
+                "rhodes_A1_001",
+                "rhodes_A1_002"
+              ],
+              "A2": [
+                "rhodes_A2_001",
+                "rhodes_A2_002"
+              ],
+              "A3": [
+                "rhodes_A3_001",
+                "rhodes_A3_002"
+              ],
+              "A4": [
+                "rhodes_A4_001",
+                "rhodes_A4_002"
+              ],
+              "A5": [
+                "rhodes_A5_001",
+                "rhodes_A5_002"
+              ],
+              "A6": [
+                "rhodes_A6_001",
+                "rhodes_A6_002"
+              ],
+              "Ab1": [
+                "rhodes_Ab1_001",
+                "rhodes_Ab1_002"
+              ],
+              "Ab2": [
+                "rhodes_Ab2_001",
+                "rhodes_Ab2_002"
+              ],
+              "Ab3": [
+                "rhodes_Ab3_001",
+                "rhodes_Ab3_002"
+              ],
+              "Ab4": [
+                "rhodes_Ab4_001",
+                "rhodes_Ab4_002"
+              ],
+              "Ab5": [
+                "rhodes_Ab5_001",
+                "rhodes_Ab5_002"
+              ],
+              "Ab6": [
+                "rhodes_Ab6_001",
+                "rhodes_Ab6_002"
+              ],
+              "B1": [
+                "rhodes_B1_001",
+                "rhodes_B1_002"
+              ],
+              "B2": [
+                "rhodes_B2_001",
+                "rhodes_B2_002"
+              ],
+              "B3": [
+                "rhodes_B3_001",
+                "rhodes_B3_002"
+              ],
+              "B4": [
+                "rhodes_B4_001",
+                "rhodes_B4_002"
+              ],
+              "B5": [
+                "rhodes_B5_001",
+                "rhodes_B5_002"
+              ],
+              "B6": [
+                "rhodes_B6_001",
+                "rhodes_B6_002"
+              ],
+              "Bb1": [
+                "rhodes_Bb1_001",
+                "rhodes_Bb1_002"
+              ],
+              "Bb2": [
+                "rhodes_Bb2_001",
+                "rhodes_Bb2_002"
+              ],
+              "Bb3": [
+                "rhodes_Bb3_001",
+                "rhodes_Bb3_002"
+              ],
+              "Bb4": [
+                "rhodes_Bb4_001",
+                "rhodes_Bb4_002"
+              ],
+              "Bb5": [
+                "rhodes_Bb5_001",
+                "rhodes_Bb5_002"
+              ],
+              "Bb6": [
+                "rhodes_Bb6_001",
+                "rhodes_Bb6_002"
+              ],
+              "C2": [
+                "rhodes_C2_001",
+                "rhodes_C2_002"
+              ],
+              "C3": [
+                "rhodes_C3_001",
+                "rhodes_C3_002"
+              ],
+              "C4": [
+                "rhodes_C4_001",
+                "rhodes_C4_002"
+              ],
+              "C5": [
+                "rhodes_C5_001",
+                "rhodes_C5_002"
+              ],
+              "C6": [
+                "rhodes_C6_001",
+                "rhodes_C6_002"
+              ],
+              "C7": [
+                "rhodes_C7_001",
+                "rhodes_C7_002"
+              ],
+              "D2": [
+                "rhodes_D2_001",
+                "rhodes_D2_002"
+              ],
+              "D3": [
+                "rhodes_D3_001",
+                "rhodes_D3_002"
+              ],
+              "D4": [
+                "rhodes_D4_001",
+                "rhodes_D4_002"
+              ],
+              "D5": [
+                "rhodes_D5_001",
+                "rhodes_D5_002"
+              ],
+              "D6": [
+                "rhodes_D6_001",
+                "rhodes_D6_002"
+              ],
+              "D7": [
+                "rhodes_D7_001",
+                "rhodes_D7_002"
+              ],
+              "Db2": [
+                "rhodes_Db2_001",
+                "rhodes_Db2_002"
+              ],
+              "Db3": [
+                "rhodes_Db3_001",
+                "rhodes_Db3_002"
+              ],
+              "Db4": [
+                "rhodes_Db4_001",
+                "rhodes_Db4_002"
+              ],
+              "Db5": [
+                "rhodes_Db5_001",
+                "rhodes_Db5_002"
+              ],
+              "Db6": [
+                "rhodes_Db6_001",
+                "rhodes_Db6_002"
+              ],
+              "Db7": [
+                "rhodes_Db7_001",
+                "rhodes_Db7_002"
+              ],
+              "E1": [
+                "rhodes_E1_001",
+                "rhodes_E1_002"
+              ],
+              "E2": [
+                "rhodes_E2_001",
+                "rhodes_E2_002"
+              ],
+              "E3": [
+                "rhodes_E3_001",
+                "rhodes_E3_002"
+              ],
+              "E4": [
+                "rhodes_E4_001",
+                "rhodes_E4_002"
+              ],
+              "E5": [
+                "rhodes_E5_001",
+                "rhodes_E5_002"
+              ],
+              "E6": [
+                "rhodes_E6_001",
+                "rhodes_E6_002"
+              ],
+              "E7": [
+                "rhodes_E7_001",
+                "rhodes_E7_002"
+              ],
+              "Eb2": [
+                "rhodes_Eb2_001",
+                "rhodes_Eb2_002"
+              ],
+              "Eb3": [
+                "rhodes_Eb3_001",
+                "rhodes_Eb3_002"
+              ],
+              "Eb4": [
+                "rhodes_Eb4_001",
+                "rhodes_Eb4_002"
+              ],
+              "Eb5": [
+                "rhodes_Eb5_001",
+                "rhodes_Eb5_002"
+              ],
+              "Eb6": [
+                "rhodes_Eb6_001",
+                "rhodes_Eb6_002"
+              ],
+              "Eb7": [
+                "rhodes_Eb7_001",
+                "rhodes_Eb7_002"
+              ],
+              "F1": [
+                "rhodes_F1_001",
+                "rhodes_F1_002"
+              ],
+              "F2": [
+                "rhodes_F2_001",
+                "rhodes_F2_002"
+              ],
+              "F3": [
+                "rhodes_F3_001",
+                "rhodes_F3_002"
+              ],
+              "F4": [
+                "rhodes_F4_001",
+                "rhodes_F4_002"
+              ],
+              "F5": [
+                "rhodes_F5_001",
+                "rhodes_F5_002"
+              ],
+              "F6": [
+                "rhodes_F6_001",
+                "rhodes_F6_002"
+              ],
+              "G1": [
+                "rhodes_G1_001",
+                "rhodes_G1_002"
+              ],
+              "G2": [
+                "rhodes_G2_001",
+                "rhodes_G2_002"
+              ],
+              "G3": [
+                "rhodes_G3_001",
+                "rhodes_G3_002"
+              ],
+              "G4": [
+                "rhodes_G4_001",
+                "rhodes_G4_002"
+              ],
+              "G5": [
+                "rhodes_G5_001",
+                "rhodes_G5_002"
+              ],
+              "G6": [
+                "rhodes_G6_001",
+                "rhodes_G6_002"
+              ],
+              "Gb1": [
+                "rhodes_Gb1_001",
+                "rhodes_Gb1_002"
+              ],
+              "Gb2": [
+                "rhodes_Gb2_001",
+                "rhodes_Gb2_002"
+              ],
+              "Gb3": [
+                "rhodes_Gb3_001",
+                "rhodes_Gb3_002"
+              ],
+              "Gb4": [
+                "rhodes_Gb4_001",
+                "rhodes_Gb4_002"
+              ],
+              "Gb5": [
+                "rhodes_Gb5_001",
+                "rhodes_Gb5_002"
+              ],
+              "Gb6": [
+                "rhodes_Gb6_001",
+                "rhodes_Gb6_002"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "rhodes_flub_001",
+              "rhodes_flub_0013",
+              "rhodes_flub_002",
+              "rhodes_flub_003",
+              "rhodes_flub_004",
+              "rhodes_flub_005",
+              "rhodes_flub_006",
+              "rhodes_flub_007",
+              "rhodes_flub_008",
+              "rhodes_flub_010",
+              "rhodes_flub_011",
+              "rhodes_flub_012"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    28,
+    100
+  ]
+}

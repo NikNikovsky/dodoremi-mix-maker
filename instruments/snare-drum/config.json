@@ -1,0 +1,161 @@
+{
+  "slug": "snare-drum",
+  "capabilities": [
+    "OneShot",
+    "Percussive",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "snare_C1_001",
+                "snare_C1_0012",
+                "snare_C1_002",
+                "snare_C1_003",
+                "snare_C1_004",
+                "snare_C1_005",
+                "snare_C1_006",
+                "snare_C1_007",
+                "snare_C1_008",
+                "snare_C1_009",
+                "snare_C1_010",
+                "snare_C1_011"
+              ],
+              "D2": [
+                "snare_fullShot_D1_001",
+                "snare_fullShot_D1_002",
+                "snare_fullShot_D1_003",
+                "snare_fullShot_D1_004"
+              ],
+              "E2": [
+                "snare_ping_E1_001",
+                "snare_ping_E1_002",
+                "snare_ping_E1_003",
+                "snare_ping_E1_004",
+                "snare_ping_E1_005",
+                "snare_ping_E1_006",
+                "snare_ping_E1_007",
+                "snare_ping_E1_008",
+                "snare_ping_E1_009",
+                "snare_ping_E1_010",
+                "snare_ping_E1_011",
+                "snare_ping_E1_012",
+                "snare_ping_E1_013"
+              ],
+              "F2": [
+                "snare_rimShot_F1_001",
+                "snare_rimShot_F1_002",
+                "snare_rimShot_F1_003",
+                "snare_rimShot_F1_004",
+                "snare_rimShot_F1_005",
+                "snare_rimShot_F1_006",
+                "snare_rimShot_F1_007",
+                "snare_rimShot_F1_008",
+                "snare_rimShot_F1_009",
+                "snare_rimShot_F1_010",
+                "snare_rimShot_F1_011",
+                "snare_rimShot_F1_012",
+                "snare_rimShot_F1_013",
+                "snare_rimShot_F1_014",
+                "snare_rimShot_F1_015"
+              ],
+              "B2": [
+                "snare_shell_B1_001",
+                "snare_shell_B1_002",
+                "snare_shell_B1_003",
+                "snare_shell_B1_004",
+                "snare_shell_B1_005",
+                "snare_shell_B1_006",
+                "snare_shell_B1_007",
+                "snare_shell_B1_008",
+                "snare_shell_B1_009",
+                "snare_shell_B1_010",
+                "snare_shell_B1_011",
+                "snare_shell_B1_012",
+                "snare_shell_B1_013"
+              ],
+              "001": [
+                "snare_shell_B1_001_1"
+              ],
+              "002": [
+                "snare_shell_B1_002_1"
+              ],
+              "003": [
+                "snare_shell_B1_003_1"
+              ],
+              "004": [
+                "snare_shell_B1_004_1"
+              ],
+              "005": [
+                "snare_shell_B1_005_1"
+              ],
+              "006": [
+                "snare_shell_B1_006_1"
+              ],
+              "007": [
+                "snare_shell_B1_007_1"
+              ],
+              "008": [
+                "snare_shell_B1_008_1"
+              ],
+              "009": [
+                "snare_shell_B1_009_1"
+              ],
+              "A2": [
+                "snare_stickShot_A1_001",
+                "snare_stickShot_A1_002",
+                "snare_stickShot_A1_003",
+                "snare_stickShot_A1_004"
+              ],
+              "C3": [
+                "snare_stickShot_C2_001",
+                "snare_stickShot_C2_002",
+                "snare_stickShot_C2_003",
+                "snare_stickShot_C2_004"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_001",
+              "flub_003",
+              "flub_004",
+              "flub_005",
+              "flub_006",
+              "flub_007",
+              "flub_008",
+              "flub_012"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    60
+  ]
+}

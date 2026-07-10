@@ -1,0 +1,198 @@
+{
+  "slug": "euphonium",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": 2,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A2": [
+                "euphonium_A3_001",
+                "euphonium_A3_002",
+                "euphonium_A3_003"
+              ],
+              "A3": [
+                "euphonium_A4_001",
+                "euphonium_A4_002",
+                "euphonium_A4_003"
+              ],
+              "A4": [
+                "euphonium_A5_001",
+                "euphonium_A5_002",
+                "euphonium_A5_003"
+              ],
+              "Ab2": [
+                "euphonium_Ab3_001",
+                "euphonium_Ab3_002",
+                "euphonium_Ab3_003"
+              ],
+              "Ab3": [
+                "euphonium_Ab4_001",
+                "euphonium_Ab4_002",
+                "euphonium_Ab4_003"
+              ],
+              "Ab4": [
+                "euphonium_Ab5_001",
+                "euphonium_Ab5_002",
+                "euphonium_Ab5_003"
+              ],
+              "B2": [
+                "euphonium_B3_001",
+                "euphonium_B3_002",
+                "euphonium_B3_003"
+              ],
+              "B3": [
+                "euphonium_B4_001",
+                "euphonium_B4_002",
+                "euphonium_B4_003"
+              ],
+              "Bb2": [
+                "euphonium_Bb3_001",
+                "euphonium_Bb3_002",
+                "euphonium_Bb3_003"
+              ],
+              "Bb3": [
+                "euphonium_Bb4_001",
+                "euphonium_Bb4_002",
+                "euphonium_Bb4_003"
+              ],
+              "C3": [
+                "euphonium_C4_001",
+                "euphonium_C4_002",
+                "euphonium_C4_003"
+              ],
+              "C4": [
+                "euphonium_C5_001",
+                "euphonium_C5_002",
+                "euphonium_C5_003"
+              ],
+              "D3": [
+                "euphonium_D4_001",
+                "euphonium_D4_002",
+                "euphonium_D4_003"
+              ],
+              "D4": [
+                "euphonium_D5_001",
+                "euphonium_D5_002",
+                "euphonium_D5_003"
+              ],
+              "Db3": [
+                "euphonium_Db4_001",
+                "euphonium_Db4_002",
+                "euphonium_Db4_003"
+              ],
+              "Db4": [
+                "euphonium_Db5_001",
+                "euphonium_Db5_002",
+                "euphonium_Db5_003"
+              ],
+              "E3": [
+                "euphonium_E4_001",
+                "euphonium_E4_002",
+                "euphonium_E4_003"
+              ],
+              "E4": [
+                "euphonium_E5_001",
+                "euphonium_E5_002",
+                "euphonium_E5_003"
+              ],
+              "Eb3": [
+                "euphonium_Eb4_001",
+                "euphonium_Eb4_002",
+                "euphonium_Eb4_003"
+              ],
+              "Eb4": [
+                "euphonium_Eb5_001",
+                "euphonium_Eb5_002",
+                "euphonium_Eb5_003"
+              ],
+              "F2": [
+                "euphonium_F3_001",
+                "euphonium_F3_002",
+                "euphonium_F3_003"
+              ],
+              "F3": [
+                "euphonium_F4_001",
+                "euphonium_F4_002",
+                "euphonium_F4_003"
+              ],
+              "F4": [
+                "euphonium_F5_001",
+                "euphonium_F5_002",
+                "euphonium_F5_003"
+              ],
+              "G2": [
+                "euphonium_G3_001",
+                "euphonium_G3_002",
+                "euphonium_G3_003"
+              ],
+              "G3": [
+                "euphonium_G4_001",
+                "euphonium_G4_002",
+                "euphonium_G4_003"
+              ],
+              "G4": [
+                "euphonium_G5_001",
+                "euphonium_G5_002",
+                "euphonium_G5_003"
+              ],
+              "Gb2": [
+                "euphonium_Gb3_001",
+                "euphonium_Gb3_002",
+                "euphonium_Gb3_003"
+              ],
+              "Gb3": [
+                "euphonium_Gb4_001",
+                "euphonium_Gb4_002",
+                "euphonium_Gb4_003"
+              ],
+              "Gb4": [
+                "euphonium_Gb5_001",
+                "euphonium_Gb5_002",
+                "euphonium_Gb5_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -7,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "euphonium_flub_001",
+              "euphonium_flub_002",
+              "euphonium_flub_003",
+              "euphonium_flub_004",
+              "euphonium_flub_005",
+              "euphonium_flub_006",
+              "euphonium_flub_007",
+              "euphonium_flub_008",
+              "euphonium_flub_009"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    41,
+    76
+  ]
+}

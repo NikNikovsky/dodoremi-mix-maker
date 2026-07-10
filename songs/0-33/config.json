@@ -1,0 +1,252 @@
+{
+  "slug": "0-33",
+  "composer": "",
+  "duration": 33000,
+  "bucket": "Original",
+  "scaleKey": "gb",
+  "scaleType": "major",
+  "guideStartOffset": 0,
+  "guide": [
+    [
+      0,
+      500,
+      1000,
+      1500,
+      2000,
+      2500
+    ],
+    [
+      3000,
+      3500,
+      4000,
+      4500,
+      5000,
+      5500
+    ],
+    [
+      6000,
+      6500,
+      7000,
+      7500,
+      8000,
+      8500
+    ],
+    [
+      9000,
+      9500,
+      10000,
+      10500,
+      11000,
+      11500
+    ],
+    [
+      12000,
+      12500,
+      13000,
+      13500,
+      14000,
+      14500
+    ],
+    [
+      15000,
+      15500,
+      16000,
+      16500,
+      17000,
+      17500
+    ],
+    [
+      18000,
+      18500,
+      19000,
+      19500,
+      20000,
+      20500
+    ],
+    [
+      21000,
+      21500,
+      22000,
+      22500,
+      23000,
+      23500
+    ],
+    [
+      24000,
+      24500,
+      25000,
+      25500,
+      26000,
+      26500
+    ],
+    [
+      27000,
+      27500,
+      28000,
+      28500,
+      29000,
+      29500
+    ],
+    [
+      30000,
+      30500,
+      31000,
+      31500,
+      32000,
+      32500
+    ]
+  ],
+  "hasLocalizedBackingTrack": false,
+  "beatmaps": [
+    {
+      "slug": "bass",
+      "type": "Discrete",
+      "category": "Bass",
+      "difficulty": 1,
+      "instruments": [
+        "the-beef"
+      ],
+      "instrumentRequirements": [
+        "Melodic",
+        "Sustain"
+      ],
+      "events": [],
+      "inputs": [],
+      "laneCount": 4
+    },
+    {
+      "slug": "counter",
+      "type": "Discrete",
+      "category": "CounterMelody",
+      "difficulty": 1,
+      "instruments": [
+        "gargles"
+      ],
+      "instrumentRequirements": [
+        "Melodic",
+        "Sustain"
+      ],
+      "events": [],
+      "inputs": [],
+      "laneCount": 4
+    },
+    {
+      "slug": "drums",
+      "type": "Discrete",
+      "category": "Drums",
+      "difficulty": 1,
+      "instruments": [
+        "beatbox"
+      ],
+      "instrumentRequirements": [
+        "DrumRack"
+      ],
+      "events": [],
+      "inputs": [],
+      "laneCount": 4
+    },
+    {
+      "slug": "harmony",
+      "type": "Discrete",
+      "category": "Harmony",
+      "difficulty": 1,
+      "instruments": [
+        "grandmas-piano"
+      ],
+      "instrumentRequirements": [
+        "Chord"
+      ],
+      "events": [],
+      "inputs": [],
+      "laneCount": 4
+    },
+    {
+      "slug": "melody",
+      "type": "Continuous",
+      "category": "Melody",
+      "difficulty": 1,
+      "instruments": [
+        "lip-flipper"
+      ],
+      "instrumentRequirements": [
+        "Melodic",
+        "Sustain"
+      ],
+      "events": [],
+      "inputs": [],
+      "limits": [
+        [
+          0,
+          127,
+          0
+        ]
+      ]
+    },
+    {
+      "slug": "percussion",
+      "type": "Discrete",
+      "category": "AuxPercussion",
+      "difficulty": 1,
+      "instruments": [
+        "guiro"
+      ],
+      "instrumentRequirements": [
+        "OneShot"
+      ],
+      "events": [],
+      "inputs": [],
+      "laneCount": 4
+    },
+    {
+      "slug": "signature",
+      "type": "Continuous",
+      "category": "Signature",
+      "difficulty": 1,
+      "instruments": [
+        "cannon"
+      ],
+      "instrumentRequirements": [],
+      "events": [],
+      "inputs": [],
+      "limits": [
+        [
+          0,
+          127,
+          0
+        ]
+      ]
+    }
+  ],
+  "preferredAssignments": [
+    [
+      "melody",
+      "lip-flipper"
+    ],
+    [
+      "counter",
+      "gargles"
+    ],
+    [
+      "harmony",
+      "grandmas-piano"
+    ],
+    [
+      "bass",
+      "the-beef"
+    ],
+    [
+      "drums",
+      "beatbox"
+    ],
+    [
+      "percussion",
+      "guiro"
+    ],
+    [
+      "signature",
+      "cannon"
+    ]
+  ],
+  "unlockType": "TotalTimesEaten",
+  "unlockRequirement": 100
+}

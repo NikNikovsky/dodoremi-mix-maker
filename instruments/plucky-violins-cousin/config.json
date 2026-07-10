@@ -1,0 +1,208 @@
+{
+  "slug": "plucky-violins-cousin",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "viola_plucked_A3_001",
+                "viola_plucked_A3_002",
+                "viola_plucked_A3_003"
+              ],
+              "A4": [
+                "viola_plucked_A4_001",
+                "viola_plucked_A4_002",
+                "viola_plucked_A4_003"
+              ],
+              "A5": [
+                "viola_plucked_A5_01"
+              ],
+              "Ab3": [
+                "viola_plucked_Ab3_001",
+                "viola_plucked_Ab3_002",
+                "viola_plucked_Ab3_003"
+              ],
+              "Ab4": [
+                "viola_plucked_Ab4_001",
+                "viola_plucked_Ab4_003"
+              ],
+              "Ab5": [
+                "viola_plucked_Ab5_001",
+                "viola_plucked_Ab5_002",
+                "viola_plucked_Ab5_003"
+              ],
+              "B3": [
+                "viola_plucked_B3_001",
+                "viola_plucked_B3_002",
+                "viola_plucked_B3_003"
+              ],
+              "B4": [
+                "viola_plucked_B4_001",
+                "viola_plucked_B4_002",
+                "viola_plucked_B4_003"
+              ],
+              "B5": [
+                "viola_plucked_B5_01"
+              ],
+              "Bb3": [
+                "viola_plucked_Bb3_001",
+                "viola_plucked_Bb3_002",
+                "viola_plucked_Bb3_003"
+              ],
+              "Bb4": [
+                "viola_plucked_Bb4_001",
+                "viola_plucked_Bb4_002",
+                "viola_plucked_Bb4_003"
+              ],
+              "C3": [
+                "viola_plucked_C3_001",
+                "viola_plucked_C3_002",
+                "viola_plucked_C3_003"
+              ],
+              "C4": [
+                "viola_plucked_C4_001",
+                "viola_plucked_C4_002",
+                "viola_plucked_C4_003"
+              ],
+              "C5": [
+                "viola_plucked_C5_001",
+                "viola_plucked_C5_002",
+                "viola_plucked_C5_003"
+              ],
+              "D3": [
+                "viola_plucked_D3_001",
+                "viola_plucked_D3_002",
+                "viola_plucked_D3_003"
+              ],
+              "D4": [
+                "viola_plucked_D4_001",
+                "viola_plucked_D4_002",
+                "viola_plucked_D4_003"
+              ],
+              "D5": [
+                "viola_plucked_D5_001",
+                "viola_plucked_D5_002",
+                "viola_plucked_D5_003"
+              ],
+              "Db3": [
+                "viola_plucked_Db3_001",
+                "viola_plucked_Db3_002",
+                "viola_plucked_Db3_003"
+              ],
+              "Db5": [
+                "viola_plucked_Db5_001",
+                "viola_plucked_Db5_002",
+                "viola_plucked_Db5_003"
+              ],
+              "E3": [
+                "viola_plucked_E3_001",
+                "viola_plucked_E3_002",
+                "viola_plucked_E3_003"
+              ],
+              "E4": [
+                "viola_plucked_E4_001",
+                "viola_plucked_E4_002",
+                "viola_plucked_E4_003"
+              ],
+              "E5": [
+                "viola_plucked_E5_001",
+                "viola_plucked_E5_003"
+              ],
+              "Eb3": [
+                "viola_plucked_Eb3_001",
+                "viola_plucked_Eb3_002",
+                "viola_plucked_Eb3_003"
+              ],
+              "Eb4": [
+                "viola_plucked_Eb4_001",
+                "viola_plucked_Eb4_002",
+                "viola_plucked_Eb4_003"
+              ],
+              "Eb5": [
+                "viola_plucked_Eb5_001",
+                "viola_plucked_Eb5_002",
+                "viola_plucked_Eb5_003"
+              ],
+              "F3": [
+                "viola_plucked_F3_001",
+                "viola_plucked_F3_002",
+                "viola_plucked_F3_003"
+              ],
+              "F4": [
+                "viola_plucked_F4_001",
+                "viola_plucked_F4_002",
+                "viola_plucked_F4_003"
+              ],
+              "F5": [
+                "viola_plucked_F5_001",
+                "viola_plucked_F5_002",
+                "viola_plucked_F5_003"
+              ],
+              "G3": [
+                "viola_plucked_G3_001",
+                "viola_plucked_G3_002",
+                "viola_plucked_G3_003"
+              ],
+              "G4": [
+                "viola_plucked_G4_001",
+                "viola_plucked_G4_002",
+                "viola_plucked_G4_003"
+              ],
+              "G5": [
+                "viola_plucked_G5_001",
+                "viola_plucked_G5_002",
+                "viola_plucked_G5_003"
+              ],
+              "Gb3": [
+                "viola_plucked_Gb3_001",
+                "viola_plucked_Gb3_002",
+                "viola_plucked_Gb3_003"
+              ],
+              "Gb4": [
+                "viola_plucked_Gb4_001",
+                "viola_plucked_Gb4_002",
+                "viola_plucked_Gb4_003"
+              ],
+              "Gb5": [
+                "viola_plucked_Gb5_001",
+                "viola_plucked_Gb5_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "viola_plucked_flub_001"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    48,
+    95
+  ]
+}

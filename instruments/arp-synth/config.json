@@ -1,0 +1,56 @@
+{
+  "slug": "arp-synth",
+  "capabilities": [
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "polySynth",
+          "options": {
+            "voice": {
+              "type": "duoSynth",
+              "options": {
+                "volume": -10,
+                "voice0": {
+                  "oscillator": {
+                    "type": "sawtooth"
+                  }
+                },
+                "voice1": {
+                  "oscillator": {
+                    "type": "sine"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -20,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_01"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    120
+  ]
+}

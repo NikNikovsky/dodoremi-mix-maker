@@ -1,0 +1,204 @@
+{
+  "slug": "flugelhorn",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": 0,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "flugelhorn_A4_001",
+                "flugelhorn_A4_002",
+                "flugelhorn_A4_003"
+              ],
+              "A4": [
+                "flugelhorn_A5_001",
+                "flugelhorn_A5_002",
+                "flugelhorn_A5_003"
+              ],
+              "A5": [
+                "flugelhorn_A6_001",
+                "flugelhorn_A6_002",
+                "flugelhorn_A6_003"
+              ],
+              "Ab3": [
+                "flugelhorn_Ab4_001",
+                "flugelhorn_Ab4_002",
+                "flugelhorn_Ab4_003"
+              ],
+              "Ab4": [
+                "flugelhorn_Ab5_001",
+                "flugelhorn_Ab5_002",
+                "flugelhorn_Ab5_003"
+              ],
+              "Ab5": [
+                "flugelhorn_Ab6_001",
+                "flugelhorn_Ab6_002",
+                "flugelhorn_Ab6_003"
+              ],
+              "B3": [
+                "flugelhorn_B4_001",
+                "flugelhorn_B4_002",
+                "flugelhorn_B4_003"
+              ],
+              "B4": [
+                "flugelhorn_B5_001",
+                "flugelhorn_B5_002",
+                "flugelhorn_B5_003"
+              ],
+              "Bb3": [
+                "flugelhorn_Bb4_001",
+                "flugelhorn_Bb4_002",
+                "flugelhorn_Bb4_003"
+              ],
+              "Bb4": [
+                "flugelhorn_Bb5_001",
+                "flugelhorn_Bb5_002",
+                "flugelhorn_Bb5_003"
+              ],
+              "Bb5": [
+                "flugelhorn_Bb6_001",
+                "flugelhorn_Bb6_002",
+                "flugelhorn_Bb6_003"
+              ],
+              "C4": [
+                "flugelhorn_C5_001",
+                "flugelhorn_C5_002",
+                "flugelhorn_C5_003"
+              ],
+              "C5": [
+                "flugelhorn_C6_001",
+                "flugelhorn_C6_002",
+                "flugelhorn_C6_003"
+              ],
+              "D4": [
+                "flugelhorn_D5_001",
+                "flugelhorn_D5_002",
+                "flugelhorn_D5_003"
+              ],
+              "D5": [
+                "flugelhorn_D6_001",
+                "flugelhorn_D6_002",
+                "flugelhorn_D6_003"
+              ],
+              "Db4": [
+                "flugelhorn_Db5_001",
+                "flugelhorn_Db5_002",
+                "flugelhorn_Db5_003"
+              ],
+              "Db5": [
+                "flugelhorn_Db6_001",
+                "flugelhorn_Db6_002",
+                "flugelhorn_Db6_003"
+              ],
+              "E3": [
+                "flugelhorn_E4_001",
+                "flugelhorn_E4_002",
+                "flugelhorn_E4_003"
+              ],
+              "E4": [
+                "flugelhorn_E5_001",
+                "flugelhorn_E5_002",
+                "flugelhorn_E5_003"
+              ],
+              "E5": [
+                "flugelhorn_E6_001",
+                "flugelhorn_E6_002",
+                "flugelhorn_E6_003"
+              ],
+              "Eb4": [
+                "flugelhorn_Eb5_001",
+                "flugelhorn_Eb5_002",
+                "flugelhorn_Eb5_003"
+              ],
+              "Eb5": [
+                "flugelhorn_Eb6_001",
+                "flugelhorn_Eb6_002",
+                "flugelhorn_Eb6_003"
+              ],
+              "F3": [
+                "flugelhorn_F4_001",
+                "flugelhorn_F4_002",
+                "flugelhorn_F4_003"
+              ],
+              "F4": [
+                "flugelhorn_F5_001",
+                "flugelhorn_F5_002",
+                "flugelhorn_F5_003"
+              ],
+              "F5": [
+                "flugelhorn_F6_001",
+                "flugelhorn_F6_002",
+                "flugelhorn_F6_003"
+              ],
+              "G3": [
+                "flugelhorn_G4_001",
+                "flugelhorn_G4_002",
+                "flugelhorn_G4_003"
+              ],
+              "G4": [
+                "flugelhorn_G5_001",
+                "flugelhorn_G5_002",
+                "flugelhorn_G5_003"
+              ],
+              "G5": [
+                "flugelhorn_G6_001",
+                "flugelhorn_G6_002",
+                "flugelhorn_G6_003"
+              ],
+              "Gb3": [
+                "flugelhorn_Gb4_001",
+                "flugelhorn_Gb4_002",
+                "flugelhorn_Gb4_003"
+              ],
+              "Gb4": [
+                "flugelhorn_Gb5_001",
+                "flugelhorn_Gb5_002",
+                "flugelhorn_Gb5_003"
+              ],
+              "Gb5": [
+                "flugelhorn_Gb6_001",
+                "flugelhorn_Gb6_002",
+                "flugelhorn_Gb6_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flugelhorn_flub_001",
+              "flugelhorn_flub_002",
+              "flugelhorn_flub_003",
+              "flugelhorn_flub_004",
+              "flugelhorn_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    52,
+    81
+  ]
+}

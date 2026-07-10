@@ -1,0 +1,179 @@
+{
+  "slug": "marching-drums",
+  "capabilities": [
+    "DrumRack",
+    "OneShot"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "drumRackSampler",
+          "options": {
+            "volume": -4,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "click": [
+                "click_001",
+                "click_002",
+                "click_003",
+                "click_004",
+                "click_005",
+                "click_006",
+                "click_007",
+                "click_008",
+                "click_009",
+                "click_010",
+                "click_011",
+                "click_012"
+              ],
+              "closedhh": [
+                "closedhh_001",
+                "closedhh_002",
+                "closedhh_003",
+                "closedhh_004"
+              ],
+              "crash": [
+                "crash_01",
+                "crash_02",
+                "crash_03"
+              ],
+              "floortom": [
+                "floortom_001",
+                "floortom_002",
+                "floortom_003",
+                "floortom_004",
+                "floortom_005",
+                "floortom_006",
+                "floortom_007"
+              ],
+              "hitom": [
+                "hitom_006",
+                "hitom_007",
+                "hitom_008"
+              ],
+              "kick": [
+                "kick_001",
+                "kick_002",
+                "kick_003",
+                "kick_004"
+              ],
+              "lowtom": [
+                "lowtom_001",
+                "lowtom_002",
+                "lowtom_003",
+                "lowtom_004",
+                "lowtom_005",
+                "lowtom_006",
+                "lowtom_007",
+                "lowtom_008"
+              ],
+              "midtom": [
+                "midtom_001",
+                "midtom_002",
+                "midtom_003",
+                "midtom_004",
+                "midtom_005",
+                "midtom_006",
+                "midtom_007",
+                "midtom_008"
+              ],
+              "openhh": [
+                "openhh_001",
+                "openhh_002",
+                "openhh_003",
+                "openhh_004"
+              ],
+              "pedalhh": [
+                "pedalhh_001",
+                "pedalhh_002",
+                "pedalhh_003",
+                "pedalhh_004"
+              ],
+              "ride": [
+                "ride_001",
+                "ride_002",
+                "ride_003",
+                "ride_004"
+              ],
+              "rim": [
+                "rim_001",
+                "rim_002",
+                "rim_003",
+                "rim_004"
+              ],
+              "rimshot": [
+                "rimshot_001",
+                "rimshot_002",
+                "rimshot_003",
+                "rimshot_004",
+                "rimshot_005",
+                "rimshot_006",
+                "rimshot_007",
+                "rimshot_008",
+                "rimshot_009",
+                "rimshot_010",
+                "rimshot_011",
+                "rimshot_012",
+                "rimshot_013",
+                "rimshot_014",
+                "rimshot_015"
+              ],
+              "sidestick": [
+                "sidestick_001",
+                "sidestick_002",
+                "sidestick_003",
+                "sidestick_004"
+              ],
+              "snare": [
+                "snare_001",
+                "snare_0012",
+                "snare_002",
+                "snare_003",
+                "snare_004",
+                "snare_005",
+                "snare_006",
+                "snare_007",
+                "snare_008",
+                "snare_009",
+                "snare_010",
+                "snare_011"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -10,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_001",
+              "flub_003",
+              "flub_004",
+              "flub_005",
+              "flub_006",
+              "flub_007",
+              "flub_008",
+              "flub_012"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    60
+  ]
+}

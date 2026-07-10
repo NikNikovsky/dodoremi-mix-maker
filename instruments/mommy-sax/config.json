@@ -1,0 +1,163 @@
+{
+  "slug": "mommy-sax",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A5": [
+                "sopranoSax_A5_001",
+                "sopranoSax_A5_002",
+                "sopranoSax_A5_003"
+              ],
+              "A6": [
+                "sopranoSax_A6_001",
+                "sopranoSax_A6_002",
+                "sopranoSax_A6_003"
+              ],
+              "Ab5": [
+                "sopranoSax_Ab5_001",
+                "sopranoSax_Ab5_002",
+                "sopranoSax_Ab5_003"
+              ],
+              "Ab6": [
+                "sopranoSax_Ab6_001",
+                "sopranoSax_Ab6_002",
+                "sopranoSax_Ab6_003"
+              ],
+              "B5": [
+                "sopranoSax_B5_001",
+                "sopranoSax_B5_002",
+                "sopranoSax_B5_003"
+              ],
+              "B6": [
+                "sopranoSax_B6_001",
+                "sopranoSax_B6_002",
+                "sopranoSax_B6_003"
+              ],
+              "Bb5": [
+                "sopranoSax_Bb5_001",
+                "sopranoSax_Bb5_002",
+                "sopranoSax_Bb5_003"
+              ],
+              "Bb6": [
+                "sopranoSax_Bb6_001",
+                "sopranoSax_Bb6_002",
+                "sopranoSax_Bb6_003"
+              ],
+              "C6": [
+                "sopranoSax_C6_001",
+                "sopranoSax_C6_002",
+                "sopranoSax_C6_003"
+              ],
+              "D6": [
+                "sopranoSax_D6_001",
+                "sopranoSax_D6_002",
+                "sopranoSax_D6_003"
+              ],
+              "Db6": [
+                "sopranoSax_Db6_001",
+                "sopranoSax_Db6_002",
+                "sopranoSax_Db6_003"
+              ],
+              "E5": [
+                "sopranoSax_E5_001",
+                "sopranoSax_E5_002",
+                "sopranoSax_E5_003"
+              ],
+              "E6": [
+                "sopranoSax_E6_001",
+                "sopranoSax_E6_002",
+                "sopranoSax_E6_003"
+              ],
+              "Eb5": [
+                "sopranoSax_Eb5_001",
+                "sopranoSax_Eb5_002",
+                "sopranoSax_Eb5_003"
+              ],
+              "Eb6": [
+                "sopranoSax_Eb6_001",
+                "sopranoSax_Eb6_002",
+                "sopranoSax_Eb6_003"
+              ],
+              "F5": [
+                "sopranoSax_F5_001",
+                "sopranoSax_F5_002",
+                "sopranoSax_F5_003"
+              ],
+              "F6": [
+                "sopranoSax_F6_001",
+                "sopranoSax_F6_002",
+                "sopranoSax_F6_003"
+              ],
+              "G5": [
+                "sopranoSax_G5_001",
+                "sopranoSax_G5_002",
+                "sopranoSax_G5_003"
+              ],
+              "G6": [
+                "sopranoSax_G6_001",
+                "sopranoSax_G6_002",
+                "sopranoSax_G6_003"
+              ],
+              "Gb5": [
+                "sopranoSax_Gb5_001",
+                "sopranoSax_Gb5_002",
+                "sopranoSax_Gb5_003"
+              ],
+              "Gb6": [
+                "sopranoSax_Gb6_001",
+                "sopranoSax_Gb6_002",
+                "sopranoSax_Gb6_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "sopranoSax_flub_001",
+              "sopranoSax_flub_002",
+              "sopranoSax_flub_003",
+              "sopranoSax_flub_004",
+              "sopranoSax_flub_005",
+              "sopranoSax_flub_006",
+              "sopranoSax_flub_007",
+              "sopranoSax_flub_008",
+              "sopranoSax_flub_009",
+              "sopranoSax_flub_010",
+              "sopranoSax_flub_011",
+              "sopranoSax_flub_012",
+              "sopranoSax_flub_013"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    72,
+    96
+  ]
+}

@@ -1,0 +1,266 @@
+{
+    "slug": "sloppy-horn",
+    "chains": [
+        {
+            "type": "main",
+            "nodes": [
+                {
+                    "type": "nopusSampler",
+                    "options": {
+                        "attack": 0,
+                        "release": 0.1,
+                        "legato": false,
+                        "polyphonic": false,
+                        "urls": {
+                            "a#4": [
+                                "trombone_a#2_0",
+                                "trombone_a#2_1",
+                                "trombone_a#2_2",
+                                "trombone_a#2_3"
+                            ],
+                            "a#5": [
+                                "trombone_a#3_0",
+                                "trombone_a#3_1",
+                                "trombone_a#3_2",
+                                "trombone_a#3_3"
+                            ],
+                            "a4": [
+                                "trombone_a2_0",
+                                "trombone_a2_1",
+                                "trombone_a2_2",
+                                "trombone_a2_3"
+                            ],
+                            "a5": [
+                                "trombone_a3_0",
+                                "trombone_a3_1",
+                                "trombone_a3_2",
+                                "trombone_a3_3"
+                            ],
+                            "b4": [
+                                "trombone_b2_0",
+                                "trombone_b2_1",
+                                "trombone_b2_2",
+                                "trombone_b2_3"
+                            ],
+                            "b5": [
+                                "trombone_b3_0",
+                                "trombone_b3_1",
+                                "trombone_b3_2",
+                                "trombone_b3_3"
+                            ],
+                            "c#5": [
+                                "trombone_c#3_0",
+                                "trombone_c#3_1",
+                                "trombone_c#3_2",
+                                "trombone_c#3_3"
+                            ],
+                            "c#6": [
+                                "trombone_c#4_0",
+                                "trombone_c#4_1",
+                                "trombone_c#4_2",
+                                "trombone_c#4_3"
+                            ],
+                            "c5": [
+                                "trombone_c3_0",
+                                "trombone_c3_1",
+                                "trombone_c3_2",
+                                "trombone_c3_3"
+                            ],
+                            "c6": [
+                                "trombone_c4_0",
+                                "trombone_c4_1",
+                                "trombone_c4_2",
+                                "trombone_c4_3"
+                            ],
+                            "d#5": [
+                                "trombone_d#3_0",
+                                "trombone_d#3_1",
+                                "trombone_d#3_2",
+                                "trombone_d#3_3"
+                            ],
+                            "d#6": [
+                                "trombone_d#4_0",
+                                "trombone_d#4_1",
+                                "trombone_d#4_2",
+                                "trombone_d#4_3"
+                            ],
+                            "d5": [
+                                "trombone_d3_0",
+                                "trombone_d3_1",
+                                "trombone_d3_2",
+                                "trombone_d3_3"
+                            ],
+                            "d6": [
+                                "trombone_d4_0",
+                                "trombone_d4_1",
+                                "trombone_d4_2",
+                                "trombone_d4_3"
+                            ],
+                            "e5": [
+                                "trombone_e3_0",
+                                "trombone_e3_1",
+                                "trombone_e3_2",
+                                "trombone_e3_3"
+                            ],
+                            "e6": [
+                                "trombone_e4_0",
+                                "trombone_e4_1",
+                                "trombone_e4_2",
+                                "trombone_e4_3"
+                            ],
+                            "f#4": [
+                                "trombone_f#2_0",
+                                "trombone_f#2_1",
+                                "trombone_f#2_2",
+                                "trombone_f#2_3"
+                            ],
+                            "f#5": [
+                                "trombone_f#3_0",
+                                "trombone_f#3_1",
+                                "trombone_f#3_2",
+                                "trombone_f#3_3"
+                            ],
+                            "f#6": [
+                                "trombone_f#4_0",
+                                "trombone_f#4_1",
+                                "trombone_f#4_2",
+                                "trombone_f#4_3"
+                            ],
+                            "f4": [
+                                "trombone_f2_0",
+                                "trombone_f2_1",
+                                "trombone_f2_2",
+                                "trombone_f2_3"
+                            ],
+                            "f5": [
+                                "trombone_f3_0",
+                                "trombone_f3_1",
+                                "trombone_f3_2",
+                                "trombone_f3_3"
+                            ],
+                            "f6": [
+                                "trombone_f4_0",
+                                "trombone_f4_1",
+                                "trombone_f4_2",
+                                "trombone_f4_3"
+                            ],
+                            "g#4": [
+                                "trombone_g#2_0",
+                                "trombone_g#2_1",
+                                "trombone_g#2_2",
+                                "trombone_g#2_3"
+                            ],
+                            "g#5": [
+                                "trombone_g#3_0",
+                                "trombone_g#3_1",
+                                "trombone_g#3_2",
+                                "trombone_g#3_3"
+                            ],
+                            "g4": [
+                                "trombone_g2_0",
+                                "trombone_g2_1",
+                                "trombone_g2_2",
+                                "trombone_g2_3"
+                            ],
+                            "g5": [
+                                "trombone_g3_0",
+                                "trombone_g3_1",
+                                "trombone_g3_2",
+                                "trombone_g3_3"
+                            ],
+                            "g6": [
+                                "trombone_g4_0",
+                                "trombone_g4_1",
+                                "trombone_g4_2",
+                                "trombone_g4_3"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "flub",
+            "duration": 0.25,
+            "nodes": [
+                {
+                    "type": "nopusSampler",
+                    "options": {
+                        "attack": 0,
+                        "release": 0.1,
+                        "legato": true,
+                        "polyphonic": false,
+                        "urls": {
+                            "c1": [
+                                "trombone_flub_0",
+                                "trombone_flub_1",
+                                "trombone_flub_11",
+                                "trombone_flub_12",
+                                "trombone_flub_13",
+                                "trombone_flub_14",
+                                "trombone_flub_15",
+                                "trombone_flub_16",
+                                "trombone_flub_17",
+                                "trombone_flub_18",
+                                "trombone_flub_19",
+                                "trombone_flub_2",
+                                "trombone_flub_21",
+                                "trombone_flub_22",
+                                "trombone_flub_23",
+                                "trombone_flub_24",
+                                "trombone_flub_25",
+                                "trombone_flub_26",
+                                "trombone_flub_27",
+                                "trombone_flub_28",
+                                "trombone_flub_29",
+                                "trombone_flub_3",
+                                "trombone_flub_31",
+                                "trombone_flub_32",
+                                "trombone_flub_33",
+                                "trombone_flub_34",
+                                "trombone_flub_35",
+                                "trombone_flub_36",
+                                "trombone_flub_37",
+                                "trombone_flub_38",
+                                "trombone_flub_4",
+                                "trombone_flub_5",
+                                "trombone_flub_6",
+                                "trombone_flub_7",
+                                "trombone_flub_8",
+                                "trombone_flub_9"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "effect",
+            "nodes": [
+                {
+                    "type": "reverb",
+                    "options": {
+                        "decay": 0.2
+                    }
+                },
+                {
+                    "type": "compressor",
+                    "options": {
+                        "knee": 1,
+                        "threshold": -10,
+                        "ratio": 6,
+                        "attack": 0.1,
+                        "release": 0.1
+                    }
+                },
+                {
+                    "type": "panVol",
+                    "options": {
+                        "volume": 20
+                    }
+                }
+            ]
+        }
+    ],
+    "samples": {}
+}

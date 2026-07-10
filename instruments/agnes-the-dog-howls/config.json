@@ -1,0 +1,91 @@
+{
+  "slug": "agnes-the-dog-howls",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A4": [
+                "agnes_howl_howl_A5_001",
+                "agnes_howl_howl_A5_002",
+                "agnes_howl_howl_A5_003",
+                "agnes_howl_howl_A5_004",
+                "agnes_howl_howl_A5_005",
+                "agnes_howl_howl_A5_06",
+                "agnes_howl_howl_A5_07"
+              ],
+              "Ab4": [
+                "agnes_howl_howl_Ab5_01"
+              ],
+              "B4": [
+                "agnes_howl_howl_B5_01"
+              ],
+              "Bb4": [
+                "agnes_howl_howl_Bb5_001",
+                "agnes_howl_howl_Bb5_002",
+                "agnes_howl_howl_Bb5_003",
+                "agnes_howl_howl_Bb5_004"
+              ],
+              "C5": [
+                "agnes_howl_howl_C6_001",
+                "agnes_howl_howl_C6_002",
+                "agnes_howl_howl_C6_003"
+              ],
+              "D5": [
+                "agnes_howl_howl_D6_01"
+              ],
+              "Db5": [
+                "agnes_howl_howl_Db6_01"
+              ],
+              "F4": [
+                "agnes_howl_howl_F5_001",
+                "agnes_howl_howl_F5_002",
+                "agnes_howl_howl_F5_003",
+                "agnes_howl_howl_F5_004"
+              ],
+              "G4": [
+                "agnes_howl_howl_G5_01"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "agnesl_howl_flub_10",
+              "agnesl_howl_flub_11",
+              "agnesl_howl_flub_12",
+              "agnesl_howl_flub_13",
+              "agnesl_howl_flub_14",
+              "agnesl_howl_flub_15",
+              "agnesl_howl_flub_16"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    56,
+    76
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "slug": "oboe",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -1,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A4": [
+                "oboe_A5_001",
+                "oboe_A5_002",
+                "oboe_A5_003"
+              ],
+              "A5": [
+                "oboe_A6_001",
+                "oboe_A6_002",
+                "oboe_A6_003"
+              ],
+              "Ab4": [
+                "oboe_Ab5_001",
+                "oboe_Ab5_002",
+                "oboe_Ab5_003"
+              ],
+              "Ab5": [
+                "oboe_Ab6_001",
+                "oboe_Ab6_002",
+                "oboe_Ab6_003"
+              ],
+              "B4": [
+                "oboe_B5_001",
+                "oboe_B5_002",
+                "oboe_B5_003"
+              ],
+              "B5": [
+                "oboe_B6_001",
+                "oboe_B6_002",
+                "oboe_B6_003"
+              ],
+              "Bb4": [
+                "oboe_Bb5_001",
+                "oboe_Bb5_002",
+                "oboe_Bb5_003"
+              ],
+              "Bb5": [
+                "oboe_Bb6_001",
+                "oboe_Bb6_002",
+                "oboe_Bb6_003"
+              ],
+              "C4": [
+                "oboe_C5_001",
+                "oboe_C5_002",
+                "oboe_C5_003"
+              ],
+              "C5": [
+                "oboe_C6_001",
+                "oboe_C6_002",
+                "oboe_C6_003"
+              ],
+              "C6": [
+                "oboe_C7_001",
+                "oboe_C7_002",
+                "oboe_C7_003"
+              ],
+              "D4": [
+                "oboe_D5_001",
+                "oboe_D5_002",
+                "oboe_D5_003"
+              ],
+              "D5": [
+                "oboe_D6_001",
+                "oboe_D6_002",
+                "oboe_D6_003"
+              ],
+              "D6": [
+                "oboe_D7_001",
+                "oboe_D7_002",
+                "oboe_D7_003"
+              ],
+              "Db4": [
+                "oboe_Db5_001",
+                "oboe_Db5_002",
+                "oboe_Db5_003"
+              ],
+              "Db5": [
+                "oboe_Db6_001",
+                "oboe_Db6_002",
+                "oboe_Db6_003"
+              ],
+              "Db6": [
+                "oboe_Db7_001",
+                "oboe_Db7_002",
+                "oboe_Db7_003"
+              ],
+              "E4": [
+                "oboe_E5_001",
+                "oboe_E5_002",
+                "oboe_E5_003"
+              ],
+              "E5": [
+                "oboe_E6_001",
+                "oboe_E6_002",
+                "oboe_E6_003"
+              ],
+              "Eb4": [
+                "oboe_Eb5_001",
+                "oboe_Eb5_002",
+                "oboe_Eb5_003"
+              ],
+              "Eb5": [
+                "oboe_Eb6_001",
+                "oboe_Eb6_002",
+                "oboe_Eb6_003"
+              ],
+              "Eb6": [
+                "oboe_Eb7_001",
+                "oboe_Eb7_002",
+                "oboe_Eb7_003"
+              ],
+              "F4": [
+                "oboe_F5_001",
+                "oboe_F5_002",
+                "oboe_F5_003"
+              ],
+              "F5": [
+                "oboe_F6_001",
+                "oboe_F6_002",
+                "oboe_F6_003"
+              ],
+              "G4": [
+                "oboe_G5_001",
+                "oboe_G5_002",
+                "oboe_G5_003"
+              ],
+              "G5": [
+                "oboe_G6_001",
+                "oboe_G6_002",
+                "oboe_G6_003"
+              ],
+              "Gb4": [
+                "oboe_Gb5_001",
+                "oboe_Gb5_002",
+                "oboe_Gb5_003"
+              ],
+              "Gb5": [
+                "oboe_Gb6_001",
+                "oboe_Gb6_002",
+                "oboe_Gb6_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "oboe_flub_001",
+              "oboe_flub_002",
+              "oboe_flub_003",
+              "oboe_flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    60,
+    87
+  ]
+}

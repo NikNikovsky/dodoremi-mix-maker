@@ -1,0 +1,111 @@
+{
+  "slug": "continuous-agnes",
+  "capabilities": [
+    "Continuous",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.2,
+            "legato": false,
+            "urls": {
+              "Bb3": [
+                "agnes_howl_attackSustain_Bb4_001"
+              ],
+              "C4": [
+                "agnes_howl_attackSustain_C5_001",
+                "agnes_howl_attackSustain_C5_002"
+              ],
+              "Db3": [
+                "agnes_howl_attackSustain_Db4_001"
+              ],
+              "Db4": [
+                "agnes_howl_attackSustain_Db5_001"
+              ],
+              "Eb4": [
+                "agnes_howl_attackSustain_Eb5_001"
+              ],
+              "Gb3": [
+                "agnes_howl_attackSustain_Gb4_001",
+                "agnes_howl_attackSustain_Gb4_002"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "release",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0.2,
+            "release": 0.1,
+            "urls": {
+              "Bb3": [
+                "agnes_howl_release_Bb4_001"
+              ],
+              "C4": [
+                "agnes_howl_release_C5_001",
+                "agnes_howl_release_C5_002"
+              ],
+              "Db3": [
+                "agnes_howl_release_Db4_001"
+              ],
+              "Db4": [
+                "agnes_howl_release_Db5_001"
+              ],
+              "Eb4": [
+                "agnes_howl_release_Eb5_001"
+              ],
+              "Gb3": [
+                "agnes_howl_release_Gb4_001",
+                "agnes_howl_release_Gb4_002"
+              ],
+              "Gb4": [
+                "agnes_howl_release_Gb5_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "agnesl_howl_flub_10",
+              "agnesl_howl_flub_11",
+              "agnesl_howl_flub_12",
+              "agnesl_howl_flub_13",
+              "agnesl_howl_flub_14",
+              "agnesl_howl_flub_15"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    48,
+    65
+  ]
+}

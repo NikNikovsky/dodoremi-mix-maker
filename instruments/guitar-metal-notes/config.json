@@ -1,0 +1,653 @@
+{
+  "slug": "guitar-metal-notes",
+  "capabilities": [
+    "Sustain",
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "restrictToSingleNotes": true,
+            "volume": -8,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A2": [
+                "guitar_metal_note_A2_001",
+                "guitar_metal_note_A2_002",
+                "guitar_metal_note_A2_003"
+              ],
+              "A3": [
+                "guitar_metal_note_A3_001",
+                "guitar_metal_note_A3_002",
+                "guitar_metal_note_A3_003"
+              ],
+              "A4": [
+                "guitar_metal_note_A4_001",
+                "guitar_metal_note_A4_002",
+                "guitar_metal_note_A4_003"
+              ],
+              "A5": [
+                "guitar_metal_note_A5_001",
+                "guitar_metal_note_A5_002",
+                "guitar_metal_note_A5_003"
+              ],
+              "Ab2": [
+                "guitar_metal_note_Ab2_001",
+                "guitar_metal_note_Ab2_002",
+                "guitar_metal_note_Ab2_003"
+              ],
+              "Ab3": [
+                "guitar_metal_note_Ab3_001",
+                "guitar_metal_note_Ab3_002",
+                "guitar_metal_note_Ab3_003"
+              ],
+              "Ab4": [
+                "guitar_metal_note_Ab4_001",
+                "guitar_metal_note_Ab4_002",
+                "guitar_metal_note_Ab4_003"
+              ],
+              "Ab5": [
+                "guitar_metal_note_Ab5_001",
+                "guitar_metal_note_Ab5_002",
+                "guitar_metal_note_Ab5_003"
+              ],
+              "B2": [
+                "guitar_metal_note_B2_001",
+                "guitar_metal_note_B2_002",
+                "guitar_metal_note_B2_003"
+              ],
+              "B3": [
+                "guitar_metal_note_B3_001",
+                "guitar_metal_note_B3_002",
+                "guitar_metal_note_B3_003"
+              ],
+              "B4": [
+                "guitar_metal_note_B4_001",
+                "guitar_metal_note_B4_002",
+                "guitar_metal_note_B4_003"
+              ],
+              "B5": [
+                "guitar_metal_note_B5_001",
+                "guitar_metal_note_B5_002",
+                "guitar_metal_note_B5_003"
+              ],
+              "Bb2": [
+                "guitar_metal_note_Bb2_001",
+                "guitar_metal_note_Bb2_002",
+                "guitar_metal_note_Bb2_003"
+              ],
+              "Bb3": [
+                "guitar_metal_note_Bb3_001",
+                "guitar_metal_note_Bb3_002",
+                "guitar_metal_note_Bb3_003"
+              ],
+              "Bb4": [
+                "guitar_metal_note_Bb4_001",
+                "guitar_metal_note_Bb4_002",
+                "guitar_metal_note_Bb4_003"
+              ],
+              "Bb5": [
+                "guitar_metal_note_Bb5_001",
+                "guitar_metal_note_Bb5_002",
+                "guitar_metal_note_Bb5_003"
+              ],
+              "C3": [
+                "guitar_metal_note_C3_001",
+                "guitar_metal_note_C3_002",
+                "guitar_metal_note_C3_003"
+              ],
+              "C4": [
+                "guitar_metal_note_C4_001",
+                "guitar_metal_note_C4_002",
+                "guitar_metal_note_C4_003"
+              ],
+              "C5": [
+                "guitar_metal_note_C5_001",
+                "guitar_metal_note_C5_002",
+                "guitar_metal_note_C5_003"
+              ],
+              "C6": [
+                "guitar_metal_note_C6_001",
+                "guitar_metal_note_C6_002",
+                "guitar_metal_note_C6_003"
+              ],
+              "D3": [
+                "guitar_metal_note_D3_001",
+                "guitar_metal_note_D3_002",
+                "guitar_metal_note_D3_003"
+              ],
+              "D4": [
+                "guitar_metal_note_D4_001",
+                "guitar_metal_note_D4_002",
+                "guitar_metal_note_D4_003"
+              ],
+              "D5": [
+                "guitar_metal_note_D5_001",
+                "guitar_metal_note_D5_002",
+                "guitar_metal_note_D5_003"
+              ],
+              "D6": [
+                "guitar_metal_note_D6_001",
+                "guitar_metal_note_D6_002",
+                "guitar_metal_note_D6_003"
+              ],
+              "Db3": [
+                "guitar_metal_note_Db3_001",
+                "guitar_metal_note_Db3_002",
+                "guitar_metal_note_Db3_003"
+              ],
+              "Db4": [
+                "guitar_metal_note_Db4_001",
+                "guitar_metal_note_Db4_002",
+                "guitar_metal_note_Db4_003"
+              ],
+              "Db5": [
+                "guitar_metal_note_Db5_001",
+                "guitar_metal_note_Db5_002",
+                "guitar_metal_note_Db5_003"
+              ],
+              "Db6": [
+                "guitar_metal_note_Db6_001",
+                "guitar_metal_note_Db6_002",
+                "guitar_metal_note_Db6_003"
+              ],
+              "E2": [
+                "guitar_metal_note_E2_001",
+                "guitar_metal_note_E2_002",
+                "guitar_metal_note_E2_003"
+              ],
+              "E3": [
+                "guitar_metal_note_E3_001",
+                "guitar_metal_note_E3_002",
+                "guitar_metal_note_E3_003"
+              ],
+              "E4": [
+                "guitar_metal_note_E4_001",
+                "guitar_metal_note_E4_002",
+                "guitar_metal_note_E4_003"
+              ],
+              "E5": [
+                "guitar_metal_note_E5_001",
+                "guitar_metal_note_E5_002",
+                "guitar_metal_note_E5_003"
+              ],
+              "Eb3": [
+                "guitar_metal_note_Eb3_001",
+                "guitar_metal_note_Eb3_002",
+                "guitar_metal_note_Eb3_003"
+              ],
+              "Eb4": [
+                "guitar_metal_note_Eb4_001",
+                "guitar_metal_note_Eb4_002",
+                "guitar_metal_note_Eb4_003"
+              ],
+              "Eb5": [
+                "guitar_metal_note_Eb5_001",
+                "guitar_metal_note_Eb5_002",
+                "guitar_metal_note_Eb5_003"
+              ],
+              "F2": [
+                "guitar_metal_note_F2_001",
+                "guitar_metal_note_F2_002",
+                "guitar_metal_note_F2_003"
+              ],
+              "F3": [
+                "guitar_metal_note_F3_001",
+                "guitar_metal_note_F3_002",
+                "guitar_metal_note_F3_003"
+              ],
+              "F4": [
+                "guitar_metal_note_F4_001",
+                "guitar_metal_note_F4_002",
+                "guitar_metal_note_F4_003"
+              ],
+              "F5": [
+                "guitar_metal_note_F5_001",
+                "guitar_metal_note_F5_002",
+                "guitar_metal_note_F5_003"
+              ],
+              "G2": [
+                "guitar_metal_note_G2_001",
+                "guitar_metal_note_G2_002",
+                "guitar_metal_note_G2_003"
+              ],
+              "G3": [
+                "guitar_metal_note_G3_001",
+                "guitar_metal_note_G3_002",
+                "guitar_metal_note_G3_003"
+              ],
+              "G4": [
+                "guitar_metal_note_G4_001",
+                "guitar_metal_note_G4_002",
+                "guitar_metal_note_G4_003"
+              ],
+              "G5": [
+                "guitar_metal_note_G5_001",
+                "guitar_metal_note_G5_002",
+                "guitar_metal_note_G5_003"
+              ],
+              "Gb2": [
+                "guitar_metal_note_Gb2_001",
+                "guitar_metal_note_Gb2_002",
+                "guitar_metal_note_Gb2_003"
+              ],
+              "Gb3": [
+                "guitar_metal_note_Gb3_001",
+                "guitar_metal_note_Gb3_002",
+                "guitar_metal_note_Gb3_003"
+              ],
+              "Gb4": [
+                "guitar_metal_note_Gb4_001",
+                "guitar_metal_note_Gb4_002",
+                "guitar_metal_note_Gb4_003"
+              ],
+              "Gb5": [
+                "guitar_metal_note_Gb5_001",
+                "guitar_metal_note_Gb5_002",
+                "guitar_metal_note_Gb5_003"
+              ],
+              "B1": [
+                "guitar_metal_note_chunk_B1_001",
+                "guitar_metal_note_chunk_B1_002",
+                "guitar_metal_note_chunk_B1_003"
+              ],
+              "003": [
+                "guitar_metal_note_flub_003_1"
+              ],
+              "C2": [
+                "metal_notes_C2_01",
+                "metal_notes_C2_02",
+                "metal_notes_C2_03"
+              ],
+              "D2": [
+                "metal_notes_D2_01",
+                "metal_notes_D2_02",
+                "metal_notes_D2_03"
+              ],
+              "Db2": [
+                "metal_notes_Db2_01",
+                "metal_notes_Db2_02",
+                "metal_notes_Db2_03"
+              ],
+              "Eb2": [
+                "metal_notes_Eb2_01",
+                "metal_notes_Eb2_02",
+                "metal_notes_Eb2_03"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "harmonicSampler",
+          "options": {
+            "volume": -8,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A5": [
+                "guitar_metal_chord_A5_001",
+                "guitar_metal_chord_A5_002",
+                "guitar_metal_chord_A5_003"
+              ],
+              "A7": [
+                "guitar_metal_chord_A7_001",
+                "guitar_metal_chord_A7_002",
+                "guitar_metal_chord_A7_003"
+              ],
+              "A": [
+                "guitar_metal_chord_A_001",
+                "guitar_metal_chord_A_002",
+                "guitar_metal_chord_A_003"
+              ],
+              "Ab5": [
+                "guitar_metal_chord_Ab5_001",
+                "guitar_metal_chord_Ab5_002",
+                "guitar_metal_chord_Ab5_003"
+              ],
+              "Ab7": [
+                "guitar_metal_chord_Ab7_001",
+                "guitar_metal_chord_Ab7_002",
+                "guitar_metal_chord_Ab7_003"
+              ],
+              "Ab": [
+                "guitar_metal_chord_Ab_001",
+                "guitar_metal_chord_Ab_002",
+                "guitar_metal_chord_Ab_003"
+              ],
+              "Abm7": [
+                "guitar_metal_chord_Abm7_001",
+                "guitar_metal_chord_Abm7_002",
+                "guitar_metal_chord_Abm7_003"
+              ],
+              "Abm": [
+                "guitar_metal_chord_Abm_001",
+                "guitar_metal_chord_Abm_002",
+                "guitar_metal_chord_Abm_003"
+              ],
+              "Am7": [
+                "guitar_metal_chord_Am7_001",
+                "guitar_metal_chord_Am7_002",
+                "guitar_metal_chord_Am7_003"
+              ],
+              "Am": [
+                "guitar_metal_chord_Am_001",
+                "guitar_metal_chord_Am_002",
+                "guitar_metal_chord_Am_003"
+              ],
+              "B5": [
+                "guitar_metal_chord_B5_001",
+                "guitar_metal_chord_B5_002",
+                "guitar_metal_chord_B5_003"
+              ],
+              "B7": [
+                "guitar_metal_chord_B7_001",
+                "guitar_metal_chord_B7_002",
+                "guitar_metal_chord_B7_003"
+              ],
+              "B": [
+                "guitar_metal_chord_B_001",
+                "guitar_metal_chord_B_002",
+                "guitar_metal_chord_B_003"
+              ],
+              "BCE": [
+                "metal_chords_BCE_01",
+                "metal_chords_BCE_02",
+                "metal_chords_BCE_03"
+              ],
+              "Bb5": [
+                "guitar_metal_chord_Bb5_001",
+                "guitar_metal_chord_Bb5_002",
+                "guitar_metal_chord_Bb5_003"
+              ],
+              "Bb7": [
+                "guitar_metal_chord_Bb7_001",
+                "guitar_metal_chord_Bb7_002",
+                "guitar_metal_chord_Bb7_003"
+              ],
+              "Bb": [
+                "guitar_metal_chord_Bb_001",
+                "guitar_metal_chord_Bb_002",
+                "guitar_metal_chord_Bb_003"
+              ],
+              "Bbm7": [
+                "guitar_metal_chord_Bbm7_001",
+                "guitar_metal_chord_Bbm7_002",
+                "guitar_metal_chord_Bbm7_003"
+              ],
+              "Bbm": [
+                "guitar_metal_chord_Bbm_001",
+                "guitar_metal_chord_Bbm_002",
+                "guitar_metal_chord_Bbm_003"
+              ],
+              "Bm7": [
+                "guitar_metal_chord_Bm7_001",
+                "guitar_metal_chord_Bm7_002",
+                "guitar_metal_chord_Bm7_003"
+              ],
+              "Bm": [
+                "guitar_metal_chord_Bm_001",
+                "guitar_metal_chord_Bm_002",
+                "guitar_metal_chord_Bm_003"
+              ],
+              "C5": [
+                "guitar_metal_chord_C5_001",
+                "guitar_metal_chord_C5_002",
+                "guitar_metal_chord_C5_003"
+              ],
+              "C7": [
+                "guitar_metal_chord_C7_001",
+                "guitar_metal_chord_C7_002",
+                "guitar_metal_chord_C7_003"
+              ],
+              "C": [
+                "guitar_metal_chord_C_001",
+                "guitar_metal_chord_C_002",
+                "guitar_metal_chord_C_003"
+              ],
+              "Cm7": [
+                "guitar_metal_chord_Cm7_001",
+                "guitar_metal_chord_Cm7_002",
+                "guitar_metal_chord_Cm7_003"
+              ],
+              "Cm": [
+                "guitar_metal_chord_Cm_001",
+                "guitar_metal_chord_Cm_002",
+                "guitar_metal_chord_Cm_003"
+              ],
+              "D5": [
+                "guitar_metal_chord_D5_001",
+                "guitar_metal_chord_D5_002",
+                "guitar_metal_chord_D5_003"
+              ],
+              "D7": [
+                "guitar_metal_chord_D7_001",
+                "guitar_metal_chord_D7_002",
+                "guitar_metal_chord_D7_003"
+              ],
+              "D": [
+                "guitar_metal_chord_D_001",
+                "guitar_metal_chord_D_002",
+                "guitar_metal_chord_D_003"
+              ],
+              "Db5": [
+                "guitar_metal_chord_Db5_001",
+                "guitar_metal_chord_Db5_002",
+                "guitar_metal_chord_Db5_003"
+              ],
+              "Db7": [
+                "guitar_metal_chord_Db7_001",
+                "guitar_metal_chord_Db7_002",
+                "guitar_metal_chord_Db7_003"
+              ],
+              "Db": [
+                "guitar_metal_chord_Db_001",
+                "guitar_metal_chord_Db_002",
+                "guitar_metal_chord_Db_003"
+              ],
+              "Dbm7": [
+                "guitar_metal_chord_Dbm7_001",
+                "guitar_metal_chord_Dbm7_002",
+                "guitar_metal_chord_Dbm7_003"
+              ],
+              "Dbm": [
+                "guitar_metal_chord_Dbm_001",
+                "guitar_metal_chord_Dbm_002",
+                "guitar_metal_chord_Dbm_003"
+              ],
+              "Dm7": [
+                "guitar_metal_chord_Dm7_001",
+                "guitar_metal_chord_Dm7_002",
+                "guitar_metal_chord_Dm7_003"
+              ],
+              "Dm": [
+                "guitar_metal_chord_Dm_001",
+                "guitar_metal_chord_Dm_002",
+                "guitar_metal_chord_Dm_003"
+              ],
+              "E5": [
+                "guitar_metal_chord_E5_001",
+                "guitar_metal_chord_E5_002",
+                "guitar_metal_chord_E5_003"
+              ],
+              "E7": [
+                "guitar_metal_chord_E7_001",
+                "guitar_metal_chord_E7_002",
+                "guitar_metal_chord_E7_003"
+              ],
+              "E": [
+                "guitar_metal_chord_E_001",
+                "guitar_metal_chord_E_002",
+                "guitar_metal_chord_E_003"
+              ],
+              "Eb5": [
+                "guitar_metal_chord_Eb5_001",
+                "guitar_metal_chord_Eb5_002",
+                "guitar_metal_chord_Eb5_003"
+              ],
+              "Eb7": [
+                "guitar_metal_chord_Eb7_001",
+                "guitar_metal_chord_Eb7_002",
+                "guitar_metal_chord_Eb7_003"
+              ],
+              "Eb": [
+                "guitar_metal_chord_Eb_001",
+                "guitar_metal_chord_Eb_002",
+                "guitar_metal_chord_Eb_003"
+              ],
+              "Ebm7": [
+                "guitar_metal_chord_Ebm7_001",
+                "guitar_metal_chord_Ebm7_002",
+                "guitar_metal_chord_Ebm7_003"
+              ],
+              "Ebm": [
+                "guitar_metal_chord_Ebm_001",
+                "guitar_metal_chord_Ebm_002",
+                "guitar_metal_chord_Ebm_003"
+              ],
+              "Em7": [
+                "guitar_metal_chord_Em7_001",
+                "guitar_metal_chord_Em7_002",
+                "guitar_metal_chord_Em7_003"
+              ],
+              "Em": [
+                "guitar_metal_chord_Em_001",
+                "guitar_metal_chord_Em_002",
+                "guitar_metal_chord_Em_003"
+              ],
+              "F5": [
+                "guitar_metal_chord_F5_001",
+                "guitar_metal_chord_F5_002",
+                "guitar_metal_chord_F5_003"
+              ],
+              "F7": [
+                "guitar_metal_chord_F7_001",
+                "guitar_metal_chord_F7_002",
+                "guitar_metal_chord_F7_003"
+              ],
+              "F": [
+                "guitar_metal_chord_F_001",
+                "guitar_metal_chord_F_002",
+                "guitar_metal_chord_F_003"
+              ],
+              "Fm7": [
+                "guitar_metal_chord_Fm7_001",
+                "guitar_metal_chord_Fm7_002",
+                "guitar_metal_chord_Fm7_003"
+              ],
+              "Fm": [
+                "guitar_metal_chord_Fm_001",
+                "guitar_metal_chord_Fm_002",
+                "guitar_metal_chord_Fm_003"
+              ],
+              "G5": [
+                "guitar_metal_chord_G5_001",
+                "guitar_metal_chord_G5_002",
+                "guitar_metal_chord_G5_003"
+              ],
+              "G7": [
+                "guitar_metal_chord_G7_001",
+                "guitar_metal_chord_G7_002",
+                "guitar_metal_chord_G7_003"
+              ],
+              "G": [
+                "guitar_metal_chord_G_001",
+                "guitar_metal_chord_G_002",
+                "guitar_metal_chord_G_003"
+              ],
+              "Gb5": [
+                "guitar_metal_chord_Gb5_001",
+                "guitar_metal_chord_Gb5_002",
+                "guitar_metal_chord_Gb5_003"
+              ],
+              "Gb7": [
+                "guitar_metal_chord_Gb7_001",
+                "guitar_metal_chord_Gb7_002",
+                "guitar_metal_chord_Gb7_003"
+              ],
+              "Gb": [
+                "guitar_metal_chord_Gb_001",
+                "guitar_metal_chord_Gb_002",
+                "guitar_metal_chord_Gb_003"
+              ],
+              "Gbm7": [
+                "guitar_metal_chord_Gbm7_001",
+                "guitar_metal_chord_Gbm7_002",
+                "guitar_metal_chord_Gbm7_003"
+              ],
+              "Gbm": [
+                "guitar_metal_chord_Gbm_001",
+                "guitar_metal_chord_Gbm_002",
+                "guitar_metal_chord_Gbm_003"
+              ],
+              "Gm7": [
+                "guitar_metal_chord_Gm7_001",
+                "guitar_metal_chord_Gm7_002",
+                "guitar_metal_chord_Gm7_003"
+              ],
+              "Gm": [
+                "guitar_metal_chord_Gm_001",
+                "guitar_metal_chord_Gm_002",
+                "guitar_metal_chord_Gm_003"
+              ],
+              "Bbaug": [
+                "metal_chords_Bbaug_01",
+                "metal_chords_Bbaug_02",
+                "metal_chords_Bbaug_03"
+              ],
+              "Bm7b5": [
+                "metal_chords_Bm7b5_01",
+                "metal_chords_Bm7b5_02",
+                "metal_chords_Bm7b5_03"
+              ],
+              "Daug": [
+                "metal_chords_Daug_01",
+                "metal_chords_Daug_02",
+                "metal_chords_Daug_03"
+              ],
+              "Db7no5": [
+                "metal_chords_Db7no5_01",
+                "metal_chords_Db7no5_02",
+                "metal_chords_Db7no5_03"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -11,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "guitar_metal_note_flub_001",
+              "guitar_metal_note_flub_002",
+              "guitar_metal_note_flub_003",
+              "guitar_metal_note_flub_004",
+              "guitar_metal_note_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    35,
+    85
+  ]
+}

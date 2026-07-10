@@ -1,0 +1,117 @@
+{
+  "slug": "bitdrums",
+  "capabilities": [
+    "DrumRack",
+    "OneShot"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "drumRackSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "click": [
+                "beepBoopDrums_click_001",
+                "beepBoopDrums_click_002"
+              ],
+              "closedhh": [
+                "beepBoopDrums_closedhh_001",
+                "beepBoopDrums_closedhh_002",
+                "beepBoopDrums_closedhh_003"
+              ],
+              "crash": [
+                "beepBoopDrums_crash_001",
+                "beepBoopDrums_crash_002",
+                "beepBoopDrums_crash_003"
+              ],
+              "floortom": [
+                "beepBoopDrums_floortom_001",
+                "beepBoopDrums_floortom_002",
+                "beepBoopDrums_floortom_003"
+              ],
+              "hitom": [
+                "beepBoopDrums_hitom_001",
+                "beepBoopDrums_hitom_002",
+                "beepBoopDrums_hitom_003"
+              ],
+              "kick": [
+                "beepBoopDrums_kick_001",
+                "beepBoopDrums_kick_002",
+                "beepBoopDrums_kick_003"
+              ],
+              "lowtom": [
+                "beepBoopDrums_lowtom_001",
+                "beepBoopDrums_lowtom_002",
+                "beepBoopDrums_lowtom_003"
+              ],
+              "mediumhh": [
+                "beepBoopDrums_mediumhh_001",
+                "beepBoopDrums_mediumhh_002"
+              ],
+              "midtom": [
+                "beepBoopDrums_midtom_001",
+                "beepBoopDrums_midtom_002",
+                "beepBoopDrums_midtom_003"
+              ],
+              "openhh": [
+                "beepBoopDrums_openhh_001",
+                "beepBoopDrums_openhh_002"
+              ],
+              "ride": [
+                "beepBoopDrums_ride_001",
+                "beepBoopDrums_ride_002",
+                "beepBoopDrums_ride_003"
+              ],
+              "rim": [
+                "beepBoopDrums_rim_001",
+                "beepBoopDrums_rim_002",
+                "beepBoopDrums_rim_003"
+              ],
+              "rimshot": [
+                "beepBoopDrums_rimshot_001",
+                "beepBoopDrums_rimshot_002",
+                "beepBoopDrums_rimshot_003"
+              ],
+              "sidestick": [
+                "beepBoopDrums_sidestick_001",
+                "beepBoopDrums_sidestick_002",
+                "beepBoopDrums_sidestick_003"
+              ],
+              "snare": [
+                "beepBoopDrums_snare_001",
+                "beepBoopDrums_snare_002",
+                "beepBoopDrums_snare_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_01"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    60
+  ]
+}

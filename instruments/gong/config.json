@@ -1,0 +1,56 @@
+{
+  "slug": "gong",
+  "capabilities": [
+    "OneShot",
+    "PercSingle"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -4,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "drums_acoustic_gong_hard_C1_001",
+                "drums_acoustic_gong_hard_C1_002"
+              ],
+              "D2": [
+                "drums_acoustic_gong_soft_D1_001",
+                "drums_acoustic_gong_soft_D1_002"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "drums_acoustic_gong_flub_001",
+              "drums_acoustic_gong_flub_002",
+              "drums_acoustic_gong_flub_003"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    38
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "husky-clarinet",
+  "capabilities": [
+    "Sustain",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -2,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A1": [
+                "bassClarinet_A1_001",
+                "bassClarinet_A1_002",
+                "bassClarinet_A1_003"
+              ],
+              "Ab1": [
+                "bassClarinet_Ab1_001",
+                "bassClarinet_Ab1_002",
+                "bassClarinet_Ab1_003"
+              ],
+              "B1": [
+                "bassClarinet_B1_001",
+                "bassClarinet_B1_002",
+                "bassClarinet_B1_003"
+              ],
+              "Bb1": [
+                "bassClarinet_Bb1_001",
+                "bassClarinet_Bb1_002",
+                "bassClarinet_Bb1_003"
+              ],
+              "C2": [
+                "bassClarinet_C2_001",
+                "bassClarinet_C2_002",
+                "bassClarinet_C2_003"
+              ],
+              "D2": [
+                "bassClarinet_D2_001",
+                "bassClarinet_D2_002",
+                "bassClarinet_D2_003"
+              ],
+              "Db2": [
+                "bassClarinet_Db2_001",
+                "bassClarinet_Db2_002",
+                "bassClarinet_Db2_003"
+              ],
+              "E1": [
+                "bassClarinet_E1_001",
+                "bassClarinet_E1_002",
+                "bassClarinet_E1_003"
+              ],
+              "E2": [
+                "bassClarinet_E2_001",
+                "bassClarinet_E2_002",
+                "bassClarinet_E2_003"
+              ],
+              "Eb1": [
+                "bassClarinet_Eb1_001",
+                "bassClarinet_Eb1_002",
+                "bassClarinet_Eb1_003"
+              ],
+              "Eb2": [
+                "bassClarinet_Eb2_001",
+                "bassClarinet_Eb2_002",
+                "bassClarinet_Eb2_003"
+              ],
+              "F1": [
+                "bassClarinet_F1_001",
+                "bassClarinet_F1_002",
+                "bassClarinet_F1_003"
+              ],
+              "F2": [
+                "bassClarinet_F2_001",
+                "bassClarinet_F2_002",
+                "bassClarinet_F2_003"
+              ],
+              "G1": [
+                "bassClarinet_G1_001",
+                "bassClarinet_G1_002",
+                "bassClarinet_G1_003"
+              ],
+              "G2": [
+                "bassClarinet_G2_001",
+                "bassClarinet_G2_002",
+                "bassClarinet_G2_003"
+              ],
+              "Gb1": [
+                "bassClarinet_Gb1_001",
+                "bassClarinet_Gb1_002",
+                "bassClarinet_Gb1_003"
+              ],
+              "Gb2": [
+                "bassClarinet_Gb2_001",
+                "bassClarinet_Gb2_002",
+                "bassClarinet_Gb2_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "bassClarinet_flub_001",
+              "bassClarinet_flub_002",
+              "bassClarinet_flub_003",
+              "bassClarinet_flub_004",
+              "bassClarinet_flub_005",
+              "bassClarinet_flub_006",
+              "bassClarinet_flub_007",
+              "bassClarinet_flub_008",
+              "bassClarinet_flub_010",
+              "bassClarinet_flub_011",
+              "bassClarinet_flub_012"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    27,
+    50
+  ]
+}

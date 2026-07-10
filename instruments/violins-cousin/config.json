@@ -1,0 +1,215 @@
+{
+  "slug": "violins-cousin",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "viola_bowed_A3_001",
+                "viola_bowed_A3_002",
+                "viola_bowed_A3_003"
+              ],
+              "A4": [
+                "viola_bowed_A4_001",
+                "viola_bowed_A4_002",
+                "viola_bowed_A4_003"
+              ],
+              "A5": [
+                "viola_bowed_A5_001",
+                "viola_bowed_A5_002",
+                "viola_bowed_A5_003"
+              ],
+              "Ab3": [
+                "viola_bowed_Ab3_001",
+                "viola_bowed_Ab3_002",
+                "viola_bowed_Ab3_003"
+              ],
+              "Ab5": [
+                "viola_bowed_Ab5_001",
+                "viola_bowed_Ab5_002",
+                "viola_bowed_Ab5_003"
+              ],
+              "B3": [
+                "viola_bowed_B3_001",
+                "viola_bowed_B3_002",
+                "viola_bowed_B3_003"
+              ],
+              "B4": [
+                "viola_bowed_B4_001",
+                "viola_bowed_B4_002",
+                "viola_bowed_B4_003"
+              ],
+              "Bb3": [
+                "viola_bowed_Bb3_001",
+                "viola_bowed_Bb3_002",
+                "viola_bowed_Bb3_003"
+              ],
+              "Bb4": [
+                "viola_bowed_Bb4_001",
+                "viola_bowed_Bb4_002",
+                "viola_bowed_Bb4_003"
+              ],
+              "Bb5": [
+                "viola_bowed_Bb5_001",
+                "viola_bowed_Bb5_002",
+                "viola_bowed_Bb5_003"
+              ],
+              "C3": [
+                "viola_bowed_C3_001",
+                "viola_bowed_C3_002",
+                "viola_bowed_C3_003"
+              ],
+              "C4": [
+                "viola_bowed_C4_001",
+                "viola_bowed_C4_002",
+                "viola_bowed_C4_003"
+              ],
+              "C5": [
+                "viola_bowed_C5_001",
+                "viola_bowed_C5_002",
+                "viola_bowed_C5_003"
+              ],
+              "D3": [
+                "viola_bowed_D3_001",
+                "viola_bowed_D3_002",
+                "viola_bowed_D3_003"
+              ],
+              "D4": [
+                "viola_bowed_D4_001",
+                "viola_bowed_D4_002",
+                "viola_bowed_D4_003"
+              ],
+              "D5": [
+                "viola_bowed_D5_001",
+                "viola_bowed_D5_002",
+                "viola_bowed_D5_003"
+              ],
+              "Db3": [
+                "viola_bowed_Db3_001",
+                "viola_bowed_Db3_002",
+                "viola_bowed_Db3_003"
+              ],
+              "Db4": [
+                "viola_bowed_Db4_001",
+                "viola_bowed_Db4_002",
+                "viola_bowed_Db4_003"
+              ],
+              "Db5": [
+                "viola_bowed_Db5_001",
+                "viola_bowed_Db5_002",
+                "viola_bowed_Db5_003"
+              ],
+              "E3": [
+                "viola_bowed_E3_001",
+                "viola_bowed_E3_002",
+                "viola_bowed_E3_003"
+              ],
+              "E4": [
+                "viola_bowed_E4_001",
+                "viola_bowed_E4_002",
+                "viola_bowed_E4_003"
+              ],
+              "E5": [
+                "viola_bowed_E5_001",
+                "viola_bowed_E5_002",
+                "viola_bowed_E5_003"
+              ],
+              "Eb3": [
+                "viola_bowed_Eb3_001",
+                "viola_bowed_Eb3_002",
+                "viola_bowed_Eb3_003"
+              ],
+              "Eb4": [
+                "viola_bowed_Eb4_001",
+                "viola_bowed_Eb4_002",
+                "viola_bowed_Eb4_003"
+              ],
+              "Eb5": [
+                "viola_bowed_Eb5_001",
+                "viola_bowed_Eb5_002",
+                "viola_bowed_Eb5_003"
+              ],
+              "F3": [
+                "viola_bowed_F3_001",
+                "viola_bowed_F3_002",
+                "viola_bowed_F3_003"
+              ],
+              "F4": [
+                "viola_bowed_F4_001",
+                "viola_bowed_F4_002",
+                "viola_bowed_F4_003"
+              ],
+              "F5": [
+                "viola_bowed_F5_001",
+                "viola_bowed_F5_002",
+                "viola_bowed_F5_003",
+                "viola_bowed_F5_004"
+              ],
+              "G3": [
+                "viola_bowed_G3_001",
+                "viola_bowed_G3_002",
+                "viola_bowed_G3_003"
+              ],
+              "G4": [
+                "viola_bowed_G4_001",
+                "viola_bowed_G4_003"
+              ],
+              "G5": [
+                "viola_bowed_G5_001",
+                "viola_bowed_G5_002",
+                "viola_bowed_G5_003"
+              ],
+              "Gb3": [
+                "viola_bowed_Gb3_001",
+                "viola_bowed_Gb3_002",
+                "viola_bowed_Gb3_003"
+              ],
+              "Gb4": [
+                "viola_bowed_Gb4_001",
+                "viola_bowed_Gb4_002",
+                "viola_bowed_Gb4_003"
+              ],
+              "Gb5": [
+                "viola_bowed_Gb5_001",
+                "viola_bowed_Gb5_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -15,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "viola_flub_001",
+              "viola_flub_002"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    48,
+    94
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "h0-ly-crap",
+  "capabilities": [
+    "Mono",
+    "OneShot",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A6": [
+                "crap_A6_03",
+                "ho_A6_01",
+                "ly_A6_02"
+              ],
+              "Ab6": [
+                "crap_Ab6_03",
+                "ho_Ab6_01",
+                "ly_Ab6_02"
+              ],
+              "B5": [
+                "crap_B5_03",
+                "ho_B5_01",
+                "ly_B5_02"
+              ],
+              "Bb6": [
+                "crap_Bb6_03",
+                "ho_Bb6_01",
+                "ly_Bb6_02"
+              ],
+              "C6": [
+                "crap_C6_03",
+                "ho_C6_01",
+                "ly_C6_02"
+              ],
+              "D6": [
+                "crap_D6_03",
+                "ho_D6_01",
+                "ly_D6_02"
+              ],
+              "Db6": [
+                "crap_Db6_03",
+                "ho_Db6_01",
+                "ly_Db6_02"
+              ],
+              "E6": [
+                "crap_E6_03",
+                "ho_E6_01",
+                "ly_E6_02"
+              ],
+              "Eb6": [
+                "crap_Eb6_03",
+                "ho_Eb6_01",
+                "ly_Eb6_02"
+              ],
+              "F6": [
+                "crap_F6_03",
+                "ho_F6_01",
+                "ly_F6_02"
+              ],
+              "G6": [
+                "crap_G6_03",
+                "ho_G6_01",
+                "ly_G6_02"
+              ],
+              "Gb6": [
+                "crap_Gb6_03",
+                "ho_Gb6_01",
+                "ly_Gb6_02"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

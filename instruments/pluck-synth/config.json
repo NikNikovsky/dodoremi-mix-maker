@@ -1,0 +1,89 @@
+{
+  "slug": "pluck-synth",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "polySynth",
+          "options": {
+            "volume": -13,
+            "voice": {
+              "type": "fmSynth",
+              "options": {
+                "envelope": {
+                  "attack": 0.01,
+                  "release": 3,
+                  "decay": 0.1,
+                  "sustain": 0.3
+                },
+                "harmonicity": 3,
+                "modulation": {
+                  "type": "sine",
+                  "partialCount": 10
+                },
+                "modulationIndex": 8,
+                "oscillator": {
+                  "type": "sine"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -14,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_01"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "nodes": [
+        {
+          "type": "chorus",
+          "options": {
+            "depth": 0.9,
+            "frequency": "20",
+            "spread": 0.9,
+            "type": "square"
+          }
+        },
+        {
+          "type": "reverb",
+          "options": {
+            "wet": 0.3
+          }
+        },
+        {
+          "type": "distortion",
+          "options": {
+            "oversample": "2x",
+            "wet": 0.2,
+            "distortion": 0.15
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    45,
+    96
+  ]
+}

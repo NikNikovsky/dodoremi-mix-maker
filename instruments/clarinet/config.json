@@ -1,0 +1,257 @@
+{
+  "slug": "clarinet",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -1,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "clarinet_A4_001",
+                "clarinet_A4_002",
+                "clarinet_A4_003"
+              ],
+              "A4": [
+                "clarinet_A5_001",
+                "clarinet_A5_002",
+                "clarinet_A5_003"
+              ],
+              "A5": [
+                "clarinet_A6_001",
+                "clarinet_A6_002",
+                "clarinet_A6_003"
+              ],
+              "Ab3": [
+                "clarinet_Ab4_001",
+                "clarinet_Ab4_002",
+                "clarinet_Ab4_003"
+              ],
+              "Ab4": [
+                "clarinet_Ab5_001",
+                "clarinet_Ab5_002",
+                "clarinet_Ab5_003"
+              ],
+              "Ab5": [
+                "clarinet_Ab6_001",
+                "clarinet_Ab6_002",
+                "clarinet_Ab6_003"
+              ],
+              "B3": [
+                "clarinet_B4_001",
+                "clarinet_B4_002",
+                "clarinet_B4_003"
+              ],
+              "B4": [
+                "clarinet_B5_001",
+                "clarinet_B5_002",
+                "clarinet_B5_003"
+              ],
+              "B5": [
+                "clarinet_B6_001",
+                "clarinet_B6_002",
+                "clarinet_B6_003"
+              ],
+              "Bb3": [
+                "clarinet_Bb4_001",
+                "clarinet_Bb4_002",
+                "clarinet_Bb4_003"
+              ],
+              "Bb4": [
+                "clarinet_Bb5_001",
+                "clarinet_Bb5_002",
+                "clarinet_Bb5_003"
+              ],
+              "Bb5": [
+                "clarinet_Bb6_001",
+                "clarinet_Bb6_002",
+                "clarinet_Bb6_003"
+              ],
+              "C4": [
+                "clarinet_C5_001",
+                "clarinet_C5_002",
+                "clarinet_C5_003"
+              ],
+              "C5": [
+                "clarinet_C6_001",
+                "clarinet_C6_002",
+                "clarinet_C6_003"
+              ],
+              "C6": [
+                "clarinet_C7_001",
+                "clarinet_C7_002",
+                "clarinet_C7_003"
+              ],
+              "D3": [
+                "clarinet_D4_001",
+                "clarinet_D4_002",
+                "clarinet_D4_003"
+              ],
+              "D4": [
+                "clarinet_D5_001",
+                "clarinet_D5_002",
+                "clarinet_D5_003"
+              ],
+              "D5": [
+                "clarinet_D6_001",
+                "clarinet_D6_002",
+                "clarinet_D6_003"
+              ],
+              "D6": [
+                "clarinet_D7_001",
+                "clarinet_D7_002",
+                "clarinet_D7_003"
+              ],
+              "Db5": [
+                "clarinet_Db6_001",
+                "clarinet_Db6_002",
+                "clarinet_Db6_003"
+              ],
+              "Db6": [
+                "clarinet_Db7_001",
+                "clarinet_Db7_002",
+                "clarinet_Db7_003"
+              ],
+              "E3": [
+                "clarinet_E4_001",
+                "clarinet_E4_002",
+                "clarinet_E4_003"
+              ],
+              "E4": [
+                "clarinet_E5_001",
+                "clarinet_E5_002",
+                "clarinet_E5_003"
+              ],
+              "E5": [
+                "clarinet_E6_001",
+                "clarinet_E6_002",
+                "clarinet_E6_003"
+              ],
+              "E6": [
+                "clarinet_E7_001",
+                "clarinet_E7_002",
+                "clarinet_E7_003"
+              ],
+              "Eb3": [
+                "clarinet_Eb4_001",
+                "clarinet_Eb4_002",
+                "clarinet_Eb4_003"
+              ],
+              "Eb4": [
+                "clarinet_Eb5_001",
+                "clarinet_Eb5_002",
+                "clarinet_Eb5_003"
+              ],
+              "Eb5": [
+                "clarinet_Eb6_001",
+                "clarinet_Eb6_002",
+                "clarinet_Eb6_003"
+              ],
+              "Eb6": [
+                "clarinet_Eb7_001",
+                "clarinet_Eb7_002",
+                "clarinet_Eb7_003"
+              ],
+              "F3": [
+                "clarinet_F4_001",
+                "clarinet_F4_002",
+                "clarinet_F4_003"
+              ],
+              "F4": [
+                "clarinet_F5_001",
+                "clarinet_F5_002",
+                "clarinet_F5_003"
+              ],
+              "F5": [
+                "clarinet_F6_001",
+                "clarinet_F6_002",
+                "clarinet_F6_003"
+              ],
+              "F6": [
+                "clarinet_F7_001",
+                "clarinet_F7_002",
+                "clarinet_F7_003"
+              ],
+              "G3": [
+                "clarinet_G4_001",
+                "clarinet_G4_002",
+                "clarinet_G4_003"
+              ],
+              "G4": [
+                "clarinet_G5_001",
+                "clarinet_G5_002",
+                "clarinet_G5_003"
+              ],
+              "G5": [
+                "clarinet_G6_001",
+                "clarinet_G6_002",
+                "clarinet_G6_003"
+              ],
+              "G6": [
+                "clarinet_G7_001",
+                "clarinet_G7_002",
+                "clarinet_G7_003"
+              ],
+              "Gb3": [
+                "clarinet_Gb4_001",
+                "clarinet_Gb4_002",
+                "clarinet_Gb4_003"
+              ],
+              "Gb4": [
+                "clarinet_Gb5_001",
+                "clarinet_Gb5_002",
+                "clarinet_Gb5_003"
+              ],
+              "Gb5": [
+                "clarinet_Gb6_001",
+                "clarinet_Gb6_002",
+                "clarinet_Gb6_003"
+              ],
+              "Gb6": [
+                "clarinet_Gb7_001",
+                "clarinet_Gb7_002",
+                "clarinet_Gb7_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "clarinet_flub_001",
+              "clarinet_flub_002",
+              "clarinet_flub_003",
+              "clarinet_flub_004",
+              "clarinet_flub_005",
+              "clarinet_flub_006",
+              "clarinet_flub_007",
+              "clarinet_flub_008"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    50,
+    91
+  ]
+}

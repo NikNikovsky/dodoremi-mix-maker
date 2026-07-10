@@ -1,0 +1,224 @@
+{
+  "slug": "continuous-flute",
+  "capabilities": [
+    "Melodic",
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": 0,
+            "attack": 0,
+            "release": 0.1,
+            "legato": true,
+            "urls": {
+              "A4": [
+                "flute_A5_001",
+                "flute_A5_002",
+                "flute_A5_003"
+              ],
+              "A5": [
+                "flute_A6_001",
+                "flute_A6_002",
+                "flute_A6_003"
+              ],
+              "A6": [
+                "flute_A7_001",
+                "flute_A7_002",
+                "flute_A7_003"
+              ],
+              "Ab4": [
+                "flute_Ab5_001",
+                "flute_Ab5_002",
+                "flute_Ab5_003"
+              ],
+              "Ab5": [
+                "flute_Ab6_001",
+                "flute_Ab6_002",
+                "flute_Ab6_003"
+              ],
+              "Ab6": [
+                "flute_Ab7_001",
+                "flute_Ab7_002",
+                "flute_Ab7_003"
+              ],
+              "B3": [
+                "flute_B4_001",
+                "flute_B4_002",
+                "flute_B4_003"
+              ],
+              "B4": [
+                "flute_B5_001",
+                "flute_B5_002",
+                "flute_B5_003"
+              ],
+              "B5": [
+                "flute_B6_001",
+                "flute_B6_002",
+                "flute_B6_003"
+              ],
+              "Bb4": [
+                "flute_Bb5_001",
+                "flute_Bb5_002",
+                "flute_Bb5_003"
+              ],
+              "Bb5": [
+                "flute_Bb6_001",
+                "flute_Bb6_002",
+                "flute_Bb6_003"
+              ],
+              "C4": [
+                "flute_C5_001",
+                "flute_C5_002",
+                "flute_C5_003"
+              ],
+              "C5": [
+                "flute_C6_001",
+                "flute_C6_002",
+                "flute_C6_003"
+              ],
+              "C6": [
+                "flute_C7_001",
+                "flute_C7_002",
+                "flute_C7_003"
+              ],
+              "D4": [
+                "flute_D5_001",
+                "flute_D5_002",
+                "flute_D5_003"
+              ],
+              "D5": [
+                "flute_D6_001",
+                "flute_D6_002",
+                "flute_D6_003"
+              ],
+              "D6": [
+                "flute_D7_001",
+                "flute_D7_002",
+                "flute_D7_003"
+              ],
+              "Db4": [
+                "flute_Db5_001",
+                "flute_Db5_002",
+                "flute_Db5_003"
+              ],
+              "Db5": [
+                "flute_Db6_001",
+                "flute_Db6_002",
+                "flute_Db6_003"
+              ],
+              "Db6": [
+                "flute_Db7_001",
+                "flute_Db7_002",
+                "flute_Db7_003"
+              ],
+              "E4": [
+                "flute_E5_001",
+                "flute_E5_002",
+                "flute_E5_003"
+              ],
+              "E5": [
+                "flute_E6_001",
+                "flute_E6_002",
+                "flute_E6_003"
+              ],
+              "E6": [
+                "flute_E7_001",
+                "flute_E7_002",
+                "flute_E7_003"
+              ],
+              "Eb4": [
+                "flute_Eb5_001",
+                "flute_Eb5_002",
+                "flute_Eb5_003"
+              ],
+              "Eb5": [
+                "flute_Eb6_001",
+                "flute_Eb6_002",
+                "flute_Eb6_003"
+              ],
+              "Eb6": [
+                "flute_Eb7_001",
+                "flute_Eb7_002",
+                "flute_Eb7_003"
+              ],
+              "F4": [
+                "flute_F5_001",
+                "flute_F5_002",
+                "flute_F5_003"
+              ],
+              "F5": [
+                "flute_F6_001",
+                "flute_F6_002",
+                "flute_F6_003"
+              ],
+              "F6": [
+                "flute_F7_001",
+                "flute_F7_002",
+                "flute_F7_003"
+              ],
+              "G4": [
+                "flute_G5_001",
+                "flute_G5_002",
+                "flute_G5_003"
+              ],
+              "G5": [
+                "flute_G6_001",
+                "flute_G6_002",
+                "flute_G6_003"
+              ],
+              "G6": [
+                "flute_G7_001",
+                "flute_G7_002",
+                "flute_G7_003"
+              ],
+              "Gb4": [
+                "flute_Gb5_001",
+                "flute_Gb5_002",
+                "flute_Gb5_003"
+              ],
+              "Gb5": [
+                "flute_Gb6_001",
+                "flute_Gb6_002",
+                "flute_Gb6_003"
+              ],
+              "Gb6": [
+                "flute_Gb7_001",
+                "flute_Gb7_002",
+                "flute_Gb7_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flute_flub_002",
+              "flute_flub_003",
+              "flute_flub_004",
+              "flute_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    32,
+    113
+  ]
+}

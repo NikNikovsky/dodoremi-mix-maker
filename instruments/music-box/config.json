@@ -1,0 +1,117 @@
+{
+  "slug": "music-box",
+  "capabilities": [
+    "Melodic",
+    "OneShot"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A5": [
+                "musicBox_A6_001",
+                "musicBox_A6_002",
+                "musicBox_A6_003"
+              ],
+              "A6": [
+                "musicBox_A7_001",
+                "musicBox_A7_002",
+                "musicBox_A7_003"
+              ],
+              "Ab5": [
+                "musicBox_Ab6_001",
+                "musicBox_Ab6_002",
+                "musicBox_Ab6_003"
+              ],
+              "Ab6": [
+                "musicBox_Ab7_001",
+                "musicBox_Ab7_002",
+                "musicBox_Ab7_003"
+              ],
+              "B5": [
+                "musicBox_B6_001",
+                "musicBox_B6_002",
+                "musicBox_B6_003"
+              ],
+              "B6": [
+                "musicBox_B7_001",
+                "musicBox_B7_002",
+                "musicBox_B7_003"
+              ],
+              "Db6": [
+                "musicBox_Db7_001",
+                "musicBox_Db7_002",
+                "musicBox_Db7_003"
+              ],
+              "E5": [
+                "musicBox_E6_001",
+                "musicBox_E6_002",
+                "musicBox_E6_003"
+              ],
+              "E6": [
+                "musicBox_E7_001",
+                "musicBox_E7_002",
+                "musicBox_E7_003"
+              ],
+              "Eb6": [
+                "musicBox_Eb7_001",
+                "musicBox_Eb7_002",
+                "musicBox_Eb7_003"
+              ],
+              "F5": [
+                "musicBox_F6_001",
+                "musicBox_F6_002",
+                "musicBox_F6_003"
+              ],
+              "F6": [
+                "musicBox_F7_001",
+                "musicBox_F7_002",
+                "musicBox_F7_003"
+              ],
+              "Gb5": [
+                "musicBox_Gb6_001",
+                "musicBox_Gb6_002",
+                "musicBox_Gb6_003"
+              ],
+              "Gb6": [
+                "musicBox_Gb7_001",
+                "musicBox_Gb7_002",
+                "musicBox_Gb7_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "musicBox_flub_001",
+              "musicBox_flub_002",
+              "musicBox_flub_003"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    72,
+    96
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "slug": "guitar-acoustic-chords",
+  "capabilities": [
+    "Chord",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "harmonicSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A7": [
+                "guitar_acoustic_chord_A7_001",
+                "guitar_acoustic_chord_A7_002",
+                "guitar_acoustic_chord_A7_003"
+              ],
+              "AM7": [
+                "guitar_acoustic_chord_AM7_004",
+                "guitar_acoustic_chord_AM7_005",
+                "guitar_acoustic_chord_AM7_006"
+              ],
+              "A": [
+                "guitar_acoustic_chord_A_001",
+                "guitar_acoustic_chord_A_002",
+                "guitar_acoustic_chord_A_003"
+              ],
+              "Am7": [
+                "guitar_acoustic_chord_Am7_001",
+                "guitar_acoustic_chord_Am7_002",
+                "guitar_acoustic_chord_Am7_003"
+              ],
+              "Am": [
+                "guitar_acoustic_chord_Am_001",
+                "guitar_acoustic_chord_Am_002",
+                "guitar_acoustic_chord_Am_003"
+              ],
+              "C7": [
+                "guitar_acoustic_chord_C7_001",
+                "guitar_acoustic_chord_C7_002",
+                "guitar_acoustic_chord_C7_003"
+              ],
+              "C": [
+                "guitar_acoustic_chord_C_001",
+                "guitar_acoustic_chord_C_002",
+                "guitar_acoustic_chord_C_003"
+              ],
+              "D7": [
+                "guitar_acoustic_chord_D7_001",
+                "guitar_acoustic_chord_D7_002",
+                "guitar_acoustic_chord_D7_003"
+              ],
+              "DM7": [
+                "guitar_acoustic_chord_DM7_004",
+                "guitar_acoustic_chord_DM7_005",
+                "guitar_acoustic_chord_DM7_006"
+              ],
+              "D": [
+                "guitar_acoustic_chord_D_001",
+                "guitar_acoustic_chord_D_002",
+                "guitar_acoustic_chord_D_003"
+              ],
+              "Dm7": [
+                "guitar_acoustic_chord_Dm7_001",
+                "guitar_acoustic_chord_Dm7_002",
+                "guitar_acoustic_chord_Dm7_003"
+              ],
+              "Dm": [
+                "guitar_acoustic_chord_Dm_001",
+                "guitar_acoustic_chord_Dm_002",
+                "guitar_acoustic_chord_Dm_003"
+              ],
+              "E7": [
+                "guitar_acoustic_chord_E7_001",
+                "guitar_acoustic_chord_E7_002",
+                "guitar_acoustic_chord_E7_003"
+              ],
+              "E": [
+                "guitar_acoustic_chord_E_001",
+                "guitar_acoustic_chord_E_002",
+                "guitar_acoustic_chord_E_003"
+              ],
+              "Em7": [
+                "guitar_acoustic_chord_Em7_001",
+                "guitar_acoustic_chord_Em7_002",
+                "guitar_acoustic_chord_Em7_003"
+              ],
+              "Em": [
+                "guitar_acoustic_chord_Em_001",
+                "guitar_acoustic_chord_Em_002",
+                "guitar_acoustic_chord_Em_003"
+              ],
+              "G7": [
+                "guitar_acoustic_chord_G7_001",
+                "guitar_acoustic_chord_G7_002",
+                "guitar_acoustic_chord_G7_003"
+              ],
+              "GM7": [
+                "guitar_acoustic_chord_GM7_001",
+                "guitar_acoustic_chord_GM7_002",
+                "guitar_acoustic_chord_GM7_003"
+              ],
+              "G": [
+                "guitar_acoustic_chord_G_001",
+                "guitar_acoustic_chord_G_002",
+                "guitar_acoustic_chord_G_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "guitar_acoustic_chord_flub_001",
+              "guitar_acoustic_chord_flub_002",
+              "guitar_acoustic_chord_flub_003",
+              "guitar_acoustic_chord_flub_004",
+              "guitar_acoustic_chord_flub_005",
+              "guitar_acoustic_chord_flub_006",
+              "guitar_acoustic_chord_flub_007",
+              "guitar_acoustic_chord_flub_008",
+              "guitar_acoustic_chord_flub_009",
+              "guitar_acoustic_chord_flub_010",
+              "guitar_acoustic_chord_flub_011",
+              "guitar_acoustic_chord_flub_012",
+              "guitar_acoustic_chord_flub_013",
+              "guitar_acoustic_chord_flub_014",
+              "guitar_acoustic_chord_flub_015",
+              "guitar_acoustic_chord_flub_016",
+              "guitar_acoustic_chord_flub_017",
+              "guitar_acoustic_chord_flub_018",
+              "guitar_acoustic_chord_flub_019",
+              "guitar_acoustic_chord_flub_020",
+              "guitar_acoustic_chord_flub_021",
+              "guitar_acoustic_chord_flub_022",
+              "guitar_acoustic_chord_flub_023",
+              "guitar_acoustic_chord_flub_024",
+              "guitar_acoustic_chord_flub_025",
+              "guitar_acoustic_chord_flub_026",
+              "guitar_acoustic_chord_flub_027",
+              "guitar_acoustic_chord_flub_028",
+              "guitar_acoustic_chord_flub_029",
+              "guitar_acoustic_chord_flub_030",
+              "guitar_acoustic_chord_flub_031",
+              "guitar_acoustic_chord_flub_032",
+              "guitar_acoustic_chord_flub_033",
+              "guitar_acoustic_chord_flub_034",
+              "guitar_acoustic_chord_flub_035",
+              "guitar_acoustic_chord_flub_036",
+              "guitar_acoustic_chord_flub_037",
+              "guitar_acoustic_chord_flub_038",
+              "guitar_acoustic_chord_flub_039",
+              "guitar_acoustic_chord_flub_040",
+              "guitar_acoustic_chord_flub_041",
+              "guitar_acoustic_chord_flub_042",
+              "guitar_acoustic_chord_flub_043"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    0,
+    127
+  ]
+}

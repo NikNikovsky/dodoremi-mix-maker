@@ -1,0 +1,75 @@
+{
+  "slug": "little-congas",
+  "capabilities": [
+    "OneShot",
+    "Percussive",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -8,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "F2": [
+                "bongo_hi_muted_F2_002",
+                "bongo_hi_muted_F2_006",
+                "bongo_hi_muted_F2_008"
+              ],
+              "D2": [
+                "bongo_hi_open_D2_001",
+                "bongo_hi_open_D2_002",
+                "bongo_hi_open_D2_003",
+                "bongo_hi_open_D2_009",
+                "bongo_hi_open_D2_010",
+                "bongo_hi_open_D2_011"
+              ],
+              "E2": [
+                "bongo_lo_muted_E2_002",
+                "bongo_lo_muted_E2_003",
+                "bongo_lo_muted_E2_004"
+              ],
+              "C2": [
+                "bongo_lo_open_C2_006",
+                "bongo_lo_open_C2_007",
+                "bongo_lo_open_C2_008",
+                "bongo_lo_open_C2_009"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "bongo_flub_002",
+              "bongo_flub_003",
+              "bongo_flub_005",
+              "bongo_flub_008"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    45
+  ]
+}

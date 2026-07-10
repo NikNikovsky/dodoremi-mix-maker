@@ -1,0 +1,183 @@
+{
+  "slug": "french-horn-redo",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "frenchHorn_A3_002",
+                "frenchHorn_A3_003",
+                "frenchHorn_A3_004"
+              ],
+              "A4": [
+                "frenchHorn_A4_002",
+                "frenchHorn_A4_003",
+                "frenchHorn_A4_004"
+              ],
+              "Ab3": [
+                "frenchHorn_Ab3_002",
+                "frenchHorn_Ab3_003",
+                "frenchHorn_Ab3_004"
+              ],
+              "Ab4": [
+                "frenchHorn_Ab4_003",
+                "frenchHorn_Ab4_004"
+              ],
+              "B2": [
+                "frenchHorn_B2_002",
+                "frenchHorn_B2_003",
+                "frenchHorn_B2_004"
+              ],
+              "B3": [
+                "frenchHorn_B3_002",
+                "frenchHorn_B3_003",
+                "frenchHorn_B3_004"
+              ],
+              "B4": [
+                "frenchHorn_B4_002",
+                "frenchHorn_B4_003",
+                "frenchHorn_B4_004"
+              ],
+              "Bb2": [
+                "frenchHorn_Bb2_002",
+                "frenchHorn_Bb2_003"
+              ],
+              "Bb3": [
+                "frenchHorn_Bb3_002",
+                "frenchHorn_Bb3_003",
+                "frenchHorn_Bb3_004"
+              ],
+              "Bb4": [
+                "frenchHorn_Bb4_002",
+                "frenchHorn_Bb4_003",
+                "frenchHorn_Bb4_004"
+              ],
+              "C3": [
+                "frenchHorn_C3_002",
+                "frenchHorn_C3_003",
+                "frenchHorn_C3_004"
+              ],
+              "C4": [
+                "frenchHorn_C4_002",
+                "frenchHorn_C4_003"
+              ],
+              "C5": [
+                "frenchHorn_C5_002",
+                "frenchHorn_C5_004"
+              ],
+              "D3": [
+                "frenchHorn_D3_002",
+                "frenchHorn_D3_003",
+                "frenchHorn_D3_004"
+              ],
+              "D4": [
+                "frenchHorn_D4_002",
+                "frenchHorn_D4_003",
+                "frenchHorn_D4_004"
+              ],
+              "Db3": [
+                "frenchHorn_Db3_002",
+                "frenchHorn_Db3_003",
+                "frenchHorn_Db3_004"
+              ],
+              "Db4": [
+                "frenchHorn_Db4_002",
+                "frenchHorn_Db4_003",
+                "frenchHorn_Db4_004"
+              ],
+              "E3": [
+                "frenchHorn_E3_002",
+                "frenchHorn_E3_003",
+                "frenchHorn_E3_004"
+              ],
+              "E4": [
+                "frenchHorn_E4_002",
+                "frenchHorn_E4_003",
+                "frenchHorn_E4_004"
+              ],
+              "Eb3": [
+                "frenchHorn_Eb3_002",
+                "frenchHorn_Eb3_003",
+                "frenchHorn_Eb3_004"
+              ],
+              "Eb4": [
+                "frenchHorn_Eb4_002",
+                "frenchHorn_Eb4_004"
+              ],
+              "F3": [
+                "frenchHorn_F3_002",
+                "frenchHorn_F3_003",
+                "frenchHorn_F3_004"
+              ],
+              "F4": [
+                "frenchHorn_F4_002",
+                "frenchHorn_F4_003",
+                "frenchHorn_F4_004"
+              ],
+              "G3": [
+                "frenchHorn_G3_002",
+                "frenchHorn_G3_003",
+                "frenchHorn_G3_004"
+              ],
+              "G4": [
+                "frenchHorn_G4_002",
+                "frenchHorn_G4_003",
+                "frenchHorn_G4_004"
+              ],
+              "Gb3": [
+                "frenchHorn_Gb3_002",
+                "frenchHorn_Gb3_003",
+                "frenchHorn_Gb3_004"
+              ],
+              "Gb4": [
+                "frenchHorn_Gb4_002",
+                "frenchHorn_Gb4_003",
+                "frenchHorn_Gb4_004"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "frenchHorn_flub_0010",
+              "frenchHorn_flub_002",
+              "frenchHorn_flub_003",
+              "frenchHorn_flub_004",
+              "frenchHorn_flub_005",
+              "frenchHorn_flub_006",
+              "frenchHorn_flub_007",
+              "frenchHorn_flub_008",
+              "frenchHorn_flub_009"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    46,
+    74
+  ]
+}

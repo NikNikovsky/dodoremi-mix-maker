@@ -1,0 +1,116 @@
+{
+  "slug": "ocarina",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -1,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A5": [
+                "ocarina_A6_001",
+                "ocarina_A6_002",
+                "ocarina_A6_003"
+              ],
+              "Ab5": [
+                "ocarina_Ab6_001",
+                "ocarina_Ab6_002",
+                "ocarina_Ab6_003"
+              ],
+              "B5": [
+                "ocarina_B6_001",
+                "ocarina_B6_002",
+                "ocarina_B6_003"
+              ],
+              "Bb5": [
+                "ocarina_Bb6_001",
+                "ocarina_Bb6_002",
+                "ocarina_Bb6_003"
+              ],
+              "C6": [
+                "ocarina_C7_001",
+                "ocarina_C7_002",
+                "ocarina_C7_003"
+              ],
+              "D5": [
+                "ocarina_D6_001",
+                "ocarina_D6_002",
+                "ocarina_D6_003"
+              ],
+              "D6": [
+                "ocarina_D7_001",
+                "ocarina_D7_002",
+                "ocarina_D7_003"
+              ],
+              "Db6": [
+                "ocarina_Db7_001",
+                "ocarina_Db7_002",
+                "ocarina_Db7_003"
+              ],
+              "E5": [
+                "ocarina_E6_001",
+                "ocarina_E6_002",
+                "ocarina_E6_003"
+              ],
+              "Eb5": [
+                "ocarina_Eb6_001",
+                "ocarina_Eb6_002",
+                "ocarina_Eb6_003"
+              ],
+              "F5": [
+                "ocarina_F6_001",
+                "ocarina_F6_002",
+                "ocarina_F6_003"
+              ],
+              "G5": [
+                "ocarina_G6_001",
+                "ocarina_G6_002",
+                "ocarina_G6_003"
+              ],
+              "Gb5": [
+                "ocarina_Gb6_001",
+                "ocarina_Gb6_002",
+                "ocarina_Gb6_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -11,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "ocarina_flub_001",
+              "ocarina_flub_002",
+              "ocarina_flub_003",
+              "ocarina_flub_004",
+              "ocarina_flub_005",
+              "ocarina_flub_006",
+              "ocarina_flub_007"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    72,
+    96
+  ]
+}

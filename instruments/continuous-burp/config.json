@@ -1,0 +1,53 @@
+{
+  "slug": "continuous-burp",
+  "capabilities": [
+    "Melodic",
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -7,
+            "attack": 0,
+            "release": 0.1,
+            "legato": false,
+            "urls": {
+              "Db3": [
+                "burp_melody_extended_A4_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "burp_melody_flub_002",
+              "burp_melody_flub_003",
+              "burp_melody_flub_004",
+              "burp_melody_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    41,
+    55
+  ]
+}

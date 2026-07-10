@@ -1,0 +1,256 @@
+{
+  "slug": "violin",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "violin_bowed_A4_001",
+                "violin_bowed_A4_002",
+                "violin_bowed_A4_003"
+              ],
+              "A4": [
+                "violin_bowed_A5_001",
+                "violin_bowed_A5_002",
+                "violin_bowed_A5_003"
+              ],
+              "A5": [
+                "violin_bowed_A6_001",
+                "violin_bowed_A6_002",
+                "violin_bowed_A6_003"
+              ],
+              "A6": [
+                "violin_bowed_A7_001",
+                "violin_bowed_A7_002",
+                "violin_bowed_A7_003"
+              ],
+              "Ab3": [
+                "violin_bowed_Ab4_001",
+                "violin_bowed_Ab4_002",
+                "violin_bowed_Ab4_003"
+              ],
+              "Ab4": [
+                "violin_bowed_Ab5_001",
+                "violin_bowed_Ab5_002",
+                "violin_bowed_Ab5_003"
+              ],
+              "Ab5": [
+                "violin_bowed_Ab6_001",
+                "violin_bowed_Ab6_002",
+                "violin_bowed_Ab6_003"
+              ],
+              "Ab6": [
+                "violin_bowed_Ab7_001",
+                "violin_bowed_Ab7_002",
+                "violin_bowed_Ab7_003"
+              ],
+              "B3": [
+                "violin_bowed_B4_001",
+                "violin_bowed_B4_002",
+                "violin_bowed_B4_003"
+              ],
+              "B4": [
+                "violin_bowed_B5_001",
+                "violin_bowed_B5_002",
+                "violin_bowed_B5_003"
+              ],
+              "B5": [
+                "violin_bowed_B6_001",
+                "violin_bowed_B6_002",
+                "violin_bowed_B6_003"
+              ],
+              "Bb3": [
+                "violin_bowed_Bb4_001",
+                "violin_bowed_Bb4_002",
+                "violin_bowed_Bb4_003"
+              ],
+              "Bb4": [
+                "violin_bowed_Bb5_001",
+                "violin_bowed_Bb5_002",
+                "violin_bowed_Bb5_003"
+              ],
+              "Bb5": [
+                "violin_bowed_Bb6_001",
+                "violin_bowed_Bb6_002",
+                "violin_bowed_Bb6_003"
+              ],
+              "Bb6": [
+                "violin_bowed_Bb7_001",
+                "violin_bowed_Bb7_002",
+                "violin_bowed_Bb7_003"
+              ],
+              "C4": [
+                "violin_bowed_C5_001",
+                "violin_bowed_C5_002",
+                "violin_bowed_C5_003"
+              ],
+              "C5": [
+                "violin_bowed_C6_001",
+                "violin_bowed_C6_002",
+                "violin_bowed_C6_003"
+              ],
+              "C6": [
+                "violin_bowed_C7_001",
+                "violin_bowed_C7_002",
+                "violin_bowed_C7_003"
+              ],
+              "D4": [
+                "violin_bowed_D5_001",
+                "violin_bowed_D5_002",
+                "violin_bowed_D5_003"
+              ],
+              "D5": [
+                "violin_bowed_D6_001",
+                "violin_bowed_D6_002",
+                "violin_bowed_D6_003"
+              ],
+              "D6": [
+                "violin_bowed_D7_001",
+                "violin_bowed_D7_002",
+                "violin_bowed_D7_003"
+              ],
+              "Db4": [
+                "violin_bowed_Db5_001",
+                "violin_bowed_Db5_002",
+                "violin_bowed_Db5_003"
+              ],
+              "Db5": [
+                "violin_bowed_Db6_001",
+                "violin_bowed_Db6_002",
+                "violin_bowed_Db6_003"
+              ],
+              "Db6": [
+                "violin_bowed_Db7_001",
+                "violin_bowed_Db7_002",
+                "violin_bowed_Db7_003"
+              ],
+              "E4": [
+                "violin_bowed_E5_001",
+                "violin_bowed_E5_002",
+                "violin_bowed_E5_003"
+              ],
+              "E5": [
+                "violin_bowed_E6_001",
+                "violin_bowed_E6_002",
+                "violin_bowed_E6_003"
+              ],
+              "E6": [
+                "violin_bowed_E7_001",
+                "violin_bowed_E7_002",
+                "violin_bowed_E7_003"
+              ],
+              "Eb4": [
+                "violin_bowed_Eb5_001",
+                "violin_bowed_Eb5_002",
+                "violin_bowed_Eb5_003"
+              ],
+              "Eb5": [
+                "violin_bowed_Eb6_001",
+                "violin_bowed_Eb6_002",
+                "violin_bowed_Eb6_003"
+              ],
+              "Eb6": [
+                "violin_bowed_Eb7_001",
+                "violin_bowed_Eb7_002",
+                "violin_bowed_Eb7_003"
+              ],
+              "F4": [
+                "violin_bowed_F5_001",
+                "violin_bowed_F5_002",
+                "violin_bowed_F5_003"
+              ],
+              "F5": [
+                "violin_bowed_F6_001",
+                "violin_bowed_F6_002",
+                "violin_bowed_F6_003"
+              ],
+              "F6": [
+                "violin_bowed_F7_001",
+                "violin_bowed_F7_002",
+                "violin_bowed_F7_003"
+              ],
+              "G3": [
+                "violin_bowed_G4_001",
+                "violin_bowed_G4_002",
+                "violin_bowed_G4_003"
+              ],
+              "G4": [
+                "violin_bowed_G5_001",
+                "violin_bowed_G5_002",
+                "violin_bowed_G5_003"
+              ],
+              "G5": [
+                "violin_bowed_G6_001",
+                "violin_bowed_G6_002",
+                "violin_bowed_G6_003"
+              ],
+              "G6": [
+                "violin_bowed_G7_001",
+                "violin_bowed_G7_002",
+                "violin_bowed_G7_003"
+              ],
+              "Gb4": [
+                "violin_bowed_Gb5_001",
+                "violin_bowed_Gb5_002",
+                "violin_bowed_Gb5_003"
+              ],
+              "Gb5": [
+                "violin_bowed_Gb6_001",
+                "violin_bowed_Gb6_002",
+                "violin_bowed_Gb6_003"
+              ],
+              "Gb6": [
+                "violin_bowed_Gb7_001",
+                "violin_bowed_Gb7_002",
+                "violin_bowed_Gb7_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "violin_bowed_flub_001",
+              "violin_bowed_flub_002",
+              "violin_bowed_flub_003",
+              "violin_bowed_flub_004",
+              "violin_bowed_flub_005",
+              "violin_bowed_flub_006",
+              "violin_bowed_flub_007",
+              "violin_bowed_flub_008",
+              "violin_bowed_flub_009",
+              "violin_bowed_flub_010",
+              "violin_bowed_flub_011",
+              "violin_bowed_flub_012"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    55,
+    94
+  ]
+}

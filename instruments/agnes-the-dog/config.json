@@ -1,0 +1,110 @@
+{
+  "slug": "agnes-the-dog",
+  "capabilities": [
+    "OneShot",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -2,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "Bb4": [
+                "agnesTheDog_bark_Bb5_01",
+                "agnesTheDog_bark_bark_Bb5_01"
+              ],
+              "C5": [
+                "agnesTheDog_bark_C6_01",
+                "agnesTheDog_bark_C6_02",
+                "agnesTheDog_bark_bark_C6_02",
+                "agnesTheDog_bark_bark_C6_03"
+              ],
+              "B4": [
+                "agnesTheDog_bark_bark_B5_01",
+                "agnesTheDog_bark_bark_B5_02",
+                "agnesTheDog_bark_bark_B5_03",
+                "agnesTheDog_bark_bark_B5_04",
+                "agnesTheDog_bark_bark_B5_05",
+                "agnesTheDog_bark_bark_B5_06",
+                "agnesTheDog_bark_bark_B5_07"
+              ],
+              "D5": [
+                "agnesTheDog_bark_bark_D6_01",
+                "agnesTheDog_bark_bark_D6_02",
+                "agnesTheDog_bark_bark_D6_03",
+                "agnesTheDog_bark_bark_D6_04",
+                "agnesTheDog_bark_bark_D6_05",
+                "agnesTheDog_bark_bark_D6_06"
+              ],
+              "Db5": [
+                "agnesTheDog_bark_bark_Db6_01",
+                "agnesTheDog_bark_bark_Db6_02",
+                "agnesTheDog_bark_bark_Db6_03",
+                "agnesTheDog_bark_bark_Db6_04",
+                "agnesTheDog_bark_bark_Db6_05"
+              ],
+              "E5": [
+                "agnesTheDog_bark_bark_E6_01",
+                "agnesTheDog_bark_bark_E6_02",
+                "agnesTheDog_bark_bark_E6_03",
+                "agnesTheDog_bark_bark_E6_04"
+              ],
+              "Eb5": [
+                "agnesTheDog_bark_bark_Eb6_02",
+                "agnesTheDog_bark_bark_Eb6_03"
+              ],
+              "G5": [
+                "agnesTheDog_bark_bark_G6_01"
+              ],
+              "Gb6": [
+                "agnesTheDog_bark_bark_Gb7_01",
+                "agnesTheDog_bark_bark_Gb7_02",
+                "agnesTheDog_bark_bark_Gb7_03"
+              ]
+            }
+          }
+        },
+        {
+          "type": "compressor",
+          "options": {
+            "attack": 0.1,
+            "release": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "agnesl_howl_flub_10",
+              "agnesl_howl_flub_11",
+              "agnesl_howl_flub_12",
+              "agnesl_howl_flub_13",
+              "agnesl_howl_flub_14",
+              "agnesl_howl_flub_15",
+              "agnesl_howl_flub_16"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    55,
+    75
+  ]
+}

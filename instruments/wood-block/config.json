@@ -1,0 +1,85 @@
+{
+  "slug": "wood-block",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -13,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "march_woodBlock_actual_wood_nylon_C1_006",
+                "march_woodBlock_actual_wood_nylon_C1_008",
+                "march_woodBlock_actual_wood_nylon_C1_009",
+                "march_woodBlock_actual_wood_nylon_C1_012",
+                "march_woodBlock_actual_wood_nylon_C1_014"
+              ],
+              "D2": [
+                "march_woodBlock_actual_wood_nylon_D1_015",
+                "march_woodBlock_actual_wood_nylon_D1_016",
+                "march_woodBlock_actual_wood_nylon_D1_017",
+                "march_woodBlock_actual_wood_nylon_D1_018",
+                "march_woodBlock_actual_wood_nylon_D1_019"
+              ],
+              "E2": [
+                "march_woodBlock_actual_wood_nylon_E1_020",
+                "march_woodBlock_actual_wood_nylon_E1_021",
+                "march_woodBlock_actual_wood_nylon_E1_023",
+                "march_woodBlock_actual_wood_nylon_E1_024",
+                "march_woodBlock_actual_wood_nylon_E1_025"
+              ],
+              "F2": [
+                "march_woodBlock_actual_wood_nylon_F1_026",
+                "march_woodBlock_actual_wood_nylon_F1_027",
+                "march_woodBlock_actual_wood_nylon_F1_028",
+                "march_woodBlock_actual_wood_nylon_F1_029"
+              ],
+              "G2": [
+                "march_woodBlock_actual_wood_nylon_G1_037",
+                "march_woodBlock_actual_wood_nylon_G1_038",
+                "march_woodBlock_actual_wood_nylon_G1_040",
+                "march_woodBlock_actual_wood_nylon_G1_041",
+                "march_woodBlock_actual_wood_nylon_G1_042",
+                "march_woodBlock_actual_wood_nylon_G1_043",
+                "march_woodBlock_actual_wood_nylon_G1_044"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -20,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "clave_nate_clave_flub_003",
+              "clave_nate_clave_flub_004",
+              "clave_nate_clave_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    43
+  ]
+}

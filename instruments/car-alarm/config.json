@@ -1,0 +1,58 @@
+{
+  "slug": "car-alarm",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -4,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "carAlarm_C2_003"
+              ]
+            }
+          }
+        },
+        {
+          "type": "reverb",
+          "options": {
+            "wet": 0.5,
+            "decay": 3
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "carGlassSmash_flub_003",
+              "carGlassSmash_flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    37
+  ]
+}

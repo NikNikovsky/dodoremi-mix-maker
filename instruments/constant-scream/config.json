@@ -1,0 +1,141 @@
+{
+  "slug": "constant-scream",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "screaming_A3_001"
+              ],
+              "A4": [
+                "screaming_A4_001",
+                "screaming_A4_003"
+              ],
+              "A5": [
+                "screaming_A5_001"
+              ],
+              "Ab4": [
+                "screaming_Ab4_001",
+                "screaming_Ab4_002",
+                "screaming_Ab4_003"
+              ],
+              "Ab5": [
+                "screaming_Ab5_001",
+                "screaming_Ab5_003"
+              ],
+              "B3": [
+                "screaming_B3_001"
+              ],
+              "B4": [
+                "screaming_B4_001"
+              ],
+              "Bb3": [
+                "screaming_Bb3_001",
+                "screaming_Bb3_002",
+                "screaming_Bb3_003"
+              ],
+              "Bb4": [
+                "screaming_Bb4_001",
+                "screaming_Bb4_002",
+                "screaming_Bb4_003"
+              ],
+              "C4": [
+                "screaming_C4_001"
+              ],
+              "C5": [
+                "screaming_C5_001"
+              ],
+              "D4": [
+                "screaming_D4_001",
+                "screaming_D4_003"
+              ],
+              "Db4": [
+                "screaming_Db4_001",
+                "screaming_Db4_002",
+                "screaming_Db4_003"
+              ],
+              "E4": [
+                "screaming_E4_001",
+                "screaming_E4_003"
+              ],
+              "Eb4": [
+                "screaming_Eb4_001",
+                "screaming_Eb4_003"
+              ],
+              "F3": [
+                "screaming_F3_001",
+                "screaming_F3_003"
+              ],
+              "F4": [
+                "screaming_F4_001",
+                "screaming_F4_003"
+              ],
+              "F5": [
+                "screaming_F5_001"
+              ],
+              "G3": [
+                "screaming_G3_001"
+              ],
+              "G4": [
+                "screaming_G4_001",
+                "screaming_G4_003"
+              ],
+              "G5": [
+                "screaming_G5_001"
+              ],
+              "Gb3": [
+                "screaming_Gb3_001",
+                "screaming_Gb3_003"
+              ],
+              "Gb4": [
+                "screaming_Gb4_001"
+              ],
+              "Gb5": [
+                "screaming_Gb5_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "screaming_flub_001",
+              "screaming_flub_002",
+              "screaming_flub_003",
+              "screaming_flub_004",
+              "screaming_flub_005",
+              "screaming_flub_006",
+              "screaming_flub_007",
+              "screaming_flub_008"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    50,
+    84
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "slug": "double-bass-bowed",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -5,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A1": [
+                "doubleBass_bowed_A2_001",
+                "doubleBass_bowed_A2_002",
+                "doubleBass_bowed_A2_003"
+              ],
+              "A2": [
+                "doubleBass_bowed_A3_001",
+                "doubleBass_bowed_A3_002",
+                "doubleBass_bowed_A3_003"
+              ],
+              "A3": [
+                "doubleBass_bowed_A4_001",
+                "doubleBass_bowed_A4_002",
+                "doubleBass_bowed_A4_003"
+              ],
+              "Ab1": [
+                "doubleBass_bowed_Ab2_001",
+                "doubleBass_bowed_Ab2_002",
+                "doubleBass_bowed_Ab2_003"
+              ],
+              "Ab2": [
+                "doubleBass_bowed_Ab3_001",
+                "doubleBass_bowed_Ab3_002",
+                "doubleBass_bowed_Ab3_003"
+              ],
+              "Ab3": [
+                "doubleBass_bowed_Ab4_001",
+                "doubleBass_bowed_Ab4_002",
+                "doubleBass_bowed_Ab4_003"
+              ],
+              "B1": [
+                "doubleBass_bowed_B2_001",
+                "doubleBass_bowed_B2_002",
+                "doubleBass_bowed_B2_003"
+              ],
+              "B2": [
+                "doubleBass_bowed_B3_001",
+                "doubleBass_bowed_B3_002",
+                "doubleBass_bowed_B3_003"
+              ],
+              "B3": [
+                "doubleBass_bowed_B4_001",
+                "doubleBass_bowed_B4_002",
+                "doubleBass_bowed_B4_003"
+              ],
+              "Bb1": [
+                "doubleBass_bowed_Bb2_001",
+                "doubleBass_bowed_Bb2_002",
+                "doubleBass_bowed_Bb2_003"
+              ],
+              "Bb2": [
+                "doubleBass_bowed_Bb3_001",
+                "doubleBass_bowed_Bb3_002",
+                "doubleBass_bowed_Bb3_003"
+              ],
+              "Bb3": [
+                "doubleBass_bowed_Bb4_001",
+                "doubleBass_bowed_Bb4_002",
+                "doubleBass_bowed_Bb4_003"
+              ],
+              "C2": [
+                "doubleBass_bowed_C3_001",
+                "doubleBass_bowed_C3_002",
+                "doubleBass_bowed_C3_003"
+              ],
+              "C3": [
+                "doubleBass_bowed_C4_001",
+                "doubleBass_bowed_C4_002",
+                "doubleBass_bowed_C4_003"
+              ],
+              "C4": [
+                "doubleBass_bowed_C5_001",
+                "doubleBass_bowed_C5_002",
+                "doubleBass_bowed_C5_003"
+              ],
+              "D2": [
+                "doubleBass_bowed_D3_001",
+                "doubleBass_bowed_D3_002",
+                "doubleBass_bowed_D3_003"
+              ],
+              "D3": [
+                "doubleBass_bowed_D4_001",
+                "doubleBass_bowed_D4_002",
+                "doubleBass_bowed_D4_003"
+              ],
+              "D4": [
+                "doubleBass_bowed_D5_001",
+                "doubleBass_bowed_D5_002",
+                "doubleBass_bowed_D5_003"
+              ],
+              "Db2": [
+                "doubleBass_bowed_Db3_001",
+                "doubleBass_bowed_Db3_002",
+                "doubleBass_bowed_Db3_003"
+              ],
+              "Db3": [
+                "doubleBass_bowed_Db4_001",
+                "doubleBass_bowed_Db4_002",
+                "doubleBass_bowed_Db4_003"
+              ],
+              "Db4": [
+                "doubleBass_bowed_Db5_001",
+                "doubleBass_bowed_Db5_002",
+                "doubleBass_bowed_Db5_003"
+              ],
+              "E1": [
+                "doubleBass_bowed_E2_001",
+                "doubleBass_bowed_E2_002",
+                "doubleBass_bowed_E2_003"
+              ],
+              "E2": [
+                "doubleBass_bowed_E3_001",
+                "doubleBass_bowed_E3_002",
+                "doubleBass_bowed_E3_003"
+              ],
+              "E3": [
+                "doubleBass_bowed_E4_001",
+                "doubleBass_bowed_E4_002",
+                "doubleBass_bowed_E4_003"
+              ],
+              "Eb2": [
+                "doubleBass_bowed_Eb3_001",
+                "doubleBass_bowed_Eb3_002",
+                "doubleBass_bowed_Eb3_003"
+              ],
+              "Eb3": [
+                "doubleBass_bowed_Eb4_001",
+                "doubleBass_bowed_Eb4_002",
+                "doubleBass_bowed_Eb4_003"
+              ],
+              "F1": [
+                "doubleBass_bowed_F2_001",
+                "doubleBass_bowed_F2_002",
+                "doubleBass_bowed_F2_003"
+              ],
+              "F2": [
+                "doubleBass_bowed_F3_001",
+                "doubleBass_bowed_F3_002",
+                "doubleBass_bowed_F3_003"
+              ],
+              "F3": [
+                "doubleBass_bowed_F4_001",
+                "doubleBass_bowed_F4_002",
+                "doubleBass_bowed_F4_003"
+              ],
+              "G1": [
+                "doubleBass_bowed_G2_001",
+                "doubleBass_bowed_G2_002",
+                "doubleBass_bowed_G2_003"
+              ],
+              "G2": [
+                "doubleBass_bowed_G3_001",
+                "doubleBass_bowed_G3_002",
+                "doubleBass_bowed_G3_003"
+              ],
+              "G3": [
+                "doubleBass_bowed_G4_001",
+                "doubleBass_bowed_G4_002",
+                "doubleBass_bowed_G4_003"
+              ],
+              "Gb1": [
+                "doubleBass_bowed_Gb2_001",
+                "doubleBass_bowed_Gb2_002",
+                "doubleBass_bowed_Gb2_003"
+              ],
+              "Gb2": [
+                "doubleBass_bowed_Gb3_001",
+                "doubleBass_bowed_Gb3_002",
+                "doubleBass_bowed_Gb3_003"
+              ],
+              "Gb3": [
+                "doubleBass_bowed_Gb4_001",
+                "doubleBass_bowed_Gb4_002",
+                "doubleBass_bowed_Gb4_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "doubleBass_bowed_flub_001",
+              "doubleBass_bowed_flub_002",
+              "doubleBass_bowed_flub_003",
+              "doubleBass_bowed_flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    28,
+    64
+  ]
+}

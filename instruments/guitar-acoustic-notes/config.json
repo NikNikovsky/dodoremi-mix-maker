@@ -1,0 +1,261 @@
+{
+  "slug": "guitar-acoustic-notes",
+  "capabilities": [
+    "Sustain",
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "restrictToSingleNotes": false,
+            "volume": -13,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "guitar_acoustic_note_lessAttack_A4_002",
+                "guitar_acoustic_note_lessAttack_A4_003"
+              ],
+              "A4": [
+                "guitar_acoustic_note_lessAttack_A5_001",
+                "guitar_acoustic_note_lessAttack_A5_002"
+              ],
+              "Ab2": [
+                "guitar_acoustic_note_lessAttack_Ab3_001",
+                "guitar_acoustic_note_lessAttack_Ab3_002",
+                "guitar_acoustic_note_lessAttack_Ab3_003"
+              ],
+              "Ab3": [
+                "guitar_acoustic_note_lessAttack_Ab4_001",
+                "guitar_acoustic_note_lessAttack_Ab4_002",
+                "guitar_acoustic_note_lessAttack_Ab4_003"
+              ],
+              "Ab4": [
+                "guitar_acoustic_note_lessAttack_Ab5_001",
+                "guitar_acoustic_note_lessAttack_Ab5_002",
+                "guitar_acoustic_note_lessAttack_Ab5_003"
+              ],
+              "Ab5": [
+                "guitar_acoustic_note_lessAttack_Ab6_001",
+                "guitar_acoustic_note_lessAttack_Ab6_002",
+                "guitar_acoustic_note_lessAttack_Ab6_003"
+              ],
+              "B2": [
+                "guitar_acoustic_note_lessAttack_B3_001",
+                "guitar_acoustic_note_lessAttack_B3_002",
+                "guitar_acoustic_note_lessAttack_B3_003"
+              ],
+              "B3": [
+                "guitar_acoustic_note_lessAttack_B4_001",
+                "guitar_acoustic_note_lessAttack_B4_002",
+                "guitar_acoustic_note_lessAttack_B4_003"
+              ],
+              "B4": [
+                "guitar_acoustic_note_lessAttack_B5_001",
+                "guitar_acoustic_note_lessAttack_B5_002",
+                "guitar_acoustic_note_lessAttack_B5_003"
+              ],
+              "Bb2": [
+                "guitar_acoustic_note_lessAttack_Bb3_001",
+                "guitar_acoustic_note_lessAttack_Bb3_002",
+                "guitar_acoustic_note_lessAttack_Bb3_003"
+              ],
+              "Bb3": [
+                "guitar_acoustic_note_lessAttack_Bb4_001",
+                "guitar_acoustic_note_lessAttack_Bb4_002",
+                "guitar_acoustic_note_lessAttack_Bb4_003"
+              ],
+              "Bb4": [
+                "guitar_acoustic_note_lessAttack_Bb5_001",
+                "guitar_acoustic_note_lessAttack_Bb5_002",
+                "guitar_acoustic_note_lessAttack_Bb5_003"
+              ],
+              "C3": [
+                "guitar_acoustic_note_lessAttack_C4_001",
+                "guitar_acoustic_note_lessAttack_C4_002",
+                "guitar_acoustic_note_lessAttack_C4_003"
+              ],
+              "C4": [
+                "guitar_acoustic_note_lessAttack_C5_001",
+                "guitar_acoustic_note_lessAttack_C5_002",
+                "guitar_acoustic_note_lessAttack_C5_003"
+              ],
+              "C5": [
+                "guitar_acoustic_note_lessAttack_C6_001",
+                "guitar_acoustic_note_lessAttack_C6_002",
+                "guitar_acoustic_note_lessAttack_C6_003"
+              ],
+              "D3": [
+                "guitar_acoustic_note_lessAttack_D4_001",
+                "guitar_acoustic_note_lessAttack_D4_002",
+                "guitar_acoustic_note_lessAttack_D4_003"
+              ],
+              "D4": [
+                "guitar_acoustic_note_lessAttack_D5_001",
+                "guitar_acoustic_note_lessAttack_D5_002",
+                "guitar_acoustic_note_lessAttack_D5_003"
+              ],
+              "D5": [
+                "guitar_acoustic_note_lessAttack_D6_001",
+                "guitar_acoustic_note_lessAttack_D6_002",
+                "guitar_acoustic_note_lessAttack_D6_003"
+              ],
+              "Db3": [
+                "guitar_acoustic_note_lessAttack_Db4_001",
+                "guitar_acoustic_note_lessAttack_Db4_002",
+                "guitar_acoustic_note_lessAttack_Db4_003"
+              ],
+              "Db4": [
+                "guitar_acoustic_note_lessAttack_Db5_001",
+                "guitar_acoustic_note_lessAttack_Db5_002",
+                "guitar_acoustic_note_lessAttack_Db5_003"
+              ],
+              "Db5": [
+                "guitar_acoustic_note_lessAttack_Db6_001",
+                "guitar_acoustic_note_lessAttack_Db6_002",
+                "guitar_acoustic_note_lessAttack_Db6_003"
+              ],
+              "E2": [
+                "guitar_acoustic_note_lessAttack_E3_001",
+                "guitar_acoustic_note_lessAttack_E3_002",
+                "guitar_acoustic_note_lessAttack_E3_003"
+              ],
+              "E3": [
+                "guitar_acoustic_note_lessAttack_E4_001",
+                "guitar_acoustic_note_lessAttack_E4_002",
+                "guitar_acoustic_note_lessAttack_E4_003"
+              ],
+              "E4": [
+                "guitar_acoustic_note_lessAttack_E5_001",
+                "guitar_acoustic_note_lessAttack_E5_002",
+                "guitar_acoustic_note_lessAttack_E5_003"
+              ],
+              "E5": [
+                "guitar_acoustic_note_lessAttack_E6_001",
+                "guitar_acoustic_note_lessAttack_E6_002",
+                "guitar_acoustic_note_lessAttack_E6_003"
+              ],
+              "Eb3": [
+                "guitar_acoustic_note_lessAttack_Eb4_001",
+                "guitar_acoustic_note_lessAttack_Eb4_002",
+                "guitar_acoustic_note_lessAttack_Eb4_003"
+              ],
+              "Eb4": [
+                "guitar_acoustic_note_lessAttack_Eb5_001",
+                "guitar_acoustic_note_lessAttack_Eb5_002",
+                "guitar_acoustic_note_lessAttack_Eb5_003"
+              ],
+              "Eb5": [
+                "guitar_acoustic_note_lessAttack_Eb6_001",
+                "guitar_acoustic_note_lessAttack_Eb6_002",
+                "guitar_acoustic_note_lessAttack_Eb6_003"
+              ],
+              "F2": [
+                "guitar_acoustic_note_lessAttack_F3_001",
+                "guitar_acoustic_note_lessAttack_F3_002",
+                "guitar_acoustic_note_lessAttack_F3_003"
+              ],
+              "F3": [
+                "guitar_acoustic_note_lessAttack_F4_001",
+                "guitar_acoustic_note_lessAttack_F4_002",
+                "guitar_acoustic_note_lessAttack_F4_003"
+              ],
+              "F4": [
+                "guitar_acoustic_note_lessAttack_F5_001",
+                "guitar_acoustic_note_lessAttack_F5_002",
+                "guitar_acoustic_note_lessAttack_F5_003"
+              ],
+              "F5": [
+                "guitar_acoustic_note_lessAttack_F6_001",
+                "guitar_acoustic_note_lessAttack_F6_002",
+                "guitar_acoustic_note_lessAttack_F6_003"
+              ],
+              "G2": [
+                "guitar_acoustic_note_lessAttack_G3_001",
+                "guitar_acoustic_note_lessAttack_G3_002",
+                "guitar_acoustic_note_lessAttack_G3_003"
+              ],
+              "G3": [
+                "guitar_acoustic_note_lessAttack_G4_001",
+                "guitar_acoustic_note_lessAttack_G4_002",
+                "guitar_acoustic_note_lessAttack_G4_003"
+              ],
+              "G4": [
+                "guitar_acoustic_note_lessAttack_G5_001",
+                "guitar_acoustic_note_lessAttack_G5_002",
+                "guitar_acoustic_note_lessAttack_G5_003"
+              ],
+              "G5": [
+                "guitar_acoustic_note_lessAttack_G6_001",
+                "guitar_acoustic_note_lessAttack_G6_002",
+                "guitar_acoustic_note_lessAttack_G6_003"
+              ],
+              "Gb2": [
+                "guitar_acoustic_note_lessAttack_Gb3_001",
+                "guitar_acoustic_note_lessAttack_Gb3_002",
+                "guitar_acoustic_note_lessAttack_Gb3_003"
+              ],
+              "Gb3": [
+                "guitar_acoustic_note_lessAttack_Gb4_001",
+                "guitar_acoustic_note_lessAttack_Gb4_002",
+                "guitar_acoustic_note_lessAttack_Gb4_003"
+              ],
+              "Gb4": [
+                "guitar_acoustic_note_lessAttack_Gb5_001",
+                "guitar_acoustic_note_lessAttack_Gb5_002",
+                "guitar_acoustic_note_lessAttack_Gb5_003"
+              ],
+              "Gb5": [
+                "guitar_acoustic_note_lessAttack_Gb6_001",
+                "guitar_acoustic_note_lessAttack_Gb6_002",
+                "guitar_acoustic_note_lessAttack_Gb6_003"
+              ]
+            }
+          }
+        },
+        {
+          "type": "compressor",
+          "options": {
+            "attack": 0,
+            "ratio": 3,
+            "threshold": -26
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "guitar_acoustic_note_flub_001",
+              "guitar_acoustic_note_flub_002",
+              "guitar_acoustic_note_flub_003",
+              "guitar_acoustic_note_flub_004",
+              "guitar_acoustic_note_flub_005",
+              "guitar_acoustic_note_flub_006",
+              "guitar_acoustic_note_flub_007",
+              "guitar_acoustic_note_flub_008",
+              "guitar_acoustic_note_flub_010",
+              "guitar_acoustic_note_flub_011"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    38,
+    80
+  ]
+}

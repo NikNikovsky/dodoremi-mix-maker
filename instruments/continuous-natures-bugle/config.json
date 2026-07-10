@@ -1,0 +1,67 @@
+{
+  "slug": "continuous-natures-bugle",
+  "capabilities": [
+    "Continuous",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -7,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C3": [
+                "fart_C2_001"
+              ],
+              "C4": [
+                "fart_C3_001"
+              ],
+              "C5": [
+                "fart_C4_001"
+              ],
+              "Gb3": [
+                "fart_Gb2_001"
+              ],
+              "Gb4": [
+                "fart_Gb3_001"
+              ],
+              "Gb5": [
+                "fart_Gb4_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -10,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "fart_melody_flub_004",
+              "fart_melody_flub_005",
+              "fart_melody_flub_006",
+              "fart_melody_flub_007"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    70
+  ]
+}

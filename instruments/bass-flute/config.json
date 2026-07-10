@@ -1,0 +1,188 @@
+{
+  "slug": "bass-flute",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "bassFlute_A4_001",
+                "bassFlute_A4_002",
+                "bassFlute_A4_003"
+              ],
+              "A4": [
+                "bassFlute_A5_001",
+                "bassFlute_A5_002",
+                "bassFlute_A5_003"
+              ],
+              "Ab5": [
+                "bassFlute_Ab4_001",
+                "bassFlute_Ab4_002",
+                "bassFlute_Ab4_003"
+              ],
+              "Ab4": [
+                "bassFlute_Ab5_001",
+                "bassFlute_Ab5_002",
+                "bassFlute_Ab5_003"
+              ],
+              "B3": [
+                "bassFlute_B4_001",
+                "bassFlute_B4_002",
+                "bassFlute_B4_003"
+              ],
+              "B4": [
+                "bassFlute_B5_001",
+                "bassFlute_B5_002",
+                "bassFlute_B5_003"
+              ],
+              "Bb4": [
+                "bassFlute_Bb5_001",
+                "bassFlute_Bb5_002",
+                "bassFlute_Bb5_003"
+              ],
+              "C3": [
+                "bassFlute_C4_001",
+                "bassFlute_C4_002",
+                "bassFlute_C4_003"
+              ],
+              "C4": [
+                "bassFlute_C5_001",
+                "bassFlute_C5_002",
+                "bassFlute_C5_003"
+              ],
+              "C5": [
+                "bassFlute_C6_001",
+                "bassFlute_C6_002",
+                "bassFlute_C6_003"
+              ],
+              "D3": [
+                "bassFlute_D4_001",
+                "bassFlute_D4_002",
+                "bassFlute_D4_003"
+              ],
+              "D4": [
+                "bassFlute_D5_001",
+                "bassFlute_D5_002",
+                "bassFlute_D5_003"
+              ],
+              "D5": [
+                "bassFlute_D6_001",
+                "bassFlute_D6_002",
+                "bassFlute_D6_003"
+              ],
+              "Db3": [
+                "bassFlute_Db4_001",
+                "bassFlute_Db4_002",
+                "bassFlute_Db4_003"
+              ],
+              "Db5": [
+                "bassFlute_Db6_001",
+                "bassFlute_Db6_002",
+                "bassFlute_Db6_003"
+              ],
+              "E3": [
+                "bassFlute_E4_001",
+                "bassFlute_E4_002",
+                "bassFlute_E4_003"
+              ],
+              "E4": [
+                "bassFlute_E5_001",
+                "bassFlute_E5_002",
+                "bassFlute_E5_003"
+              ],
+              "E5": [
+                "bassFlute_E6_001",
+                "bassFlute_E6_002",
+                "bassFlute_E6_003"
+              ],
+              "Eb3": [
+                "bassFlute_Eb4_001",
+                "bassFlute_Eb4_002",
+                "bassFlute_Eb4_003",
+                "bassFlute_Eb4_004",
+                "bassFlute_Eb4_005",
+                "bassFlute_Eb4_006"
+              ],
+              "Eb4": [
+                "bassFlute_Eb5_001",
+                "bassFlute_Eb5_002",
+                "bassFlute_Eb5_003"
+              ],
+              "Eb5": [
+                "bassFlute_Eb6_001",
+                "bassFlute_Eb6_002",
+                "bassFlute_Eb6_003"
+              ],
+              "F3": [
+                "bassFlute_F4_001",
+                "bassFlute_F4_002",
+                "bassFlute_F4_003"
+              ],
+              "F4": [
+                "bassFlute_F5_001",
+                "bassFlute_F5_002",
+                "bassFlute_F5_003"
+              ],
+              "G3": [
+                "bassFlute_G4_001",
+                "bassFlute_G4_002",
+                "bassFlute_G4_003"
+              ],
+              "G4": [
+                "bassFlute_G5_001",
+                "bassFlute_G5_002",
+                "bassFlute_G5_003"
+              ],
+              "Gb3": [
+                "bassFlute_Gb4_001",
+                "bassFlute_Gb4_002",
+                "bassFlute_Gb4_003"
+              ],
+              "Gb4": [
+                "bassFlute_Gb5_001",
+                "bassFlute_Gb5_002",
+                "bassFlute_Gb5_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "bassFlute_flub_001",
+              "bassFlute_flub_002",
+              "bassFlute_flub_003",
+              "bassFlute_flub_004",
+              "bassFlute_flub_005",
+              "bassFlute_flub_006",
+              "bassFlute_flub_007"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    45,
+    65
+  ]
+}

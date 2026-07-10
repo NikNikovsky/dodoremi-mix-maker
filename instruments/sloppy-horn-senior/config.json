@@ -1,0 +1,217 @@
+{
+  "slug": "sloppy-horn-senior",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A1": [
+                "bassTrombone_A1_001",
+                "bassTrombone_A1_002",
+                "bassTrombone_A1_003"
+              ],
+              "A2": [
+                "bassTrombone_A2_001",
+                "bassTrombone_A2_002",
+                "bassTrombone_A2_003"
+              ],
+              "A3": [
+                "bassTrombone_A3_001",
+                "bassTrombone_A3_002",
+                "bassTrombone_A3_003"
+              ],
+              "Ab1": [
+                "bassTrombone_Ab1_001",
+                "bassTrombone_Ab1_002",
+                "bassTrombone_Ab1_003"
+              ],
+              "Ab2": [
+                "bassTrombone_Ab2_001",
+                "bassTrombone_Ab2_002",
+                "bassTrombone_Ab2_003"
+              ],
+              "Ab3": [
+                "bassTrombone_Ab3_001",
+                "bassTrombone_Ab3_002",
+                "bassTrombone_Ab3_003"
+              ],
+              "B1": [
+                "bassTrombone_B1_001",
+                "bassTrombone_B1_002",
+                "bassTrombone_B1_003"
+              ],
+              "B2": [
+                "bassTrombone_B2_001",
+                "bassTrombone_B2_002",
+                "bassTrombone_B2_003"
+              ],
+              "B3": [
+                "bassTrombone_B3_001",
+                "bassTrombone_B3_002",
+                "bassTrombone_B3_003"
+              ],
+              "Bb1": [
+                "bassTrombone_Bb1_001",
+                "bassTrombone_Bb1_002",
+                "bassTrombone_Bb1_003"
+              ],
+              "Bb2": [
+                "bassTrombone_Bb2_001",
+                "bassTrombone_Bb2_002",
+                "bassTrombone_Bb2_003"
+              ],
+              "Bb3": [
+                "bassTrombone_Bb3_001",
+                "bassTrombone_Bb3_002",
+                "bassTrombone_Bb3_003"
+              ],
+              "C2": [
+                "bassTrombone_C2_001",
+                "bassTrombone_C2_002",
+                "bassTrombone_C2_003"
+              ],
+              "C3": [
+                "bassTrombone_C3_001",
+                "bassTrombone_C3_002",
+                "bassTrombone_C3_003"
+              ],
+              "D2": [
+                "bassTrombone_D2_001",
+                "bassTrombone_D2_002",
+                "bassTrombone_D2_003"
+              ],
+              "D3": [
+                "bassTrombone_D3_001",
+                "bassTrombone_D3_002",
+                "bassTrombone_D3_003"
+              ],
+              "Db2": [
+                "bassTrombone_Db2_001",
+                "bassTrombone_Db2_002",
+                "bassTrombone_Db2_003"
+              ],
+              "Db3": [
+                "bassTrombone_Db3_001",
+                "bassTrombone_Db3_002",
+                "bassTrombone_Db3_003"
+              ],
+              "E1": [
+                "bassTrombone_E1_001",
+                "bassTrombone_E1_002",
+                "bassTrombone_E1_003"
+              ],
+              "E2": [
+                "bassTrombone_E2_001",
+                "bassTrombone_E2_002",
+                "bassTrombone_E2_003"
+              ],
+              "E3": [
+                "bassTrombone_E3_001",
+                "bassTrombone_E3_002",
+                "bassTrombone_E3_003"
+              ],
+              "Eb1": [
+                "bassTrombone_Eb1_001",
+                "bassTrombone_Eb1_002",
+                "bassTrombone_Eb1_003"
+              ],
+              "Eb2": [
+                "bassTrombone_Eb2_001",
+                "bassTrombone_Eb2_002",
+                "bassTrombone_Eb2_003"
+              ],
+              "Eb3": [
+                "bassTrombone_Eb3_001",
+                "bassTrombone_Eb3_002",
+                "bassTrombone_Eb3_003"
+              ],
+              "F1": [
+                "bassTrombone_F1_001",
+                "bassTrombone_F1_002",
+                "bassTrombone_F1_003"
+              ],
+              "F2": [
+                "bassTrombone_F2_001",
+                "bassTrombone_F2_002",
+                "bassTrombone_F2_003"
+              ],
+              "F3": [
+                "bassTrombone_F3_001",
+                "bassTrombone_F3_002",
+                "bassTrombone_F3_003"
+              ],
+              "G1": [
+                "bassTrombone_G1_001",
+                "bassTrombone_G1_002",
+                "bassTrombone_G1_003"
+              ],
+              "G2": [
+                "bassTrombone_G2_001",
+                "bassTrombone_G2_002",
+                "bassTrombone_G2_003"
+              ],
+              "G3": [
+                "bassTrombone_G3_001",
+                "bassTrombone_G3_002",
+                "bassTrombone_G3_003"
+              ],
+              "Gb1": [
+                "bassTrombone_Gb1_001",
+                "bassTrombone_Gb1_002",
+                "bassTrombone_Gb1_003"
+              ],
+              "Gb2": [
+                "bassTrombone_Gb2_001",
+                "bassTrombone_Gb2_002",
+                "bassTrombone_Gb2_003"
+              ],
+              "Gb3": [
+                "bassTrombone_Gb3_001",
+                "bassTrombone_Gb3_002",
+                "bassTrombone_Gb3_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "bassTrombone_flub_002",
+              "bassTrombone_flub_003",
+              "bassTrombone_flub_004",
+              "bassTrombone_flub_005",
+              "bassTrombone_flub_006",
+              "bassTrombone_flub_007",
+              "bassTrombone_flub_010",
+              "bassTrombone_flub_011"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    30,
+    60
+  ]
+}

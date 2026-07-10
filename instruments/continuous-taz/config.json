@@ -1,0 +1,66 @@
+{
+  "slug": "continuous-taz",
+  "capabilities": [
+    "Melodic",
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "legato": false,
+            "urls": {
+              "C5": [
+                "taz_C5_001"
+              ],
+              "C6": [
+                "taz_C6_001"
+              ],
+              "C7": [
+                "taz_C7_001"
+              ],
+              "Gb5": [
+                "taz_Gb5_001"
+              ],
+              "Gb6": [
+                "taz_Gb6_001"
+              ],
+              "Gb7": [
+                "taz_Gb7_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "cat_taz_flub_001",
+              "cat_taz_flub_002"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    72,
+    106
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "snap-clap-stomp",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -8,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "D2": [
+                "clap_C1_01",
+                "clap_C1_02",
+                "clap_C1_03",
+                "clap_C1_04"
+              ],
+              "E2": [
+                "snap_D1_01",
+                "snap_D1_02",
+                "snap_D1_03",
+                "snap_D1_04"
+              ],
+              "C2": [
+                "stomp_E1_01",
+                "stomp_E1_02",
+                "stomp_E1_03",
+                "stomp_E1_04"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "cheeks_flub_001",
+              "cheeks_flub_002",
+              "cheeks_flub_003",
+              "cheeks_flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    40
+  ]
+}

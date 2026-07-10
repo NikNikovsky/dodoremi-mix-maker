@@ -1,0 +1,244 @@
+{
+  "slug": "sloppy-horn-sampler",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "isDisabled": false,
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "bb2": [
+                "trombone_bb2_0",
+                "trombone_bb2_1",
+                "trombone_bb2_2",
+                "trombone_bb2_3"
+              ],
+              "bb3": [
+                "trombone_bb3_0",
+                "trombone_bb3_1",
+                "trombone_bb3_2",
+                "trombone_bb3_3"
+              ],
+              "a2": [
+                "trombone_a2_0",
+                "trombone_a2_1",
+                "trombone_a2_2",
+                "trombone_a2_3"
+              ],
+              "a3": [
+                "trombone_a3_0",
+                "trombone_a3_1",
+                "trombone_a3_2",
+                "trombone_a3_3"
+              ],
+              "b2": [
+                "trombone_b2_0",
+                "trombone_b2_1",
+                "trombone_b2_2",
+                "trombone_b2_3"
+              ],
+              "b3": [
+                "trombone_b3_0",
+                "trombone_b3_1",
+                "trombone_b3_2",
+                "trombone_b3_3"
+              ],
+              "db3": [
+                "trombone_db3_0",
+                "trombone_db3_1",
+                "trombone_db3_2",
+                "trombone_db3_3"
+              ],
+              "db4": [
+                "trombone_db4_0",
+                "trombone_db4_1",
+                "trombone_db4_2",
+                "trombone_db4_3"
+              ],
+              "c3": [
+                "trombone_c3_0",
+                "trombone_c3_1",
+                "trombone_c3_2",
+                "trombone_c3_3"
+              ],
+              "c4": [
+                "trombone_c4_0",
+                "trombone_c4_1",
+                "trombone_c4_2",
+                "trombone_c4_3"
+              ],
+              "eb3": [
+                "trombone_eb3_0",
+                "trombone_eb3_1",
+                "trombone_eb3_2",
+                "trombone_eb3_3"
+              ],
+              "eb4": [
+                "trombone_eb4_0",
+                "trombone_eb4_1",
+                "trombone_eb4_2",
+                "trombone_eb4_3"
+              ],
+              "d3": [
+                "trombone_d3_0",
+                "trombone_d3_1",
+                "trombone_d3_2",
+                "trombone_d3_3"
+              ],
+              "d4": [
+                "trombone_d4_0",
+                "trombone_d4_1",
+                "trombone_d4_2",
+                "trombone_d4_3"
+              ],
+              "e3": [
+                "trombone_e3_0",
+                "trombone_e3_1",
+                "trombone_e3_2",
+                "trombone_e3_3"
+              ],
+              "e4": [
+                "trombone_e4_0",
+                "trombone_e4_1",
+                "trombone_e4_2",
+                "trombone_e4_3"
+              ],
+              "gb2": [
+                "trombone_gb2_0",
+                "trombone_gb2_1",
+                "trombone_gb2_2",
+                "trombone_gb2_3"
+              ],
+              "gb3": [
+                "trombone_gb3_0",
+                "trombone_gb3_1",
+                "trombone_gb3_2",
+                "trombone_gb3_3"
+              ],
+              "gb4": [
+                "trombone_gb4_0",
+                "trombone_gb4_1",
+                "trombone_gb4_2",
+                "trombone_gb4_3"
+              ],
+              "f2": [
+                "trombone_f2_0",
+                "trombone_f2_1",
+                "trombone_f2_2",
+                "trombone_f2_3"
+              ],
+              "f3": [
+                "trombone_f3_0",
+                "trombone_f3_1",
+                "trombone_f3_2",
+                "trombone_f3_3"
+              ],
+              "f4": [
+                "trombone_f4_0",
+                "trombone_f4_1",
+                "trombone_f4_2",
+                "trombone_f4_3"
+              ],
+              "ab2": [
+                "trombone_ab2_0",
+                "trombone_ab2_1",
+                "trombone_ab2_2",
+                "trombone_ab2_3"
+              ],
+              "ab3": [
+                "trombone_ab3_0",
+                "trombone_ab3_1",
+                "trombone_ab3_2",
+                "trombone_ab3_3"
+              ],
+              "g2": [
+                "trombone_g2_0",
+                "trombone_g2_1",
+                "trombone_g2_2",
+                "trombone_g2_3"
+              ],
+              "g3": [
+                "trombone_g3_0",
+                "trombone_g3_1",
+                "trombone_g3_2",
+                "trombone_g3_3"
+              ],
+              "g4": [
+                "trombone_g4_0",
+                "trombone_g4_1",
+                "trombone_g4_2",
+                "trombone_g4_3"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "isDisabled": false,
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "trombone_flub_0",
+              "trombone_flub_1",
+              "trombone_flub_11",
+              "trombone_flub_12",
+              "trombone_flub_13",
+              "trombone_flub_14",
+              "trombone_flub_15",
+              "trombone_flub_16",
+              "trombone_flub_17",
+              "trombone_flub_18",
+              "trombone_flub_19",
+              "trombone_flub_2",
+              "trombone_flub_21",
+              "trombone_flub_22",
+              "trombone_flub_23",
+              "trombone_flub_24",
+              "trombone_flub_25",
+              "trombone_flub_26",
+              "trombone_flub_27",
+              "trombone_flub_28",
+              "trombone_flub_29",
+              "trombone_flub_3",
+              "trombone_flub_31",
+              "trombone_flub_32",
+              "trombone_flub_33",
+              "trombone_flub_34",
+              "trombone_flub_35",
+              "trombone_flub_36",
+              "trombone_flub_37",
+              "trombone_flub_38",
+              "trombone_flub_4",
+              "trombone_flub_5",
+              "trombone_flub_6",
+              "trombone_flub_7",
+              "trombone_flub_8",
+              "trombone_flub_9"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    41,
+    74
+  ]
+}

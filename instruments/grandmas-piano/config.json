@@ -1,0 +1,437 @@
+{
+  "slug": "grandmas-piano",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A1": [
+                "piano_upright_A1_001",
+                "piano_upright_A1_002",
+                "piano_upright_A1_003"
+              ],
+              "A2": [
+                "piano_upright_A2_001",
+                "piano_upright_A2_002",
+                "piano_upright_A2_003"
+              ],
+              "A3": [
+                "piano_upright_A3_001",
+                "piano_upright_A3_002",
+                "piano_upright_A3_003"
+              ],
+              "A4": [
+                "piano_upright_A4_001",
+                "piano_upright_A4_002",
+                "piano_upright_A4_003"
+              ],
+              "A5": [
+                "piano_upright_A5_001",
+                "piano_upright_A5_002",
+                "piano_upright_A5_003"
+              ],
+              "A6": [
+                "piano_upright_A6_001",
+                "piano_upright_A6_002",
+                "piano_upright_A6_003"
+              ],
+              "Ab1": [
+                "piano_upright_Ab1_001",
+                "piano_upright_Ab1_002",
+                "piano_upright_Ab1_003"
+              ],
+              "Ab2": [
+                "piano_upright_Ab2_001",
+                "piano_upright_Ab2_002",
+                "piano_upright_Ab2_003"
+              ],
+              "Ab3": [
+                "piano_upright_Ab3_001",
+                "piano_upright_Ab3_002",
+                "piano_upright_Ab3_003"
+              ],
+              "Ab4": [
+                "piano_upright_Ab4_001",
+                "piano_upright_Ab4_002",
+                "piano_upright_Ab4_003"
+              ],
+              "Ab5": [
+                "piano_upright_Ab5_001",
+                "piano_upright_Ab5_002",
+                "piano_upright_Ab5_003"
+              ],
+              "Ab6": [
+                "piano_upright_Ab6_001",
+                "piano_upright_Ab6_002",
+                "piano_upright_Ab6_003"
+              ],
+              "B1": [
+                "piano_upright_B1_001",
+                "piano_upright_B1_002",
+                "piano_upright_B1_003"
+              ],
+              "B2": [
+                "piano_upright_B2_001",
+                "piano_upright_B2_002",
+                "piano_upright_B2_003"
+              ],
+              "B3": [
+                "piano_upright_B3_001",
+                "piano_upright_B3_002",
+                "piano_upright_B3_003"
+              ],
+              "B4": [
+                "piano_upright_B4_001",
+                "piano_upright_B4_002",
+                "piano_upright_B4_003"
+              ],
+              "B5": [
+                "piano_upright_B5_001",
+                "piano_upright_B5_002",
+                "piano_upright_B5_003"
+              ],
+              "B6": [
+                "piano_upright_B6_001",
+                "piano_upright_B6_002",
+                "piano_upright_B6_003"
+              ],
+              "Bb1": [
+                "piano_upright_Bb1_001",
+                "piano_upright_Bb1_002",
+                "piano_upright_Bb1_003"
+              ],
+              "Bb2": [
+                "piano_upright_Bb2_001",
+                "piano_upright_Bb2_002",
+                "piano_upright_Bb2_003"
+              ],
+              "Bb3": [
+                "piano_upright_Bb3_001",
+                "piano_upright_Bb3_002",
+                "piano_upright_Bb3_003"
+              ],
+              "Bb4": [
+                "piano_upright_Bb4_001",
+                "piano_upright_Bb4_002",
+                "piano_upright_Bb4_003"
+              ],
+              "Bb5": [
+                "piano_upright_Bb5_001",
+                "piano_upright_Bb5_002",
+                "piano_upright_Bb5_003"
+              ],
+              "Bb6": [
+                "piano_upright_Bb6_001",
+                "piano_upright_Bb6_002",
+                "piano_upright_Bb6_003"
+              ],
+              "C1": [
+                "piano_upright_C1_001",
+                "piano_upright_C1_002",
+                "piano_upright_C1_003"
+              ],
+              "C2": [
+                "piano_upright_C2_001",
+                "piano_upright_C2_002",
+                "piano_upright_C2_003"
+              ],
+              "C3": [
+                "piano_upright_C3_001",
+                "piano_upright_C3_002",
+                "piano_upright_C3_003"
+              ],
+              "C4": [
+                "piano_upright_C4_001",
+                "piano_upright_C4_002",
+                "piano_upright_C4_003"
+              ],
+              "C5": [
+                "piano_upright_C5_001",
+                "piano_upright_C5_002",
+                "piano_upright_C5_003"
+              ],
+              "C6": [
+                "piano_upright_C6_001",
+                "piano_upright_C6_002",
+                "piano_upright_C6_003"
+              ],
+              "C7": [
+                "piano_upright_C7_001",
+                "piano_upright_C7_002",
+                "piano_upright_C7_003"
+              ],
+              "D1": [
+                "piano_upright_D1_001",
+                "piano_upright_D1_002",
+                "piano_upright_D1_003"
+              ],
+              "D2": [
+                "piano_upright_D2_001",
+                "piano_upright_D2_002",
+                "piano_upright_D2_003"
+              ],
+              "D3": [
+                "piano_upright_D3_001",
+                "piano_upright_D3_002",
+                "piano_upright_D3_003"
+              ],
+              "D4": [
+                "piano_upright_D4_001",
+                "piano_upright_D4_002",
+                "piano_upright_D4_003"
+              ],
+              "D5": [
+                "piano_upright_D5_001",
+                "piano_upright_D5_002",
+                "piano_upright_D5_003"
+              ],
+              "D6": [
+                "piano_upright_D6_001",
+                "piano_upright_D6_002",
+                "piano_upright_D6_003"
+              ],
+              "D7": [
+                "piano_upright_D7_001",
+                "piano_upright_D7_002",
+                "piano_upright_D7_003"
+              ],
+              "Db1": [
+                "piano_upright_Db1_001",
+                "piano_upright_Db1_002",
+                "piano_upright_Db1_003"
+              ],
+              "Db2": [
+                "piano_upright_Db2_001",
+                "piano_upright_Db2_002",
+                "piano_upright_Db2_003"
+              ],
+              "Db3": [
+                "piano_upright_Db3_001",
+                "piano_upright_Db3_002",
+                "piano_upright_Db3_003"
+              ],
+              "Db4": [
+                "piano_upright_Db4_001",
+                "piano_upright_Db4_002",
+                "piano_upright_Db4_003"
+              ],
+              "Db5": [
+                "piano_upright_Db5_001",
+                "piano_upright_Db5_002",
+                "piano_upright_Db5_003"
+              ],
+              "Db6": [
+                "piano_upright_Db6_001",
+                "piano_upright_Db6_002",
+                "piano_upright_Db6_003"
+              ],
+              "Db7": [
+                "piano_upright_Db7_001",
+                "piano_upright_Db7_002",
+                "piano_upright_Db7_003"
+              ],
+              "E1": [
+                "piano_upright_E1_001",
+                "piano_upright_E1_002",
+                "piano_upright_E1_003"
+              ],
+              "E2": [
+                "piano_upright_E2_001",
+                "piano_upright_E2_002",
+                "piano_upright_E2_003"
+              ],
+              "E3": [
+                "piano_upright_E3_001",
+                "piano_upright_E3_002",
+                "piano_upright_E3_003"
+              ],
+              "E4": [
+                "piano_upright_E4_001",
+                "piano_upright_E4_002",
+                "piano_upright_E4_003"
+              ],
+              "E5": [
+                "piano_upright_E5_001",
+                "piano_upright_E5_002",
+                "piano_upright_E5_003"
+              ],
+              "E6": [
+                "piano_upright_E6_001",
+                "piano_upright_E6_002",
+                "piano_upright_E6_003"
+              ],
+              "E7": [
+                "piano_upright_E7_001",
+                "piano_upright_E7_002",
+                "piano_upright_E7_003"
+              ],
+              "Eb1": [
+                "piano_upright_Eb1_001",
+                "piano_upright_Eb1_002",
+                "piano_upright_Eb1_003"
+              ],
+              "Eb2": [
+                "piano_upright_Eb2_001",
+                "piano_upright_Eb2_002",
+                "piano_upright_Eb2_003"
+              ],
+              "Eb3": [
+                "piano_upright_Eb3_001",
+                "piano_upright_Eb3_002",
+                "piano_upright_Eb3_003"
+              ],
+              "Eb4": [
+                "piano_upright_Eb4_001",
+                "piano_upright_Eb4_002",
+                "piano_upright_Eb4_003"
+              ],
+              "Eb5": [
+                "piano_upright_Eb5_001",
+                "piano_upright_Eb5_002",
+                "piano_upright_Eb5_003"
+              ],
+              "Eb6": [
+                "piano_upright_Eb6_001",
+                "piano_upright_Eb6_002",
+                "piano_upright_Eb6_003"
+              ],
+              "Eb7": [
+                "piano_upright_Eb7_001",
+                "piano_upright_Eb7_002",
+                "piano_upright_Eb7_003"
+              ],
+              "F1": [
+                "piano_upright_F1_001",
+                "piano_upright_F1_002",
+                "piano_upright_F1_003"
+              ],
+              "F2": [
+                "piano_upright_F2_001",
+                "piano_upright_F2_002",
+                "piano_upright_F2_003"
+              ],
+              "F3": [
+                "piano_upright_F3_001",
+                "piano_upright_F3_002",
+                "piano_upright_F3_003"
+              ],
+              "F4": [
+                "piano_upright_F4_001",
+                "piano_upright_F4_002",
+                "piano_upright_F4_003"
+              ],
+              "F5": [
+                "piano_upright_F5_001",
+                "piano_upright_F5_002",
+                "piano_upright_F5_003"
+              ],
+              "F6": [
+                "piano_upright_F6_001",
+                "piano_upright_F6_002",
+                "piano_upright_F6_003"
+              ],
+              "F7": [
+                "piano_upright_F7_001",
+                "piano_upright_F7_002",
+                "piano_upright_F7_003"
+              ],
+              "G1": [
+                "piano_upright_G1_001",
+                "piano_upright_G1_002",
+                "piano_upright_G1_003"
+              ],
+              "G2": [
+                "piano_upright_G2_001",
+                "piano_upright_G2_002",
+                "piano_upright_G2_003"
+              ],
+              "G3": [
+                "piano_upright_G3_001",
+                "piano_upright_G3_002",
+                "piano_upright_G3_003"
+              ],
+              "G4": [
+                "piano_upright_G4_001",
+                "piano_upright_G4_002",
+                "piano_upright_G4_003"
+              ],
+              "G5": [
+                "piano_upright_G5_001",
+                "piano_upright_G5_002",
+                "piano_upright_G5_003"
+              ],
+              "G6": [
+                "piano_upright_G6_001",
+                "piano_upright_G6_002",
+                "piano_upright_G6_003"
+              ],
+              "Gb1": [
+                "piano_upright_Gb1_001",
+                "piano_upright_Gb1_002",
+                "piano_upright_Gb1_003"
+              ],
+              "Gb2": [
+                "piano_upright_Gb2_001",
+                "piano_upright_Gb2_002",
+                "piano_upright_Gb2_003"
+              ],
+              "Gb3": [
+                "piano_upright_Gb3_001",
+                "piano_upright_Gb3_002",
+                "piano_upright_Gb3_003"
+              ],
+              "Gb4": [
+                "piano_upright_Gb4_001",
+                "piano_upright_Gb4_002",
+                "piano_upright_Gb4_003"
+              ],
+              "Gb5": [
+                "piano_upright_Gb5_001",
+                "piano_upright_Gb5_002",
+                "piano_upright_Gb5_003"
+              ],
+              "Gb6": [
+                "piano_upright_Gb6_001",
+                "piano_upright_Gb6_002",
+                "piano_upright_Gb6_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "piano_flub_001",
+              "piano_flub_002",
+              "piano_flub_003"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    113
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "contrabassoon",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -2,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A1": [
+                "contraBassoon_A2_001",
+                "contraBassoon_A2_002",
+                "contraBassoon_A2_003"
+              ],
+              "A2": [
+                "contraBassoon_A3_001",
+                "contraBassoon_A3_002",
+                "contraBassoon_A3_003"
+              ],
+              "Ab1": [
+                "contraBassoon_Ab2_001",
+                "contraBassoon_Ab2_002",
+                "contraBassoon_Ab2_003"
+              ],
+              "Ab2": [
+                "contraBassoon_Ab3_001",
+                "contraBassoon_Ab3_002",
+                "contraBassoon_Ab3_003"
+              ],
+              "B0": [
+                "contraBassoon_B1_001",
+                "contraBassoon_B1_002",
+                "contraBassoon_B1_003"
+              ],
+              "B1": [
+                "contraBassoon_B2_001",
+                "contraBassoon_B2_002",
+                "contraBassoon_B2_003"
+              ],
+              "B2": [
+                "contraBassoon_B3_001",
+                "contraBassoon_B3_002",
+                "contraBassoon_B3_003"
+              ],
+              "Bb0": [
+                "contraBassoon_Bb1_001",
+                "contraBassoon_Bb1_002",
+                "contraBassoon_Bb1_003"
+              ],
+              "Bb1": [
+                "contraBassoon_Bb2_001",
+                "contraBassoon_Bb2_002",
+                "contraBassoon_Bb2_003"
+              ],
+              "Bb2": [
+                "contraBassoon_Bb3_001",
+                "contraBassoon_Bb3_002",
+                "contraBassoon_Bb3_003"
+              ],
+              "C1": [
+                "contraBassoon_C2_001",
+                "contraBassoon_C2_002",
+                "contraBassoon_C2_003"
+              ],
+              "C2": [
+                "contraBassoon_C3_001",
+                "contraBassoon_C3_002",
+                "contraBassoon_C3_003"
+              ],
+              "C3": [
+                "contraBassoon_C4_001",
+                "contraBassoon_C4_002",
+                "contraBassoon_C4_003"
+              ],
+              "D1": [
+                "contraBassoon_D2_001",
+                "contraBassoon_D2_002",
+                "contraBassoon_D2_003"
+              ],
+              "D2": [
+                "contraBassoon_D3_001",
+                "contraBassoon_D3_002",
+                "contraBassoon_D3_003"
+              ],
+              "Db1": [
+                "contraBassoon_Db2_001",
+                "contraBassoon_Db2_002",
+                "contraBassoon_Db2_003"
+              ],
+              "Db2": [
+                "contraBassoon_Db3_001",
+                "contraBassoon_Db3_002",
+                "contraBassoon_Db3_003"
+              ],
+              "Db3": [
+                "contraBassoon_Db4_001",
+                "contraBassoon_Db4_002",
+                "contraBassoon_Db4_003"
+              ],
+              "E1": [
+                "contraBassoon_E2_001",
+                "contraBassoon_E2_002",
+                "contraBassoon_E2_003"
+              ],
+              "E2": [
+                "contraBassoon_E3_001",
+                "contraBassoon_E3_002",
+                "contraBassoon_E3_003"
+              ],
+              "Eb1": [
+                "contraBassoon_Eb2_001",
+                "contraBassoon_Eb2_002",
+                "contraBassoon_Eb2_003"
+              ],
+              "Eb2": [
+                "contraBassoon_Eb3_001",
+                "contraBassoon_Eb3_002",
+                "contraBassoon_Eb3_003"
+              ],
+              "F1": [
+                "contraBassoon_F2_001",
+                "contraBassoon_F2_002",
+                "contraBassoon_F2_003"
+              ],
+              "F2": [
+                "contraBassoon_F3_001",
+                "contraBassoon_F3_002",
+                "contraBassoon_F3_003"
+              ],
+              "G1": [
+                "contraBassoon_G2_001",
+                "contraBassoon_G2_002",
+                "contraBassoon_G2_003"
+              ],
+              "G2": [
+                "contraBassoon_G3_001",
+                "contraBassoon_G3_002",
+                "contraBassoon_G3_003"
+              ],
+              "Gb1": [
+                "contraBassoon_Gb2_001",
+                "contraBassoon_Gb2_002",
+                "contraBassoon_Gb2_003"
+              ],
+              "Gb2": [
+                "contraBassoon_Gb3_001",
+                "contraBassoon_Gb3_002",
+                "contraBassoon_Gb3_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "contraBassoon_flub_001",
+              "contraBassoon_flub_002",
+              "contraBassoon_flub_003",
+              "contraBassoon_flub_004",
+              "contraBassoon_flub_005",
+              "contraBassoon_flub_006",
+              "contraBassoon_flub_007",
+              "contraBassoon_flub_008"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    22,
+    67
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "squeeze-box",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -5,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A4": [
+                "concertina_A4_001",
+                "concertina_A4_002",
+                "concertina_A4_003",
+                "concertina_A4_004"
+              ],
+              "A5": [
+                "concertina_A5_001",
+                "concertina_A5_002",
+                "concertina_A5_003",
+                "concertina_A5_004"
+              ],
+              "B3": [
+                "concertina_B3_001",
+                "concertina_B3_002"
+              ],
+              "B4": [
+                "concertina_B4_001",
+                "concertina_B4_002",
+                "concertina_B4_003",
+                "concertina_B4_004"
+              ],
+              "B5": [
+                "concertina_B5_001",
+                "concertina_B5_002",
+                "concertina_B5_003",
+                "concertina_B5_004"
+              ],
+              "C3": [
+                "concertina_C3_001",
+                "concertina_C3_002"
+              ],
+              "C4": [
+                "concertina_C4_001",
+                "concertina_C4_002"
+              ],
+              "C5": [
+                "concertina_C5_001",
+                "concertina_C5_002",
+                "concertina_C5_003",
+                "concertina_C5_004"
+              ],
+              "C6": [
+                "concertina_C6_001",
+                "concertina_C6_002",
+                "concertina_C6_003",
+                "concertina_C6_004"
+              ],
+              "D4": [
+                "concertina_D4_001",
+                "concertina_D4_002",
+                "concertina_D4_003",
+                "concertina_D4_004",
+                "concertina_D4_005",
+                "concertina_D4_006"
+              ],
+              "D5": [
+                "concertina_D5_001",
+                "concertina_D5_002"
+              ],
+              "D6": [
+                "concertina_D6_001",
+                "concertina_D6_002"
+              ],
+              "E4": [
+                "concertina_E4_001",
+                "concertina_E4_002"
+              ],
+              "E5": [
+                "concertina_E5_001",
+                "concertina_E5_002",
+                "concertina_E5_003",
+                "concertina_E5_004"
+              ],
+              "E6": [
+                "concertina_E6_001",
+                "concertina_E6_002",
+                "concertina_E6_003",
+                "concertina_E6_004"
+              ],
+              "F4": [
+                "concertina_F4_001",
+                "concertina_F4_002"
+              ],
+              "F5": [
+                "concertina_F5_001",
+                "concertina_F5_002"
+              ],
+              "G3": [
+                "concertina_G3_001",
+                "concertina_G3_002",
+                "concertina_G3_003",
+                "concertina_G3_004",
+                "concertina_G3_005",
+                "concertina_G3_006"
+              ],
+              "G4": [
+                "concertina_G4_001",
+                "concertina_G4_002",
+                "concertina_G4_003",
+                "concertina_G4_004"
+              ],
+              "G5": [
+                "concertina_G5_001",
+                "concertina_G5_002",
+                "concertina_G5_003",
+                "concertina_G5_004"
+              ],
+              "G6": [
+                "concertina_G6_001",
+                "concertina_G6_002"
+              ],
+              "Gb4": [
+                "concertina_Gb4_001",
+                "concertina_Gb4_002"
+              ],
+              "Gb5": [
+                "concertina_Gb5_001",
+                "concertina_Gb5_002"
+              ],
+              "Gb6": [
+                "concertina_Gb6_001",
+                "concertina_Gb6_002"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "concertina_flub_001",
+              "concertina_flub_002"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    57,
+    96
+  ]
+}

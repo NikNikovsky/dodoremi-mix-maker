@@ -1,0 +1,77 @@
+{
+  "slug": "shaky-shaker",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -10,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "D2": [
+                "shaker_hi_D1_001",
+                "shaker_hi_D1_002",
+                "shaker_hi_D1_003",
+                "shaker_hi_D1_004",
+                "shaker_hi_D1_005",
+                "shaker_hi_D1_006",
+                "shaker_hi_D1_007",
+                "shaker_hi_D1_008",
+                "shaker_hi_D1_009",
+                "shaker_hi_D1_010"
+              ],
+              "C2": [
+                "shaker_lo_C1_001",
+                "shaker_lo_C1_002",
+                "shaker_lo_C1_003",
+                "shaker_lo_C1_004",
+                "shaker_lo_C1_005",
+                "shaker_lo_C1_006",
+                "shaker_lo_C1_007",
+                "shaker_lo_C1_008",
+                "shaker_lo_C1_009",
+                "shaker_lo_C1_010"
+              ],
+              "E2": [
+                "shaker_open_F1_001",
+                "shaker_open_F1_002",
+                "shaker_open_F1_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -15,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "shaker_flub_001",
+              "shaker_flub_002"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    41
+  ]
+}

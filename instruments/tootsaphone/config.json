@@ -1,0 +1,68 @@
+{
+  "slug": "tootsaphone",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "a3": [
+                "fart_melody__a2_0"
+              ],
+              "a4": [
+                "fart_melody__a3_0"
+              ],
+              "d4": [
+                "fart_melody__d3_0"
+              ],
+              "e4": [
+                "fart_melody__e3_01",
+                "fart_melody__e3_02"
+              ],
+              "e5": [
+                "fart_melody__e4_01",
+                "fart_melody__e4_02"
+              ],
+              "g3": [
+                "fart_melody__g2_0"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -10,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "fart_melody_flub_004",
+              "fart_melody_flub_005",
+              "fart_melody_flub_006",
+              "fart_melody_flub_007"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    72
+  ]
+}

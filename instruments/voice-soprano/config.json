@@ -1,0 +1,173 @@
+{
+  "slug": "voice-soprano",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A3": [
+                "voice_soprano_A4_001",
+                "voice_soprano_A4_002",
+                "voice_soprano_A4_003"
+              ],
+              "A4": [
+                "voice_soprano_A5_001",
+                "voice_soprano_A5_002",
+                "voice_soprano_A5_003"
+              ],
+              "A5": [
+                "voice_soprano_A6_001",
+                "voice_soprano_A6_002",
+                "voice_soprano_A6_003"
+              ],
+              "Ab3": [
+                "voice_soprano_Ab4_001",
+                "voice_soprano_Ab4_002",
+                "voice_soprano_Ab4_003"
+              ],
+              "Ab4": [
+                "voice_soprano_Ab5_001",
+                "voice_soprano_Ab5_002",
+                "voice_soprano_Ab5_003"
+              ],
+              "B3": [
+                "voice_soprano_B4_001",
+                "voice_soprano_B4_002",
+                "voice_soprano_B4_003"
+              ],
+              "B4": [
+                "voice_soprano_B5_001",
+                "voice_soprano_B5_002",
+                "voice_soprano_B5_003"
+              ],
+              "B5": [
+                "voice_soprano_B6_001",
+                "voice_soprano_B6_002",
+                "voice_soprano_B6_003"
+              ],
+              "Bb4": [
+                "voice_soprano_Bb5_001",
+                "voice_soprano_Bb5_002",
+                "voice_soprano_Bb5_003"
+              ],
+              "Bb5": [
+                "voice_soprano_Bb6_001",
+                "voice_soprano_Bb6_002",
+                "voice_soprano_Bb6_003"
+              ],
+              "C4": [
+                "voice_soprano_C5_001",
+                "voice_soprano_C5_002",
+                "voice_soprano_C5_003"
+              ],
+              "C5": [
+                "voice_soprano_C6_001",
+                "voice_soprano_C6_002",
+                "voice_soprano_C6_003"
+              ],
+              "D4": [
+                "voice_soprano_D5_001",
+                "voice_soprano_D5_002",
+                "voice_soprano_D5_003"
+              ],
+              "D5": [
+                "voice_soprano_D6_001",
+                "voice_soprano_D6_002",
+                "voice_soprano_D6_003"
+              ],
+              "Db4": [
+                "voice_soprano_Db5_001",
+                "voice_soprano_Db5_002",
+                "voice_soprano_Db5_003"
+              ],
+              "Db5": [
+                "voice_soprano_Db6_001",
+                "voice_soprano_Db6_002",
+                "voice_soprano_Db6_003"
+              ],
+              "E4": [
+                "voice_soprano_E5_001",
+                "voice_soprano_E5_002",
+                "voice_soprano_E5_003"
+              ],
+              "E5": [
+                "voice_soprano_E6_001",
+                "voice_soprano_E6_002",
+                "voice_soprano_E6_003"
+              ],
+              "Eb4": [
+                "voice_soprano_Eb5_001",
+                "voice_soprano_Eb5_002",
+                "voice_soprano_Eb5_003"
+              ],
+              "F4": [
+                "voice_soprano_F5_001",
+                "voice_soprano_F5_002",
+                "voice_soprano_F5_003"
+              ],
+              "F5": [
+                "voice_soprano_F6_001",
+                "voice_soprano_F6_002",
+                "voice_soprano_F6_003"
+              ],
+              "G3": [
+                "voice_soprano_G4_001",
+                "voice_soprano_G4_002",
+                "voice_soprano_G4_003"
+              ],
+              "G4": [
+                "voice_soprano_G5_001",
+                "voice_soprano_G5_002",
+                "voice_soprano_G5_003"
+              ],
+              "G5": [
+                "voice_soprano_G6_001",
+                "voice_soprano_G6_002",
+                "voice_soprano_G6_003"
+              ],
+              "Gb4": [
+                "voice_soprano_Gb5_001",
+                "voice_soprano_Gb5_002",
+                "voice_soprano_Gb5_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "voice_soprano_flub_001",
+              "voice_soprano_flub_002",
+              "voice_soprano_flub_003",
+              "voice_soprano_flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    54,
+    88
+  ]
+}

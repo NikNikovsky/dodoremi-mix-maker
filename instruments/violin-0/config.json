@@ -1,0 +1,75 @@
+{
+  "slug": "violin-0",
+  "capabilities": [
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -6,
+            "attack": 0,
+            "release": 0.1,
+            "legato": false,
+            "urls": {
+              "C4": [
+                "violin_C5_001"
+              ],
+              "C5": [
+                "violin_C6_001"
+              ],
+              "C6": [
+                "violin_C7_001"
+              ],
+              "Gb4": [
+                "violin_Gb5_001"
+              ],
+              "Gb5": [
+                "violin_Gb6_001"
+              ],
+              "Gb6": [
+                "violin_Gb7_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -12,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "violin_bowed_flub_001",
+              "violin_bowed_flub_002",
+              "violin_bowed_flub_003",
+              "violin_bowed_flub_004",
+              "violin_bowed_flub_005",
+              "violin_bowed_flub_006",
+              "violin_bowed_flub_007",
+              "violin_bowed_flub_008",
+              "violin_bowed_flub_009",
+              "violin_bowed_flub_010",
+              "violin_bowed_flub_011",
+              "violin_bowed_flub_012"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    55,
+    94
+  ]
+}

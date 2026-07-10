@@ -1,0 +1,55 @@
+{
+  "slug": "cow-bell",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -7,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C2": [
+                "cowBell_C2_01",
+                "cowBell_C2_02",
+                "cowBell_C2_03"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "cowBell_flub_001",
+              "cowBell_flub_002",
+              "cowBell_flub_003",
+              "cowBell_flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    37
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "cello-plucked",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -2,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A2": [
+                "cello_plucked_A2_001",
+                "cello_plucked_A2_002",
+                "cello_plucked_A2_003"
+              ],
+              "A3": [
+                "cello_plucked_A3_001",
+                "cello_plucked_A3_002",
+                "cello_plucked_A3_003"
+              ],
+              "Ab2": [
+                "cello_plucked_Ab2_001",
+                "cello_plucked_Ab2_002",
+                "cello_plucked_Ab2_003"
+              ],
+              "Ab3": [
+                "cello_plucked_Ab3_001",
+                "cello_plucked_Ab3_002",
+                "cello_plucked_Ab3_003"
+              ],
+              "B2": [
+                "cello_plucked_B2_001",
+                "cello_plucked_B2_002",
+                "cello_plucked_B2_003"
+              ],
+              "B3": [
+                "cello_plucked_B3_001",
+                "cello_plucked_B3_002",
+                "cello_plucked_B3_003"
+              ],
+              "Bb2": [
+                "cello_plucked_Bb2_001",
+                "cello_plucked_Bb2_002",
+                "cello_plucked_Bb2_003"
+              ],
+              "Bb3": [
+                "cello_plucked_Bb3_001",
+                "cello_plucked_Bb3_002",
+                "cello_plucked_Bb3_003"
+              ],
+              "C2": [
+                "cello_plucked_C2_001",
+                "cello_plucked_C2_002",
+                "cello_plucked_C2_003"
+              ],
+              "C3": [
+                "cello_plucked_C3_001",
+                "cello_plucked_C3_002",
+                "cello_plucked_C3_003"
+              ],
+              "D2": [
+                "cello_plucked_D2_001",
+                "cello_plucked_D2_002",
+                "cello_plucked_D2_003"
+              ],
+              "D3": [
+                "cello_plucked_D3_001",
+                "cello_plucked_D3_002",
+                "cello_plucked_D3_003"
+              ],
+              "Db2": [
+                "cello_plucked_Db2_001",
+                "cello_plucked_Db2_002",
+                "cello_plucked_Db2_003"
+              ],
+              "Db3": [
+                "cello_plucked_Db3_001",
+                "cello_plucked_Db3_002",
+                "cello_plucked_Db3_003"
+              ],
+              "E2": [
+                "cello_plucked_E2_001",
+                "cello_plucked_E2_002",
+                "cello_plucked_E2_003"
+              ],
+              "E3": [
+                "cello_plucked_E3_001",
+                "cello_plucked_E3_002",
+                "cello_plucked_E3_003"
+              ],
+              "Eb2": [
+                "cello_plucked_Eb2_001",
+                "cello_plucked_Eb2_002",
+                "cello_plucked_Eb2_003"
+              ],
+              "Eb3": [
+                "cello_plucked_Eb3_001",
+                "cello_plucked_Eb3_002",
+                "cello_plucked_Eb3_003"
+              ],
+              "F2": [
+                "cello_plucked_F2_001",
+                "cello_plucked_F2_002",
+                "cello_plucked_F2_003"
+              ],
+              "F3": [
+                "cello_plucked_F3_001",
+                "cello_plucked_F3_002",
+                "cello_plucked_F3_003"
+              ],
+              "G2": [
+                "cello_plucked_G2_001",
+                "cello_plucked_G2_002",
+                "cello_plucked_G2_003"
+              ],
+              "G3": [
+                "cello_plucked_G3_001",
+                "cello_plucked_G3_002",
+                "cello_plucked_G3_003"
+              ],
+              "Gb2": [
+                "cello_plucked_Gb2_001",
+                "cello_plucked_Gb2_002",
+                "cello_plucked_Gb2_003"
+              ],
+              "Gb3": [
+                "cello_plucked_Gb3_001",
+                "cello_plucked_Gb3_002",
+                "cello_plucked_Gb3_003"
+              ],
+              "003": [
+                "cello_plucked_flub_003_1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "cello_plucked_flub_001",
+              "cello_plucked_flub_002",
+              "cello_plucked_flub_003"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    71
+  ]
+}

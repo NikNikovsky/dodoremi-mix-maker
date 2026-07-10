@@ -1,0 +1,78 @@
+{
+  "slug": "tall-bongos",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -10,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "F2": [
+                "conga_hi_muted_F2_001",
+                "conga_hi_muted_F2_002",
+                "conga_hi_muted_F2_003"
+              ],
+              "D2": [
+                "conga_hi_open_D2_001",
+                "conga_hi_open_D2_002",
+                "conga_hi_open_D2_003",
+                "conga_hi_open_D2_004",
+                "conga_hi_open_D2_005",
+                "conga_hi_open_D2_006",
+                "conga_hi_open_D2_007"
+              ],
+              "E2": [
+                "conga_lo_muted_E2_001",
+                "conga_lo_muted_E2_002",
+                "conga_lo_muted_E2_003",
+                "conga_lo_muted_E2_004",
+                "conga_lo_muted_E2_005"
+              ],
+              "C2": [
+                "conga_lo_open_C2_001",
+                "conga_lo_open_C2_002",
+                "conga_lo_open_C2_003",
+                "conga_lo_open_C2_004",
+                "conga_lo_open_C2_005"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -15,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "conga_flub_001",
+              "conga_flub_002",
+              "conga_flub_003",
+              "conga_flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    41
+  ]
+}

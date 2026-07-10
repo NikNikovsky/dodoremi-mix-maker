@@ -1,0 +1,70 @@
+{
+  "slug": "continuous-lip-flipper",
+  "capabilities": [
+    "Continuous",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -4,
+            "attack": 0,
+            "release": 0.1,
+            "legato": false,
+            "urls": {
+              "C3": [
+                "lipFlipper_C3_001"
+              ],
+              "C4": [
+                "lipFlipper_C4_001"
+              ],
+              "C5": [
+                "lipFlipper_C5_001"
+              ],
+              "Gb2": [
+                "lipFlipper_Gb2_001"
+              ],
+              "Gb3": [
+                "lipFlipper_Gb3_001"
+              ],
+              "Gb4": [
+                "lipFlipper_Gb4_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -7,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "lipFlipper_flub_001",
+              "lipFlipper_flub_002",
+              "lipFlipper_flub_003",
+              "lipFlipper_flub_004",
+              "lipFlipper_flub_005",
+              "lipFlipper_flub_006"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    38,
+    73
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "continuous-doug",
+  "capabilities": [
+    "Melodic",
+    "Continuous"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "sustainSampler",
+          "options": {
+            "volume": -3,
+            "attack": 0.2,
+            "release": 0.3,
+            "urls": {
+              "C4": [
+                "doug_cont_C4_001"
+              ],
+              "Db3": [
+                "doug_cont_Db3_001"
+              ],
+              "Db4": [
+                "doug_cont_Db4_001"
+              ],
+              "Gb3": [
+                "doug_cont_Gb3_001"
+              ],
+              "Gb4": [
+                "doug_cont_Gb4_001"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "voiceTenor_flub_001",
+              "voiceTenor_flub_002",
+              "voiceTenor_flub_003",
+              "voiceTenor_flub_004",
+              "voiceTenor_flub_005"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    41,
+    72
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "cheeks-percussion",
+  "capabilities": [
+    "OneShot",
+    "PercRep"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "volume": -7,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "E2": [
+                "cheeks_percussion_beeFlat6_E1_001",
+                "cheeks_percussion_beeFlat6_E1_002",
+                "cheeks_percussion_beeFlat6_E1_003"
+              ],
+              "F2": [
+                "cheeks_percussion_cee7_F1_001",
+                "cheeks_percussion_cee7_F1_002",
+                "cheeks_percussion_cee7_F1_003"
+              ],
+              "C2": [
+                "cheeks_percussion_eFlat6_C1_003"
+              ],
+              "G2": [
+                "cheeks_percussion_eFlat7_G1_001"
+              ],
+              "D2": [
+                "cheeks_percussion_eff6_D1_003",
+                "cheeks_percussion_eff6_D1_004"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "cheeks_flub_001",
+              "cheeks_flub_002",
+              "cheeks_flub_003",
+              "cheeks_flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    43
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "rave-synth",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "duoSynth",
+          "options": {
+            "volume": -18,
+            "voice0": {
+              "oscillator": {
+                "sawtooth1": {
+                  "volume": -10
+                }
+              }
+            },
+            "voice1": {
+              "oscillator": {
+                "sawtooth1": {
+                  "detune": -1200,
+                  "volume": -5
+                }
+              }
+            },
+            "vibratoAmount": 0.8,
+            "vibratoRate": 0.002,
+            "harmonicity": 6,
+            "portamento": 0.21
+          }
+        },
+        {
+          "type": "compressor",
+          "options": {}
+        },
+        {
+          "type": "chorus",
+          "options": {
+            "spread": 360,
+            "feedback": 0.2,
+            "frequency": "5",
+            "depth": 1
+          }
+        },
+        {
+          "type": "pingPongDelay",
+          "options": {
+            "delayTime": 0.2,
+            "feedback": 0.05,
+            "wet": 0.1
+          }
+        },
+        {
+          "type": "reverb",
+          "options": {
+            "decay": 5,
+            "wet": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -20,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_01"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    0,
+    127
+  ]
+}

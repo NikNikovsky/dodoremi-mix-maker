@@ -1,0 +1,176 @@
+{
+  "slug": "mario",
+  "capabilities": [
+    "Melodic",
+    "Sustain"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "volume": -5,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "A2": [
+                "voice_baritone_A2_001",
+                "voice_baritone_A2_002",
+                "voice_baritone_A2_003"
+              ],
+              "A3": [
+                "voice_baritone_A3_001",
+                "voice_baritone_A3_002",
+                "voice_baritone_A3_003"
+              ],
+              "Ab2": [
+                "voice_baritone_Ab2_001",
+                "voice_baritone_Ab2_002",
+                "voice_baritone_Ab2_003"
+              ],
+              "Ab3": [
+                "voice_baritone_Ab3_001",
+                "voice_baritone_Ab3_002",
+                "voice_baritone_Ab3_003"
+              ],
+              "B2": [
+                "voice_baritone_B2_001",
+                "voice_baritone_B2_002",
+                "voice_baritone_B2_003"
+              ],
+              "B3": [
+                "voice_baritone_B3_001",
+                "voice_baritone_B3_002",
+                "voice_baritone_B3_003"
+              ],
+              "Bb2": [
+                "voice_baritone_Bb2_001",
+                "voice_baritone_Bb2_002",
+                "voice_baritone_Bb2_003"
+              ],
+              "Bb3": [
+                "voice_baritone_Bb3_001",
+                "voice_baritone_Bb3_002",
+                "voice_baritone_Bb3_003"
+              ],
+              "C3": [
+                "voice_baritone_C3_001",
+                "voice_baritone_C3_002",
+                "voice_baritone_C3_003"
+              ],
+              "C4": [
+                "voice_baritone_C4_001",
+                "voice_baritone_C4_002",
+                "voice_baritone_C4_003"
+              ],
+              "D3": [
+                "voice_baritone_D3_001",
+                "voice_baritone_D3_002",
+                "voice_baritone_D3_003"
+              ],
+              "D4": [
+                "voice_baritone_D4_001",
+                "voice_baritone_D4_002",
+                "voice_baritone_D4_003"
+              ],
+              "Db3": [
+                "voice_baritone_Db3_001",
+                "voice_baritone_Db3_002",
+                "voice_baritone_Db3_003"
+              ],
+              "Db4": [
+                "voice_baritone_Db4_001",
+                "voice_baritone_Db4_002",
+                "voice_baritone_Db4_003"
+              ],
+              "E3": [
+                "voice_baritone_E3_001",
+                "voice_baritone_E3_002",
+                "voice_baritone_E3_003"
+              ],
+              "E4": [
+                "voice_baritone_E4_001",
+                "voice_baritone_E4_002",
+                "voice_baritone_E4_003"
+              ],
+              "Eb3": [
+                "voice_baritone_Eb3_001",
+                "voice_baritone_Eb3_002",
+                "voice_baritone_Eb3_003"
+              ],
+              "Eb4": [
+                "voice_baritone_Eb4_001",
+                "voice_baritone_Eb4_002",
+                "voice_baritone_Eb4_003"
+              ],
+              "F3": [
+                "voice_baritone_F3_001",
+                "voice_baritone_F3_002",
+                "voice_baritone_F3_003"
+              ],
+              "F4": [
+                "voice_baritone_F4_001",
+                "voice_baritone_F4_002",
+                "voice_baritone_F4_003"
+              ],
+              "G2": [
+                "voice_baritone_G2_001",
+                "voice_baritone_G2_002",
+                "voice_baritone_G2_003"
+              ],
+              "G4": [
+                "voice_baritone_G4_001",
+                "voice_baritone_G4_002",
+                "voice_baritone_G4_003"
+              ],
+              "Gb2": [
+                "voice_baritone_Gb2_001",
+                "voice_baritone_Gb2_002",
+                "voice_baritone_Gb2_003"
+              ],
+              "Gb3": [
+                "voice_baritone_Gb3_001",
+                "voice_baritone_Gb3_002",
+                "voice_baritone_Gb3_003"
+              ],
+              "Gb4": [
+                "voice_baritone_Gb4_001",
+                "voice_baritone_Gb4_002",
+                "voice_baritone_Gb4_003"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "voice_baritone_flub_001",
+              "voice_baritone_flub_002",
+              "voice_baritone_flub_003",
+              "voice_baritone_flub_004",
+              "voice_baritone_flub_005",
+              "voice_baritone_flub_006",
+              "voice_baritone_flub_007"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    67
+  ]
+}

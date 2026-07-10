@@ -1,0 +1,346 @@
+{
+  "slug": "lil-ukulele-friend",
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "harmonicSampler",
+          "options": {
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "a#": [
+                "ukulele_a#_0",
+                "ukulele_a#_1",
+                "ukulele_a#_2",
+                "ukulele_a#_3"
+              ],
+              "a#m": [
+                "ukulele_a#m_0",
+                "ukulele_a#m_1",
+                "ukulele_a#m_2",
+                "ukulele_a#m_3",
+                "ukulele_a#m_4",
+                "ukulele_a#m_5",
+                "ukulele_a#m_6",
+                "ukulele_a#m_7"
+              ],
+              "a": [
+                "ukulele_a_0",
+                "ukulele_a_1",
+                "ukulele_a_2",
+                "ukulele_a_3"
+              ],
+              "am": [
+                "ukulele_am_0",
+                "ukulele_am_1",
+                "ukulele_am_2",
+                "ukulele_am_3",
+                "ukulele_am_4",
+                "ukulele_am_5",
+                "ukulele_am_6",
+                "ukulele_am_7"
+              ],
+              "bm": [
+                "ukulele_bm_0",
+                "ukulele_bm_1",
+                "ukulele_bm_2",
+                "ukulele_bm_3",
+                "ukulele_bm_4",
+                "ukulele_bm_5",
+                "ukulele_bm_6",
+                "ukulele_bm_7"
+              ],
+              "c#": [
+                "ukulele_c#_0",
+                "ukulele_c#_1",
+                "ukulele_c#_2",
+                "ukulele_c#_3"
+              ],
+              "c#m": [
+                "ukulele_c#m_0",
+                "ukulele_c#m_1",
+                "ukulele_c#m_2",
+                "ukulele_c#m_3"
+              ],
+              "c": [
+                "ukulele_c_0",
+                "ukulele_c_1",
+                "ukulele_c_2",
+                "ukulele_c_3"
+              ],
+              "cm": [
+                "ukulele_cm_0",
+                "ukulele_cm_1",
+                "ukulele_cm_2",
+                "ukulele_cm_3"
+              ],
+              "d#": [
+                "ukulele_d#_0",
+                "ukulele_d#_1",
+                "ukulele_d#_2",
+                "ukulele_d#_3"
+              ],
+              "d#m": [
+                "ukulele_d#m_0",
+                "ukulele_d#m_1",
+                "ukulele_d#m_2",
+                "ukulele_d#m_3"
+              ],
+              "d": [
+                "ukulele_d_0",
+                "ukulele_d_1",
+                "ukulele_d_2",
+                "ukulele_d_3"
+              ],
+              "dm": [
+                "ukulele_dm_0",
+                "ukulele_dm_1",
+                "ukulele_dm_2",
+                "ukulele_dm_3"
+              ],
+              "e": [
+                "ukulele_e_0",
+                "ukulele_e_1",
+                "ukulele_e_2",
+                "ukulele_e_3"
+              ],
+              "em": [
+                "ukulele_em_0",
+                "ukulele_em_1",
+                "ukulele_em_2",
+                "ukulele_em_3"
+              ],
+              "f#": [
+                "ukulele_f#_0",
+                "ukulele_f#_1",
+                "ukulele_f#_2",
+                "ukulele_f#_3"
+              ],
+              "f#m": [
+                "ukulele_f#m_0",
+                "ukulele_f#m_1",
+                "ukulele_f#m_2",
+                "ukulele_f#m_3"
+              ],
+              "f": [
+                "ukulele_f_0",
+                "ukulele_f_1",
+                "ukulele_f_2",
+                "ukulele_f_3"
+              ],
+              "fm": [
+                "ukulele_fm_0",
+                "ukulele_fm_1",
+                "ukulele_fm_2",
+                "ukulele_fm_3"
+              ],
+              "g#": [
+                "ukulele_g#_0",
+                "ukulele_g#_1",
+                "ukulele_g#_2",
+                "ukulele_g#_3"
+              ],
+              "g#m": [
+                "ukulele_g#m_0",
+                "ukulele_g#m_1",
+                "ukulele_g#m_2",
+                "ukulele_g#m_3"
+              ],
+              "g": [
+                "ukulele_g_0",
+                "ukulele_g_1",
+                "ukulele_g_2",
+                "ukulele_g_3"
+              ],
+              "gm": [
+                "ukulele_gm_0",
+                "ukulele_gm_1",
+                "ukulele_gm_2",
+                "ukulele_gm_3"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "nopusSampler",
+          "options": {
+            "attack": 0,
+            "release": 0.1,
+            "legato": false,
+            "polyphonic": true,
+            "urls": {}
+          }
+        }
+      ]
+    }
+  ],
+  "samples": [
+    [
+      0,
+      {
+        "a#": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "a#m": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "a": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "am": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "bm": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "c#": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "c#m": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "c": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "cm": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "d#": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "d#m": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "d": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "dm": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "e": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "em": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "f#": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "f#m": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "f": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "fm": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "g#": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "g#m": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "g": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "gm": [
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    [
+      1,
+      {}
+    ]
+  ]
+}

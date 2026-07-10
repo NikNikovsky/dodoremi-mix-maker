@@ -1,0 +1,158 @@
+{
+  "slug": "kung-fu-drums",
+  "capabilities": [
+    "OneShot",
+    "DrumRack"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "drumRackSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "sidestick": [
+                "bamboo_sidestick_001",
+                "bamboo_sidestick_002",
+                "bamboo_sidestick_003",
+                "bamboo_sidestick_004",
+                "bamboo_sidestick_005",
+                "bamboo_sidestick_006",
+                "bamboo_sidestick_007",
+                "bamboo_sidestick_008",
+                "bamboo_sidestick_009",
+                "bamboo_sidestick_010",
+                "bamboo_sidestick_011",
+                "bamboo_sidestick_012"
+              ],
+              "floortom": [
+                "floortom_01",
+                "floortom_02"
+              ],
+              "hitom": [
+                "hitom_01",
+                "hitom_02"
+              ],
+              "pedalhh": [
+                "ironRings_pedalhh_002",
+                "ironRings_pedalhh_003",
+                "ironRings_pedalhh_004",
+                "ironRings_pedalhh_008",
+                "ironRings_pedalhh_010",
+                "ironRings_pedalhh_011",
+                "ironRings_pedalhh_019",
+                "ironRings_pedalhh_020",
+                "ironRings_pedalhh_021"
+              ],
+              "lowtom": [
+                "lowtom_01",
+                "lowtom_02"
+              ],
+              "midtom": [
+                "midtom_01"
+              ],
+              "rim": [
+                "rim_001",
+                "rim_002",
+                "rim_003",
+                "rim_004",
+                "rim_005",
+                "rim_006",
+                "rim_007",
+                "rim_008"
+              ],
+              "rimshot": [
+                "rimshot_001",
+                "rimshot_002",
+                "rimshot_003",
+                "rimshot_004",
+                "rimshot_005",
+                "rimshot_006",
+                "rimshot_007",
+                "rimshot_008"
+              ],
+              "crash": [
+                "singingSword_crash_01"
+              ],
+              "snare": [
+                "snare_001",
+                "snare_002",
+                "snare_006",
+                "snare_007"
+              ],
+              "kick": [
+                "stomachKick_grunt_kick_01",
+                "stomachKick_grunt_kick_02",
+                "stomachKick_grunt_kick_03",
+                "stomachKick_grunt_kick_04",
+                "stomachKick_grunt_kick_05",
+                "stomachKick_grunt_kick_06",
+                "stomachKick_grunt_kick_07",
+                "stomachKick_grunt_kick_08",
+                "stomachKick_grunt_kick_09",
+                "stomachKick_grunt_kick_10",
+                "stomachKick_grunt_kick_11",
+                "stomachKick_grunt_kick_12",
+                "stomachKick_grunt_kick_13",
+                "stomachKick_grunt_kick_14"
+              ],
+              "ride": [
+                "sword_ding_ride_001",
+                "sword_ding_ride_002",
+                "sword_ding_ride_003",
+                "sword_ding_ride_004",
+                "sword_ding_ride_005"
+              ],
+              "closedhh": [
+                "whips_hi_closedhh_02",
+                "whips_hi_closedhh_03",
+                "whips_hi_closedhh_04"
+              ],
+              "mediumhh": [
+                "whips_lo_mediumhh_02",
+                "whips_lo_mediumhh_03",
+                "whips_lo_mediumhh_05",
+                "whips_lo_mediumhh_08"
+              ],
+              "openhh": [
+                "whips_mid_openhh_01",
+                "whips_mid_openhh_02",
+                "whips_mid_openhh_03",
+                "whips_mid_openhh_04"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -9,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_001",
+              "flub_002",
+              "flub_003",
+              "flub_004"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    36,
+    60
+  ]
+}

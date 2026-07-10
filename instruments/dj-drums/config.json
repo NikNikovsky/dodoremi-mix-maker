@@ -1,0 +1,105 @@
+{
+  "slug": "dj-drums",
+  "capabilities": [
+    "DrumRack",
+    "OneShot"
+  ],
+  "chains": [
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "drumRackSampler",
+          "options": {
+            "volume": -7,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "click": [
+                "808ish_click_001",
+                "808ish_click_002"
+              ],
+              "closedhh": [
+                "808ish_closedhh_001",
+                "808ish_closedhh_002"
+              ],
+              "crash": [
+                "808ish_crash_001",
+                "808ish_crash_002"
+              ],
+              "floortom": [
+                "808ish_floortom_001",
+                "808ish_floortom_002"
+              ],
+              "pedalhh": [
+                "808ish_hhclose_001",
+                "808ish_hhclose_002"
+              ],
+              "hitom": [
+                "808ish_hitom_001",
+                "808ish_hitom_002"
+              ],
+              "kick": [
+                "808ish_kick_001",
+                "808ish_kick_002"
+              ],
+              "lowtom": [
+                "808ish_lowtom_001",
+                "808ish_lowtom_002"
+              ],
+              "ride": [
+                "808ish_mediumhh_001",
+                "808ish_mediumhh_002"
+              ],
+              "midtom": [
+                "808ish_midtom_001",
+                "808ish_midtom_002"
+              ],
+              "openhh": [
+                "808ish_openhh_001",
+                "808ish_openhh_002"
+              ],
+              "mediumhh": [
+                "808ish_ride_001",
+                "808ish_ride_002"
+              ],
+              "rim": [
+                "808ish_rim_001",
+                "808ish_rim_002"
+              ],
+              "rimshot": [
+                "808ish_rimshot_001",
+                "808ish_rimshot_002"
+              ],
+              "snare": [
+                "808ish_snare_001",
+                "808ish_snare_002"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "flub",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "flubSampler",
+          "options": {
+            "volume": -18,
+            "attack": 0,
+            "release": 0.1,
+            "urls": [
+              "flub_01"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "preferredRange": [
+    36,
+    60
+  ]
+}

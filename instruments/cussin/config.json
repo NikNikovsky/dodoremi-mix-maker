@@ -1,0 +1,83 @@
+{
+  "slug": "cussin",
+  "capabilities": [
+    "Continuous",
+    "Sustain",
+    "Melodic"
+  ],
+  "chains": [
+    {
+      "type": "attack",
+      "duration": 0.25,
+      "nodes": [
+        {
+          "type": "oneShotSampler",
+          "options": {
+            "pitchLocked": true,
+            "rotationType": "global",
+            "volume": 0,
+            "attack": 0,
+            "release": 0.1,
+            "urls": {
+              "C4": [
+                "cussin_c_C4_03",
+                "cussin_d_C4_04",
+                "cussin_f_C4_08",
+                "cussin_s_C4_02",
+                "cussin_sh_C4_06",
+                "cussin_t_C4_04"
+              ],
+              "C5": [
+                "cussin_c_C5_03",
+                "cussin_d_C5_04",
+                "cussin_f_C5_08",
+                "cussin_s_C5_02",
+                "cussin_sh_C5_06",
+                "cussin_t_C5_05"
+              ],
+              "C6": [
+                "cussin_c_C6_03",
+                "cussin_d_C6_04",
+                "cussin_f_C6_08",
+                "cussin_s_C6_02",
+                "cussin_sh_C6_06",
+                "cussin_t_C6_06"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "main",
+      "nodes": [
+        {
+          "type": "synth",
+          "options": {
+            "volume": -23,
+            "envelope": {
+              "attack": 0,
+              "release": 0
+            },
+            "oscillator": {
+              "type": "sine"
+            }
+          }
+        },
+        {
+          "type": "feedbackDelay",
+          "options": {
+            "delayTime": 0.1,
+            "feedback": 0,
+            "wet": 1
+          }
+        }
+      ]
+    }
+  ],
+  "minimumSampleRate": 44100,
+  "preferredRange": [
+    76,
+    96
+  ]
+}
