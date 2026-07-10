@@ -23,3 +23,8 @@ On pushes to `main`, it publishes a static site that includes:
 - the editor (from `docs/`)
 - extracted `songs/`
 - extracted `instruments/`
+
+## Editor verification screenshots
+
+- `docs/screenshots/editor-load-existing-song.png`
+- `docs/screenshots/editor-upload-and-edit-example.png`
