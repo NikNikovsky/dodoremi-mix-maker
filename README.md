@@ -1,5 +1,5 @@
 # DoDoReMi Mix Maker Assets + Editor
-
+[![AI Slop Inside](https://sladge.net/badge.svg)](https://sladge.net)
 This repository now contains extracted game assets:
 
 - `songs/` (existing songs, config/locales/backing audio)
