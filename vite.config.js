@@ -9,6 +9,7 @@ function onWarn(warning, handler) {
 }
 
 export default defineConfig({
+  base: './',
   plugins: [svelte({ onwarn: onWarn })],
   server: {
     port: 5173,

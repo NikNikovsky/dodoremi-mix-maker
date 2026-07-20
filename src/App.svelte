@@ -243,8 +243,13 @@
   onMount(async () => {
     try {
       await loadManifest();
-      // diagnostics: notify backend that client mounted
-      try { await fetch(`${API_BASE}/api/_client_loaded`, { method: 'POST' }); } catch {}
+      // diagnostics: notify backend that client mounted — only when running locally
+      try {
+        const host = window.location.hostname;
+        if (host === 'localhost' || host === '127.0.0.1') {
+          await fetch(`/api/_client_loaded`, { method: 'POST' }).catch(() => {});
+        }
+      } catch {}
     } catch (e) {
       status = e.message;
     }
