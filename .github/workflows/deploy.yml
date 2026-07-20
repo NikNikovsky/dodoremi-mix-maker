@@ -56,5 +56,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       
-      - name: Print page URL
-        run: echo "Page URL: ${{ steps.deployment.outputs.page_url }}"
+      # Print page URL step removed (avoids YAML parsing issues with expression interpolation)
