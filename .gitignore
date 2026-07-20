@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+*.log
+/.cache
+/.vscode/
+editor/
+*.tgz
+package-lock.json
+/.idea/
